@@ -1,0 +1,112 @@
+/* LevelOne.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #d4fc79, #96e6a1);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Main container */
+.level-container {
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Card styling */
+.level-card {
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.25);
+  max-width: 700px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.level-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+/* Chinese sentence */
+.level-sentence {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Translation */
+.level-translation {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Buttons container */
+.options {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Option buttons */
+.option-button {
+  background: #7b61ff;
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.option-button:hover {
+  background: #6249d7;
+  transform: scale(1.1);
+}
+
+/* User's answer section */
+.user-answer {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Check button */
+.check-button {
+  background: #ff61a1;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.check-button:hover {
+  background: #d74b85;
+  transform: scale(1.1);
+}
+
+/* Feedback message */
+.feedback-message {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,54 @@
+/* Navbar.css */
+.navbar {
+  position: absolute; /* Keeps navbar above content without affecting layout */
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #008080, #60a5fa);
+  padding: 15px 30px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo:hover {
+  color: #d1e8e2;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #d1e8e2;
+}
+
+/* Ensure homepage content starts below navbar */
+.homepage-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px); /* Adjust for navbar height */
+  padding-top: 60px;
+}

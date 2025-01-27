@@ -1,0 +1,1073 @@
+[
+  {
+    "id": 1,
+    "character": "一",
+    "history": "Earliest known form is a single horizontal stroke representing the number one or a single entity in counting."
+  },
+  {
+    "id": 2,
+    "character": "丨",
+    "history": "A vertical stroke that often signifies a pole or line, used as a fundamental stroke in Chinese calligraphy."
+  },
+  {
+    "id": 3,
+    "character": "丶",
+    "history": "A single dot stroke, historically used as a mark or small point for emphasis or annotation."
+  },
+  {
+    "id": 4,
+    "character": "丿",
+    "history": "A slanted stroke that can represent a slash or an oblique line, often seen in early pictographic forms."
+  },
+  {
+    "id": 5,
+    "character": "乙",
+    "history": "Originally depicted as a curved shape symbolizing a bent object, later used to denote 'second' in enumerations."
+  },
+  {
+    "id": 6,
+    "character": "亅",
+    "history": "A hook-shaped stroke derived from more complex graphs, signifying a hooking or pulling action in writing."
+  },
+  {
+    "id": 7,
+    "character": "二",
+    "history": "Two horizontal strokes representing the number two, an extension from the single line for one."
+  },
+  {
+    "id": 8,
+    "character": "亠",
+    "history": "Often described as a 'lid' or 'top' radical; its ancient form resembled a small cover or roof shape."
+  },
+  {
+    "id": 9,
+    "character": "人",
+    "history": "A pictograph of a standing person, with two legs slightly apart, denoting humanity or an individual."
+  },
+  {
+    "id": 10,
+    "character": "儿",
+    "history": "Depicts a person with legs extended, sometimes interpreted as a child or the lower limbs of a person."
+  },
+  {
+    "id": 11,
+    "character": "入",
+    "history": "Originally a pictograph of two lines converging, symbolizing entering or going into an opening."
+  },
+  {
+    "id": 12,
+    "character": "八",
+    "history": "Depicts an open shape, sometimes interpreted as 'to divide' or 'eight' due to two diverging strokes."
+  },
+  {
+    "id": 13,
+    "character": "冂",
+    "history": "A down box shape resembling a wide-open enclosure, historically used to indicate a border or open country."
+  },
+  {
+    "id": 14,
+    "character": "冖",
+    "history": "A covering radical that symbolizes a wrap or cover, possibly derived from the shape of a cloth overhead."
+  },
+  {
+    "id": 15,
+    "character": "冫",
+    "history": "A two-stroke form indicating ice or cold, derived from drawings showing frozen water droplets."
+  },
+  {
+    "id": 16,
+    "character": "几",
+    "history": "Originally a small table or stool shape, representing a piece of furniture with legs."
+  },
+  {
+    "id": 17,
+    "character": "凵",
+    "history": "An open box shape, possibly a container or receptacle viewed from above."
+  },
+  {
+    "id": 18,
+    "character": "刀",
+    "history": "A pictograph of a knife or blade, with the handle and blade clearly represented in early scripts."
+  },
+  {
+    "id": 19,
+    "character": "力",
+    "history": "Depicts a muscular arm or a plow shape, symbolizing physical strength or power in ancient forms."
+  },
+  {
+    "id": 20,
+    "character": "勹",
+    "history": "Represents a wrapping or embracing shape, possibly depicting arms wrapped around something."
+  },
+  {
+    "id": 21,
+    "character": "匕",
+    "history": "A pictograph of a spoon or ladle, though sometimes interpreted as a dagger in certain contexts."
+  },
+  {
+    "id": 22,
+    "character": "匚",
+    "history": "A right-facing open box, indicating a container or enclosure open on one side."
+  },
+  {
+    "id": 23,
+    "character": "匸",
+    "history": "A hiding enclosure or box with a cover, signifying a confined space or hidden area."
+  },
+  {
+    "id": 24,
+    "character": "十",
+    "history": "A cross shape signifying the number ten, also viewed as a plus sign in modern interpretation."
+  },
+  {
+    "id": 25,
+    "character": "卜",
+    "history": "Originally represented a crack or line used in divination on oracle bones, meaning to divine or prophesy."
+  },
+  {
+    "id": 26,
+    "character": "卩",
+    "history": "A seal or kneeling person shape in ancient scripts, representing a sign of authority or official seal."
+  },
+  {
+    "id": 27,
+    "character": "厂",
+    "history": "A cliff or overhang shape, resembling the side of a steep cliff."
+  },
+  {
+    "id": 28,
+    "character": "厶",
+    "history": "A private enclosure or an elbowed shape, often associated with secrecy or privacy."
+  },
+  {
+    "id": 29,
+    "character": "又",
+    "history": "Depicts a hand (often the right hand) in ancient forms; also carries the sense of 'again.'"
+  },
+  {
+    "id": 30,
+    "character": "口",
+    "history": "A square shape representing a mouth or an opening in pictographic origins."
+  },
+  {
+    "id": 31,
+    "character": "囗",
+    "history": "A large enclosure or border, often used as a radical indicating surrounding or containing."
+  },
+  {
+    "id": 32,
+    "character": "土",
+    "history": "Pictograph of a clump of soil or earth, with a horizontal line indicating the ground."
+  },
+  {
+    "id": 33,
+    "character": "士",
+    "history": "Originally denoted a gentleman or scholar, combining the shape of 'earth' with an extra stroke to signify status."
+  },
+  {
+    "id": 34,
+    "character": "夂",
+    "history": "A walking or trailing foot shape in ancient forms, indicating movement or following."
+  },
+  {
+    "id": 35,
+    "character": "夊",
+    "history": "Similar to 夂, but with strokes rearranged, suggesting walking slowly or dragging the feet."
+  },
+  {
+    "id": 36,
+    "character": "夕",
+    "history": "A crescent moon shape, representing evening or night."
+  },
+  {
+    "id": 37,
+    "character": "大",
+    "history": "Depicts a person with arms and legs spread, symbolizing something big or great."
+  },
+  {
+    "id": 38,
+    "character": "女",
+    "history": "A pictograph of a woman kneeling or seated, representing femininity."
+  },
+  {
+    "id": 39,
+    "character": "子",
+    "history": "A child wrapped in swaddling clothes, depicted with a larger head and small body."
+  },
+  {
+    "id": 40,
+    "character": "宀",
+    "history": "Represents a roof or house top, used to indicate shelter or a covered structure."
+  },
+  {
+    "id": 41,
+    "character": "寸",
+    "history": "A symbol of measurement (about an inch), possibly showing a hand with the thumb extended."
+  },
+  {
+    "id": 42,
+    "character": "小",
+    "history": "Three small strokes signifying 'small' or 'little.'"
+  },
+  {
+    "id": 43,
+    "character": "尢",
+    "history": "Depicts a person with a bent leg or walking stick, meaning 'lame' or 'weak.'"
+  },
+  {
+    "id": 44,
+    "character": "尸",
+    "history": "A corpse or body lying down, originally depicting a person leaning over or deceased."
+  },
+  {
+    "id": 45,
+    "character": "屮",
+    "history": "A sprout pushing through the ground, representing new growth or young plants."
+  },
+  {
+    "id": 46,
+    "character": "山",
+    "history": "A pictograph of three mountain peaks, signifying a mountain range or hill."
+  },
+  {
+    "id": 47,
+    "character": "川",
+    "history": "Three vertical lines representing a flowing river or stream."
+  },
+  {
+    "id": 48,
+    "character": "工",
+    "history": "Depicts a carpenter’s square or tool, indicating work or construction."
+  },
+  {
+    "id": 49,
+    "character": "己",
+    "history": "A pictograph of a twisted rope or self-coiling form, later associated with 'oneself.'"
+  },
+  {
+    "id": 50,
+    "character": "巾",
+    "history": "Shows a cloth or towel hanging down, used to represent cloth-related concepts."
+  },
+  {
+    "id": 51,
+    "character": "干",
+    "history": "Originally a pictograph of a shield or a stem, meaning 'to interfere' or 'dry' depending on context."
+  },
+  {
+    "id": 52,
+    "character": "幺",
+    "history": "Depicts a small, tiny silk thread or something slight and delicate."
+  },
+  {
+    "id": 53,
+    "character": "广",
+    "history": "Shows a wide house or shelter open on one side, signifying a large space or building."
+  },
+  {
+    "id": 54,
+    "character": "廴",
+    "history": "A stride or long step, depicted as a person taking an elongated stride."
+  },
+  {
+    "id": 55,
+    "character": "廾",
+    "history": "Represents two hands joined or holding something together, indicating a combined effort."
+  },
+  {
+    "id": 56,
+    "character": "弋",
+    "history": "An arrow with a trailing rope, used for hunting birds or small game."
+  },
+  {
+    "id": 57,
+    "character": "弓",
+    "history": "A bow shape, clearly illustrating the curved bow used in archery."
+  },
+  {
+    "id": 58,
+    "character": "彐",
+    "history": "Also written as 彑, depicting a pig’s snout or a snout-like shape in ancient scripts."
+  },
+  {
+    "id": 59,
+    "character": "彡",
+    "history": "Three wavy lines representing hair or bristles."
+  },
+  {
+    "id": 60,
+    "character": "彳",
+    "history": "A 'step' radical, showing small steps or movement to the left."
+  },
+  {
+    "id": 61,
+    "character": "心",
+    "history": "A stylized heart shape, originally a pictograph of the physical heart organ."
+  },
+  {
+    "id": 62,
+    "character": "戈",
+    "history": "An ancient weapon resembling a halberd or spear with a hooked blade."
+  },
+  {
+    "id": 63,
+    "character": "户",
+    "history": "A single-panel door or household entrance as viewed from the side."
+  },
+  {
+    "id": 64,
+    "character": "手",
+    "history": "A pictograph of a hand with fingers extended, representing manual actions."
+  },
+  {
+    "id": 65,
+    "character": "支",
+    "history": "A branch or support, possibly showing a hand holding a branch."
+  },
+  {
+    "id": 66,
+    "character": "攴",
+    "history": "Also written as 攵, a hand holding a stick, indicating actions like hitting or tapping."
+  },
+  {
+    "id": 67,
+    "character": "文",
+    "history": "Symbolizes writing or script, originally a figure with markings on the chest indicating pattern or text."
+  },
+  {
+    "id": 68,
+    "character": "斗",
+    "history": "A dipper or measuring cup, used for measuring grain in ancient China."
+  },
+  {
+    "id": 69,
+    "character": "斤",
+    "history": "A type of axe or 'catty' (a unit of weight), originally showing a blade."
+  },
+  {
+    "id": 70,
+    "character": "方",
+    "history": "A square or direction, derived from a shape indicating corners or orientation."
+  },
+  {
+    "id": 71,
+    "character": "无",
+    "history": "Meaning 'not' or 'without,' sometimes seen as a person dancing with outstretched arms in ancient forms."
+  },
+  {
+    "id": 72,
+    "character": "日",
+    "history": "A circle (or rectangle) with a line inside, representing the sun with a central spot or axis."
+  },
+  {
+    "id": 73,
+    "character": "曰",
+    "history": "Similar to 日 but slightly wider, meaning 'to say' or indicating speech in some contexts."
+  },
+  {
+    "id": 74,
+    "character": "月",
+    "history": "A crescent moon shape, often depicted in its waxing or waning phase."
+  },
+  {
+    "id": 75,
+    "character": "木",
+    "history": "A pictograph of a tree with branches extending upward and roots at the base."
+  },
+  {
+    "id": 76,
+    "character": "欠",
+    "history": "A person yawning or breathing, indicating 'lack' or 'to owe' in extended meanings."
+  },
+  {
+    "id": 77,
+    "character": "止",
+    "history": "A foot or a representation of a foot, meaning 'to stop' or 'foot' in certain contexts."
+  },
+  {
+    "id": 78,
+    "character": "歹",
+    "history": "A skeleton or decaying bones, signifying death, decay, or 'bad' things."
+  },
+  {
+    "id": 79,
+    "character": "殳",
+    "history": "A hand holding a weapon or club, illustrating a tool for striking."
+  },
+  {
+    "id": 80,
+    "character": "母",
+    "history": "A female figure with emphasized breasts, representing 'mother' or female parent."
+  },
+  {
+    "id": 81,
+    "character": "比",
+    "history": "Two figures side by side, indicating comparison or parallelism."
+  },
+  {
+    "id": 82,
+    "character": "毛",
+    "history": "Fur or hair, originally showing strands or bristles."
+  },
+  {
+    "id": 83,
+    "character": "氏",
+    "history": "A clan or family name indicator, possibly derived from a sign or banner."
+  },
+  {
+    "id": 84,
+    "character": "气",
+    "history": "Steam or vapor rising, illustrating the concept of 'air' or 'spirit.'"
+  },
+  {
+    "id": 85,
+    "character": "水",
+    "history": "Flowing water with branching streams, representing rivers or water sources."
+  },
+  {
+    "id": 86,
+    "character": "火",
+    "history": "Flames or fire, often shown with sparks in oracle bone script."
+  },
+  {
+    "id": 87,
+    "character": "爪",
+    "history": "A claw or talon, depicting an animal’s paw with extended nails."
+  },
+  {
+    "id": 88,
+    "character": "父",
+    "history": "A hand holding a stick, symbolic of paternal authority or a father figure."
+  },
+  {
+    "id": 89,
+    "character": "爻",
+    "history": "The crossing lines used in I Ching trigrams, indicating divination lines or changing states."
+  },
+  {
+    "id": 90,
+    "character": "爿",
+    "history": "Half of a split log, indicating a board or plank of wood."
+  },
+  {
+    "id": 91,
+    "character": "片",
+    "history": "A slice or split piece of wood, symbolizing a fragment or thin piece."
+  },
+  {
+    "id": 92,
+    "character": "牙",
+    "history": "An animal tooth or tusk, depicting its pointed shape."
+  },
+  {
+    "id": 93,
+    "character": "牛",
+    "history": "A cow’s head with horns, representing cattle or oxen."
+  },
+  {
+    "id": 94,
+    "character": "犭",
+    "history": "A variant of the 'dog' radical (犬), depicting an animal with four legs and a tail (often used as a side form)."
+  },
+  {
+    "id": 95,
+    "character": "玄",
+    "history": "Means 'deep' or 'mysterious,' showing something subtle and profound (often depicted as dark threads)."
+  },
+  {
+    "id": 96,
+    "character": "玉",
+    "history": "A pictograph of a string of jade beads, sometimes with a dot to distinguish from 王 (king)."
+  },
+  {
+    "id": 97,
+    "character": "瓜",
+    "history": "A melon or gourd shape, with vines or tendrils in early inscriptions."
+  },
+  {
+    "id": 98,
+    "character": "瓦",
+    "history": "A curved roof tile shape, used for roofing in ancient China."
+  },
+  {
+    "id": 99,
+    "character": "甘",
+    "history": "A pictograph of a mouth tasting sweetness, representing 'sweet.'"
+  },
+  {
+    "id": 100,
+    "character": "生",
+    "history": "A sprout emerging from the ground, symbolizing birth or life."
+  },
+  {
+    "id": 101,
+    "character": "用",
+    "history": "A pictograph of a container or ladle in use, later generalized to 'to use.'"
+  },
+  {
+    "id": 102,
+    "character": "田",
+    "history": "Four fields separated by lines, representing farmland or a cultivated field."
+  },
+  {
+    "id": 103,
+    "character": "疋",
+    "history": "Originally depicted a foot or a bolt of cloth; it can mean 'piece' or 'roll.'"
+  },
+  {
+    "id": 104,
+    "character": "疒",
+    "history": "A sick person lying in bed, indicating illness or disease."
+  },
+  {
+    "id": 105,
+    "character": "癶",
+    "history": "Footsteps or a person with feet apart, sometimes associated with outspread legs or movement."
+  },
+  {
+    "id": 106,
+    "character": "白",
+    "history": "A sun-like shape or a drop of whiteness, symbolizing 'white' or purity."
+  },
+  {
+    "id": 107,
+    "character": "皮",
+    "history": "An animal hide stretched out, signifying 'skin' or 'hide.'"
+  },
+  {
+    "id": 108,
+    "character": "皿",
+    "history": "A dish or shallow container seen from above."
+  },
+  {
+    "id": 109,
+    "character": "目",
+    "history": "A pictograph of an eye with a pupil in the center."
+  },
+  {
+    "id": 110,
+    "character": "矛",
+    "history": "A spear with a pointed tip, used as a weapon in ancient times."
+  },
+  {
+    "id": 111,
+    "character": "矢",
+    "history": "An arrow with fletching at one end, representing archery tools."
+  },
+  {
+    "id": 112,
+    "character": "石",
+    "history": "A stone or rock, sometimes shown as a small boulder in ancient scripts."
+  },
+  {
+    "id": 113,
+    "character": "示",
+    "history": "An altar with offerings, symbolizing worship or spirit (the variant 礻 appears in compound characters)."
+  },
+  {
+    "id": 114,
+    "character": "禸",
+    "history": "A track or footprint, sometimes indicating traces or paw prints."
+  },
+  {
+    "id": 115,
+    "character": "禾",
+    "history": "A grain plant (like rice) with drooping stalks, representing cereal crops."
+  },
+  {
+    "id": 116,
+    "character": "穴",
+    "history": "A cave or hole with a small opening, indicating a dwelling or pit."
+  },
+  {
+    "id": 117,
+    "character": "立",
+    "history": "A person standing upright, symbolizing 'to stand' or 'to establish.'"
+  },
+  {
+    "id": 118,
+    "character": "竹",
+    "history": "Two bamboo stalks with leaves, depicting the tall, hollow stems of the bamboo plant."
+  },
+  {
+    "id": 119,
+    "character": "米",
+    "history": "Grains of rice scattered, representing uncooked rice."
+  },
+  {
+    "id": 120,
+    "character": "纟",
+    "history": "A variant form of 糸 (silk), showing threads twisted together in its simplified form."
+  },
+  {
+    "id": 121,
+    "character": "缶",
+    "history": "An earthenware jar or pot, often depicted with a wide body and narrow neck."
+  },
+  {
+    "id": 122,
+    "character": "网",
+    "history": "A net or web shape, originally drawn with crossing lines (罒 is another variant)."
+  },
+  {
+    "id": 123,
+    "character": "羊",
+    "history": "A ram’s head with horns, representing sheep or goat."
+  },
+  {
+    "id": 124,
+    "character": "羽",
+    "history": "Two wings or feathers side by side, symbolizing plumage or flight."
+  },
+  {
+    "id": 125,
+    "character": "老",
+    "history": "An old man with a bent back and walking stick, indicating old age or venerable status."
+  },
+  {
+    "id": 126,
+    "character": "而",
+    "history": "Represents a beard or jaw area, sometimes indicating 'and' or 'but' in modern usage."
+  },
+  {
+    "id": 127,
+    "character": "耒",
+    "history": "A plow or farming tool, showing the handle and tines for tilling soil."
+  },
+  {
+    "id": 128,
+    "character": "耳",
+    "history": "A pictograph of an ear, with the inner structure hinted at in ancient scripts."
+  },
+  {
+    "id": 129,
+    "character": "聿",
+    "history": "A hand holding a brush, symbolizing writing or drawing."
+  },
+  {
+    "id": 130,
+    "character": "肉",
+    "history": "A piece of meat with lines indicating muscle fibers (often looks like 月 in modern script)."
+  },
+  {
+    "id": 131,
+    "character": "臣",
+    "history": "An official or minister bowing, also interpreted as an eye viewed from the side in oracle bone scripts."
+  },
+  {
+    "id": 132,
+    "character": "自",
+    "history": "A nose or 'self,' originally showing a profile of the nose area, signifying oneself."
+  },
+  {
+    "id": 133,
+    "character": "至",
+    "history": "An arrow reaching its target or a concept of arriving or culminating."
+  },
+  {
+    "id": 134,
+    "character": "臼",
+    "history": "A mortar for grinding grains, with a hollowed-out center."
+  },
+  {
+    "id": 135,
+    "character": "舌",
+    "history": "A tongue sticking out of a mouth, representing speech or taste."
+  },
+  {
+    "id": 136,
+    "character": "舛",
+    "history": "Two feet facing opposite directions, indicating 'opposition' or 'contrary.'"
+  },
+  {
+    "id": 137,
+    "character": "舟",
+    "history": "A boat or ship with a pointed front, used for water travel."
+  },
+  {
+    "id": 138,
+    "character": "艮",
+    "history": "A symbol of the I Ching trigram for 'mountain,' also indicating 'stopping' or 'stubbornness.'"
+  },
+  {
+    "id": 139,
+    "character": "色",
+    "history": "Originally showed a person and a form of sensuality or bare flesh, later meaning 'color.'"
+  },
+  {
+    "id": 140,
+    "character": "艹",
+    "history": "A grass or plant radical, with two horizontal strokes representing grassy growth."
+  },
+  {
+    "id": 141,
+    "character": "虍",
+    "history": "Stripes of a tiger’s fur, representing the pattern on a tiger."
+  },
+  {
+    "id": 142,
+    "character": "虫",
+    "history": "A snake-like creature, later generalized to insects or worms."
+  },
+  {
+    "id": 143,
+    "character": "血",
+    "history": "A vessel or container of blood, sometimes shown as a basin with a drop."
+  },
+  {
+    "id": 144,
+    "character": "行",
+    "history": "A crossroad or street intersection, depicting movement or going."
+  },
+  {
+    "id": 145,
+    "character": "衣",
+    "history": "A garment with sleeves, representing clothes or covering."
+  },
+  {
+    "id": 146,
+    "character": "西",
+    "history": "A basket or container shape; in old Chinese geography it was associated with 'west.'"
+  },
+  {
+    "id": 147,
+    "character": "见",
+    "history": "Originally an eye on a human figure, meaning 'to see.'"
+  },
+  {
+    "id": 148,
+    "character": "角",
+    "history": "An animal horn, showing its curved shape, also used to mean angle or corner."
+  },
+  {
+    "id": 149,
+    "character": "讠",
+    "history": "A simplified form of 言 (speech), depicting words or speech emanating from a mouth."
+  },
+  {
+    "id": 150,
+    "character": "谷",
+    "history": "A valley with the sides sloping downward, or grains contained within."
+  },
+  {
+    "id": 151,
+    "character": "豆",
+    "history": "A tall vessel or bean container, used for offerings in ancient ceremonies."
+  },
+  {
+    "id": 152,
+    "character": "豕",
+    "history": "A pig with a snout and legs, representing swine in profile."
+  },
+  {
+    "id": 153,
+    "character": "豸",
+    "history": "A beast-like form, often associated with wild animals such as badgers."
+  },
+  {
+    "id": 154,
+    "character": "贝",
+    "history": "A cowrie shell, used as currency in ancient China, hence connotations of value and wealth."
+  },
+  {
+    "id": 155,
+    "character": "赤",
+    "history": "A person with lines indicating bare flesh, hence 'red' or 'bare.'"
+  },
+  {
+    "id": 156,
+    "character": "走",
+    "history": "A foot in motion, indicating 'to walk' or sometimes 'to run.'"
+  },
+  {
+    "id": 157,
+    "character": "足",
+    "history": "A foot with toes, representing the concept of 'foot' or 'enough/sufficient.'"
+  },
+  {
+    "id": 158,
+    "character": "身",
+    "history": "A body with a torso and limbs, sometimes interpreted as a pregnant belly in ancient scripts."
+  },
+  {
+    "id": 159,
+    "character": "车",
+    "history": "A cart or wheeled vehicle, with two wheels and an axle, simplified from 車."
+  },
+  {
+    "id": 160,
+    "character": "辛",
+    "history": "A pictograph of a needle or awl, meaning 'bitter' or 'to punish' in extended senses."
+  },
+  {
+    "id": 161,
+    "character": "辰",
+    "history": "A celestial symbol or a dragon shape, also tied to a time period (7-9 a.m.) in ancient China."
+  },
+  {
+    "id": 162,
+    "character": "辶",
+    "history": "A road or movement radical, depicting a path with a trailing footstep."
+  },
+  {
+    "id": 163,
+    "character": "邑",
+    "history": "A city or town enclosure, representing an inhabited area or district."
+  },
+  {
+    "id": 164,
+    "character": "酉",
+    "history": "A wine jar or jug, relating to fermentation, alcohol, and the zodiac hour (5-7 p.m.)."
+  },
+  {
+    "id": 165,
+    "character": "釆",
+    "history": "A hand separating grain, meaning 'to separate' or 'distinguish.'"
+  },
+  {
+    "id": 166,
+    "character": "里",
+    "history": "A village or a unit of distance, originally showing a field with earth beneath."
+  },
+  {
+    "id": 167,
+    "character": "钅",
+    "history": "A simplified form of 金 (metal), representing metal or related concepts."
+  },
+  {
+    "id": 168,
+    "character": "长",
+    "history": "A person with long hair or something extended, also meaning 'leader' or 'to grow.'"
+  },
+  {
+    "id": 169,
+    "character": "门",
+    "history": "A gate with two hinged doors, symbolizing an entrance or exit."
+  },
+  {
+    "id": 170,
+    "character": "阜",
+    "history": "A mound or hill, sometimes signifying abundant earth or a large raised area."
+  },
+  {
+    "id": 171,
+    "character": "隶",
+    "history": "A captured person or slave, also the name of the clerical script style in calligraphy."
+  },
+  {
+    "id": 172,
+    "character": "隹",
+    "history": "A short-tailed bird with distinct tail feathers, often referencing small birds."
+  },
+  {
+    "id": 173,
+    "character": "雨",
+    "history": "Rain falling from clouds, with drops descending from the sky."
+  },
+  {
+    "id": 174,
+    "character": "青",
+    "history": "A sprout or plant emerging, associated with the color green/blue and the notion of 'youth.'"
+  },
+  {
+    "id": 175,
+    "character": "非",
+    "history": "Two wings facing opposite directions, meaning 'not' or 'wrong.'"
+  },
+  {
+    "id": 176,
+    "character": "面",
+    "history": "A face in profile, showing an eye and nose, representing a surface or face."
+  },
+  {
+    "id": 177,
+    "character": "革",
+    "history": "An animal hide stretched out, symbolizing leather or transformation."
+  },
+  {
+    "id": 178,
+    "character": "韦",
+    "history": "A tanned leather hide, simplified from 革 with a different orientation."
+  },
+  {
+    "id": 179,
+    "character": "韭",
+    "history": "Leek plants with long leaves, bunched together."
+  },
+  {
+    "id": 180,
+    "character": "音",
+    "history": "A sound or tone; ancient forms show a person making noise or chanting under a covering."
+  },
+  {
+    "id": 181,
+    "character": "页",
+    "history": "A leaf or page, originally depicting a head (首) with an extra stroke, used for pages or heads."
+  },
+  {
+    "id": 182,
+    "character": "风",
+    "history": "Wind blowing, often depicted as a swirl with something carried by it."
+  },
+  {
+    "id": 183,
+    "character": "飞",
+    "history": "A bird in flight with wings spread, meaning 'to fly.'"
+  },
+  {
+    "id": 184,
+    "character": "饣",
+    "history": "A simplified form of 食 (to eat), combining aspects of spoon and mouth."
+  },
+  {
+    "id": 185,
+    "character": "首",
+    "history": "A head with hair, indicating the top or beginning of something."
+  },
+  {
+    "id": 186,
+    "character": "香",
+    "history": "A stalk of grain emitting fragrance, symbolizing 'incense' or a pleasant aroma."
+  },
+  {
+    "id": 187,
+    "character": "马",
+    "history": "A horse in profile, simplified from 馬, showing head, legs, and tail."
+  },
+  {
+    "id": 188,
+    "character": "骨",
+    "history": "A bone with marrow or joints indicated, referencing the skeletal structure."
+  },
+  {
+    "id": 189,
+    "character": "高",
+    "history": "A tall tower or building with multiple levels, symbolizing height."
+  },
+  {
+    "id": 190,
+    "character": "髟",
+    "history": "Long hair or shaggy hair, showing strands extending downward."
+  },
+  {
+    "id": 191,
+    "character": "鬥",
+    "history": "A stylized depiction of two people fighting or a confrontation."
+  },
+  {
+    "id": 192,
+    "character": "鬯",
+    "history": "A sacrificial wine vessel with aromatic herbs, used in ancient rituals."
+  },
+  {
+    "id": 193,
+    "character": "鬲",
+    "history": "A tripod cauldron with three legs, used for cooking or rituals."
+  },
+  {
+    "id": 194,
+    "character": "鬼",
+    "history": "A ghost or spirit with a pronounced head and odd body shape, signifying apparitions or supernatural beings."
+  },
+  {
+    "id": 195,
+    "character": "鱼",
+    "history": "A fish with fins and tail, simplified from the traditional 魚."
+  },
+  {
+    "id": 196,
+    "character": "鸟",
+    "history": "A bird with wings and tail, simplified from the traditional 鳥."
+  },
+  {
+    "id": 197,
+    "character": "卤",
+    "history": "Salt or brine, originally showing a pot for boiling salty water."
+  },
+  {
+    "id": 198,
+    "character": "鹿",
+    "history": "A deer with antlers and four legs, depicted in profile."
+  },
+  {
+    "id": 199,
+    "character": "麦",
+    "history": "Wheat stalks with drooping heads, simplified from 麥."
+  },
+  {
+    "id": 200,
+    "character": "麻",
+    "history": "A hemp plant, with fibers used for cloth, depicted with multiple stalks under a roof."
+  },
+  {
+    "id": 201,
+    "character": "黄",
+    "history": "A representation of the color 'yellow,' possibly connected to fertile earth or flame in ancient etymology."
+  },
+  {
+    "id": 202,
+    "character": "黍",
+    "history": "A millet plant with seeds, an important ancient grain."
+  },
+  {
+    "id": 203,
+    "character": "黑",
+    "history": "A darkened chimney or a figure blackened by soot, indicating 'black.'"
+  },
+  {
+    "id": 204,
+    "character": "黹",
+    "history": "Embroidery or needlework, showing a pattern of stitches."
+  },
+  {
+    "id": 205,
+    "character": "黾",
+    "history": "A frog or toad, with a large head and body, sometimes depicted in water."
+  },
+  {
+    "id": 206,
+    "character": "鼎",
+    "history": "A three-legged bronze cauldron, a symbol of authority and ritual in ancient China."
+  },
+  {
+    "id": 207,
+    "character": "鼓",
+    "history": "A drum with two drumsticks, used in ceremonies or music."
+  },
+  {
+    "id": 208,
+    "character": "鼠",
+    "history": "A rat or mouse with a long tail, often shown from above."
+  },
+  {
+    "id": 209,
+    "character": "鼻",
+    "history": "A nose with nostrils and a bridge, also part of the face radicals."
+  },
+  {
+    "id": 210,
+    "character": "齐",
+    "history": "Originally 齊, showing uniform rows of people or crops, meaning 'even' or 'together.'"
+  },
+  {
+    "id": 211,
+    "character": "齿",
+    "history": "A row of teeth in a mouth, simplified from the older form 齒."
+  },
+  {
+    "id": 212,
+    "character": "龙",
+    "history": "A dragon in a simplified form, a mythical creature with a long, scaled body."
+  },
+  {
+    "id": 213,
+    "character": "龟",
+    "history": "A turtle or tortoise shell, simplified from the older form 龜."
+  },
+  {
+    "id": 214,
+    "character": "龠",
+    "history": "A flute or wind instrument with multiple holes, used in ancient music and ceremonies."
+  }
+]
+

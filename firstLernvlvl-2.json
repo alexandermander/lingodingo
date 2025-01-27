@@ -1,0 +1,100 @@
+[
+  {
+    "chinese": "我的朋友喜欢喝茶。",
+    "pinyin": "Wǒ de péngyǒu xǐhuān hē chá.",
+    "translation": "My friend likes to drink tea.",
+    "breakdown": [
+      { "character": "我", "meaning": "I, me" },
+      { "character": "的", "meaning": "possessive particle" },
+      { "character": "朋友", "meaning": "friend" },
+      { "character": "喜欢", "meaning": "like" },
+      { "character": "喝", "meaning": "drink" },
+      { "character": "茶", "meaning": "tea" }
+    ]
+  },
+  {
+    "chinese": "他每天早上跑步。",
+    "pinyin": "Tā měitiān zǎoshang pǎobù.",
+    "translation": "He runs every morning.",
+    "breakdown": [
+      { "character": "他", "meaning": "he, him" },
+      { "character": "每天", "meaning": "every day" },
+      { "character": "早上", "meaning": "morning" },
+      { "character": "跑步", "meaning": "run, jogging" }
+    ]
+  },
+  {
+    "chinese": "你会说中文吗？",
+    "pinyin": "Nǐ huì shuō zhōngwén ma?",
+    "translation": "Can you speak Chinese?",
+    "breakdown": [
+      { "character": "你", "meaning": "you" },
+      { "character": "会", "meaning": "can, able to" },
+      { "character": "说", "meaning": "speak" },
+      { "character": "中文", "meaning": "Chinese language" },
+      { "character": "吗", "meaning": "question particle" }
+    ]
+  },
+  {
+    "chinese": "这个商店卖很多水果。",
+    "pinyin": "Zhège shāngdiàn mài hěn duō shuǐguǒ.",
+    "translation": "This store sells a lot of fruit.",
+    "breakdown": [
+      { "character": "这个", "meaning": "this" },
+      { "character": "商店", "meaning": "store, shop" },
+      { "character": "卖", "meaning": "sell" },
+      { "character": "很多", "meaning": "a lot, many" },
+      { "character": "水果", "meaning": "fruit" }
+    ]
+  },
+  {
+    "chinese": "我们晚上去吃饭吧。",
+    "pinyin": "Wǒmen wǎnshàng qù chīfàn ba.",
+    "translation": "Let's go eat dinner tonight.",
+    "breakdown": [
+      { "character": "我们", "meaning": "we, us" },
+      { "character": "晚上", "meaning": "evening, night" },
+      { "character": "去", "meaning": "go" },
+      { "character": "吃饭", "meaning": "eat, meal" },
+      { "character": "吧", "meaning": "suggestion particle" }
+    ]
+  },
+  {
+    "chinese": "他的家在学校附近。",
+    "pinyin": "Tā de jiā zài xuéxiào fùjìn.",
+    "translation": "His home is near the school.",
+    "breakdown": [
+      { "character": "他", "meaning": "he, him" },
+      { "character": "的", "meaning": "possessive particle" },
+      { "character": "家", "meaning": "home, house" },
+      { "character": "在", "meaning": "at, in, on" },
+      { "character": "学校", "meaning": "school" },
+      { "character": "附近", "meaning": "nearby, vicinity" }
+    ]
+  },
+  {
+    "chinese": "我昨天看了一部电影。",
+    "pinyin": "Wǒ zuótiān kànle yī bù diànyǐng.",
+    "translation": "I watched a movie yesterday.",
+    "breakdown": [
+      { "character": "我", "meaning": "I, me" },
+      { "character": "昨天", "meaning": "yesterday" },
+      { "character": "看", "meaning": "watch, see" },
+      { "character": "了", "meaning": "past tense marker" },
+      { "character": "一部", "meaning": "measure word for movies" },
+      { "character": "电影", "meaning": "movie" }
+    ]
+  },
+  {
+    "chinese": "北京的冬天很冷。",
+    "pinyin": "Běijīng de dōngtiān hěn lěng.",
+    "translation": "Beijing's winter is very cold.",
+    "breakdown": [
+      { "character": "北京", "meaning": "Beijing" },
+      { "character": "的", "meaning": "possessive particle" },
+      { "character": "冬天", "meaning": "winter" },
+      { "character": "很", "meaning": "very" },
+      { "character": "冷", "meaning": "cold" }
+    ]
+  }
+]
