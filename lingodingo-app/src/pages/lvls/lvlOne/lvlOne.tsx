@@ -1,11 +1,18 @@
-import Ajv from "ajv";
 import React, { useEffect, useState } from "react";
 import "./LevelOne.css";
 
-// Define types
 type BreakdownItem = {
 	character: string;
 	meaning: string;
+};
+
+type pinyin = {
+	[key: string]: string;
+};
+
+type sound = {
+	chinese: string;
+	sound: string;
 };
 
 type Sentence = {
@@ -18,11 +25,45 @@ type Sentence = {
 const LevelOne: React.FC = () => {
 	const [sentences, setSentences] = useState<Sentence[]>([]);
 	const [selected, setSelected] = useState<Sentence | null>(null); // Initialize as null
-	const [pinyin, setPinyin] = useState<string[]>([]);
-
+	const [pinyin, setPinyin] = useState<pinyin>({} as pinyin);
 	const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-
 	const [message, setMessage] = useState<string[]>([]);
+	const [audioUrl, setAudioUrl] = useState<string | null>(null);
+	// i nedd a list of sound
+	const [sounds, setSounds] = useState<sound[]>([]);
+
+	const fetchAudio = async (text: string[]) => {
+		try {
+			console.log("text", JSON.stringify({ text }));
+			const response = await fetch('http://localhost:3001/synthesize', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ text }),
+			});
+
+			if (!response.ok) {
+				throw new Error('Failed to fetch audio');
+			}
+
+			const data = await response.json();
+			console.log("data", data);
+		} catch (err) {
+			console.error('Error fetching audio:', err);
+		}
+	};
+
+	useEffect(() => {
+		const playAudio = () => {
+			if (audioUrl) {
+				const audio = new Audio(audioUrl);
+				audio.play().catch((err) => console.error('Audio play failed:', err));
+			}
+		};
+
+		playAudio();
+	}, [audioUrl]);
 
 	useEffect(() => {
 		const fetchSentences = async () => {
@@ -40,13 +81,23 @@ const LevelOne: React.FC = () => {
 				console.error("Error fetching sentences:", error);
 			}
 		};
-
-		fetchSentences().then((sentence) => {
+		fetchSentences().then(async (sentence) => {
 			if (sentence) {
-				console.log("Selected sentence:", sentence);
 				setSelected(sentence); // Update selected state
+				const pinyin = getPinyin(sentence);
 
-				const pinyin = getPinyin(sentence.pinyin);
+				console.log("pinyin", pinyin);
+
+				//get all value of the pinyin
+				const pinyinValues = Object.values(pinyin);
+				const chinese = sentence.chinese
+
+				// make one array of all the pinyin and the one sentence
+				const allChinese = [...pinyinValues, chinese];
+				console.log("allChinese", allChinese);
+
+				await fetchAudio(allChinese)
+
 				setPinyin(pinyin);
 			}
 		});
@@ -57,17 +108,54 @@ const LevelOne: React.FC = () => {
 		return <p>Loading...</p>; // Handle loading state
 	}
 
+	async function getSound(chinese: string[]) {
+		const sounds: sound[] = [];
+		chinese.forEach(async (item) => {
+
+			const sound = {
+				chinese: item,
+				sound: url
+			};
+			sounds.push(sound);
+		});
+
+		console.log("sounds", sounds);
+	}
 
 
-	function getPinyin(current: any) {
-		let pinyin = current.split(" ");
+
+
+	function getPinyin(current: any): pinyin {
+		let pinyin = current.pinyin.split(" ");
+		let chinese = current.chinese.split("");
+		//remove the last character 。form the chinese array
+
+		chinese = chinese.filter((item: any) => item !== "。");
+
 		pinyin = pinyin.map((item: any) => item.replace(/[.?]/g, ""));
-		//make alle charactes to lower case
 		pinyin = pinyin.map((item: any) => item.toLowerCase());
 
 
-		pinyin.sort(() => Math.random() - 0.5);
-		return pinyin;
+
+		//Create a pinyin obj where each each character is a key and the value is the pinyin
+		//this make a class for the pinyin
+		//// const pinyin: pinyin = {
+		// "wo": "我",
+
+		const pinyinObj: pinyin = {};
+
+		pinyin.forEach((item: any, index: any) => {
+			pinyinObj[item] = chinese[index];
+		});
+
+		const shuffledPinyin = Object.keys(pinyinObj).sort(() => Math.random() - 0.5);
+
+		const shuffledPinyinObj: pinyin = {};
+		shuffledPinyin.forEach((item: any) => {
+			shuffledPinyinObj[item] = pinyinObj[item];
+		});
+
+		return shuffledPinyinObj;
 	}
 
 
@@ -80,7 +168,7 @@ const LevelOne: React.FC = () => {
 			const nextSentence = newSentences[0];
 			setSelected(nextSentence);
 
-			const pinyin = getPinyin(nextSentence.pinyin);
+			const pinyin = getPinyin(nextSentence);
 			setPinyin(pinyin);
 		} else {
 			setSelected(null);
@@ -107,23 +195,30 @@ const LevelOne: React.FC = () => {
 			setMessage(["✅ Correct!"]);
 			setIsCorrect(true);
 
-			setTimeout(() => {
-				setMessage([]);
-				getNewSentence();
-			}, 500);
-
+			fetchAudio(selected.chinese).then(() => {
+				setTimeout(() => {
+					setMessage([]);
+					getNewSentence();
+				}, 2000);
+			}).catch((err) => {
+				console.error('Error fetching audio:', err);
+			});
 		} else {
 			setMessage(["❌ Try Again."]);
 			setIsCorrect(false);
 		}
 	}
 
-	function addMessage(message: string) {
+	async function addMessage(message: string, index: number) {
 		if (isCorrect === false) {
 			setMessage([]);
 			setIsCorrect(true);
 		}
-		setMessage((prev) => [...prev, message]);
+		// get the value of the pinyin
+		const value = pinyin[message];
+
+		await fetchAudio(value)
+		setMessage((prev: any) => [...prev, message]);
 	}
 
 	return (
@@ -132,11 +227,10 @@ const LevelOne: React.FC = () => {
 			<div className="level-card">
 				<h2 className="level-sentence">{selected.chinese}</h2>
 				<p className="level-translation">{selected.translation}</p>
-
 				<div className="options">
 					{
-						pinyin.map((item, index) => (
-							<button key={index} onClick={() => addMessage(item)} className="option-button">
+						Object.keys(pinyin).map((item: any, index: number) => (
+							<button key={index} onClick={() => addMessage(item, index)} className="option-button">
 								{item}
 							</button>
 						))
