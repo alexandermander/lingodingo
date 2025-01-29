@@ -2,8 +2,12 @@
 
 # dependencies
 /lingodingo-app/node_modules
+/soudservies/node_modules
 /lingodingo-app/.pnp
 .pnp.js
+
+soudservies/.env
+.env
 
 # testing
 /lingodingo-app/coverage

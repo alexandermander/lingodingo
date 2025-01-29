@@ -1,0 +1,20 @@
+{
+  "name": "soudservies",
+  "version": "1.0.0",
+  "description": "its a servies wher ethe user can get the sound of the chars in the wep app",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.42.0",
+    "nodemon": "^3.1.9",
+    "pinyin4js": "^1.3.18"
+  }
+}
