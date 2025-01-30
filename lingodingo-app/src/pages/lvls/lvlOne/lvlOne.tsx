@@ -6,13 +6,17 @@ type BreakdownItem = {
 	meaning: string;
 };
 
+interface SoundBuffer {
+	data: number[];
+}
+
 type pinyin = {
 	[key: string]: string;
 };
 
 type sound = {
 	chinese: string;
-	sound: string;
+	sound: SoundBuffer;
 };
 
 type Sentence = {
@@ -29,9 +33,8 @@ const LevelOne: React.FC = () => {
 	const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 	const [message, setMessage] = useState<string[]>([]);
 	const [audioUrl, setAudioUrl] = useState<string | null>(null);
-	// i nedd a list of sound
-	const [sounds, setSounds] = useState<sound[]>([]);
 
+	const [sounds, setSounds] = useState<sound[]>([]);
 	const fetchAudio = async (text: string[]) => {
 		try {
 			console.log("text", JSON.stringify({ text }));
@@ -42,21 +45,31 @@ const LevelOne: React.FC = () => {
 				},
 				body: JSON.stringify({ text }),
 			});
-
 			if (!response.ok) {
 				throw new Error('Failed to fetch audio');
 			}
-
 			const data = await response.json();
-			console.log("data", data);
+
+			const listOfsounds = data.map((item: any, index: number) => {
+				return {
+					chinese: text[index],
+					sound: item
+				};
+			});
+
+			setSounds(listOfsounds);
+
+			console.log("listOfsounds", listOfsounds);
 		} catch (err) {
 			console.error('Error fetching audio:', err);
 		}
 	};
 
 	useEffect(() => {
+
 		const playAudio = () => {
 			if (audioUrl) {
+				console.log("audioUrl", audioUrl);
 				const audio = new Audio(audioUrl);
 				audio.play().catch((err) => console.error('Audio play failed:', err));
 			}
@@ -70,8 +83,7 @@ const LevelOne: React.FC = () => {
 			try {
 				const response = await fetch("/firstlvl.json");
 				const data = await response.json();
-				//scampel data random so we can get random sentence
-				data.sort(() => Math.random() - 0.5); // waht it the 0.5
+				//data.sort(() => Math.random() - 0.5); // waht it the 0.5
 
 				setSentences(data);
 				if (data.length > 0) {
@@ -108,19 +120,19 @@ const LevelOne: React.FC = () => {
 		return <p>Loading...</p>; // Handle loading state
 	}
 
-	async function getSound(chinese: string[]) {
-		const sounds: sound[] = [];
-		chinese.forEach(async (item) => {
+	//async function getSound(chinese: string[]) {
+	//	const sounds: sound[] = [];
+	//	chinese.forEach(async (item) => {
 
-			const sound = {
-				chinese: item,
-				sound: url
-			};
-			sounds.push(sound);
-		});
+	//		const sound = {
+	//			chinese: item,
+	//			sound: url
+	//		};
+	//		sounds.push(sound);
+	//	});
 
-		console.log("sounds", sounds);
-	}
+	//	console.log("sounds", sounds);
+	//}
 
 
 
@@ -195,19 +207,16 @@ const LevelOne: React.FC = () => {
 			setMessage(["✅ Correct!"]);
 			setIsCorrect(true);
 
-			fetchAudio(selected.chinese).then(() => {
-				setTimeout(() => {
-					setMessage([]);
-					getNewSentence();
-				}, 2000);
-			}).catch((err) => {
-				console.error('Error fetching audio:', err);
-			});
+			setTimeout(() => {
+				setMessage([]);
+				getNewSentence();
+			}, 2000);
 		} else {
 			setMessage(["❌ Try Again."]);
 			setIsCorrect(false);
 		}
 	}
+
 
 	async function addMessage(message: string, index: number) {
 		if (isCorrect === false) {
@@ -216,8 +225,15 @@ const LevelOne: React.FC = () => {
 		}
 		// get the value of the pinyin
 		const value = pinyin[message];
+		// set the audioUrl
+		const bufferData = new Uint8Array((sounds[index].sound.data));
+		const blob = new Blob([bufferData], { type: "audio/mpeg" });
+		const url = URL.createObjectURL(blob);
+		setAudioUrl(url);
 
-		await fetchAudio(value)
+
+
+		console.log("value", value);
 		setMessage((prev: any) => [...prev, message]);
 	}
 
