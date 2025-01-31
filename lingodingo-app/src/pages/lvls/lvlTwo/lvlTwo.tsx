@@ -3,7 +3,6 @@ import "./LevelOne.css";
 // add keyboard event listener to listen for backspace key
 // add event listener to listen for backspace key
 
-
 type BreakdownItem = {
 	character: string;
 	meaning: string;
@@ -40,7 +39,7 @@ type Message = {
 const LevelOne: React.FC = () => {
 	const [sentences, setSentences] = useState<Sentence[]>([]);
 	const [selected, setSelected] = useState<SelectedSentence | null>(null); // Initialize as null
-	const [message, setMessage] = useState<Message[]>([]);
+	const [message, setMessage] = useState<Message[]>([{ chineseChar: " ", pinyin: " " }]);
 
 	const fetchAudio = async (text: string[]) => {
 		try {
@@ -205,7 +204,7 @@ const LevelOne: React.FC = () => {
 			<h2 className="level-title">Level 1: Pinyin practice</h2>
 			<h3 className="level-instructions">Listen to the pinyin and select the correct characters</h3>
 			<div className="level-card">
-				<button className="play-button" onClick={() => playSound()}></button>
+				<button className="play-button" onClick={() => playSound()}>Play</button>
 				<h2 className="level-sentence">{selected.chineseSentence}</h2>
 				<p className="level-translation">{selected.tranlation}</p>
 				<div className="options">

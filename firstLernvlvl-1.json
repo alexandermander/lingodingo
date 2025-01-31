@@ -27,10 +27,8 @@
     "breakdown": [
       { "character": "日", "meaning": "sun, day" },
       { "character": "出", "meaning": "rise, exit" },
-      { "phrase": "日出", "meaning": "sunrise" },
       { "character": "山", "meaning": "mountain" },
-      { "character": "上", "meaning": "on, above" },
-      { "phrase": "山上", "meaning": "on the mountain" }
+      { "character": "上", "meaning": "on, above" }
     ]
   },
   {
@@ -60,7 +58,6 @@
     "breakdown": [
       { "character": "天", "meaning": "sky, heaven, day" },
       { "character": "上", "meaning": "on, above" },
-      { "phrase": "天上", "meaning": "in the sky" },
       { "character": "有", "meaning": "have, there is" },
       { "character": "月", "meaning": "moon, month" }
     ]
@@ -72,7 +69,6 @@
     "breakdown": [
       { "character": "口", "meaning": "mouth" },
       { "character": "里", "meaning": "inside" },
-      { "phrase": "口里", "meaning": "inside the mouth" },
       { "character": "有", "meaning": "have, there is" },
       { "character": "饭", "meaning": "rice, food" }
     ]
@@ -86,7 +82,6 @@
       { "character": "是", "meaning": "am, is, are" },
       { "character": "女", "meaning": "woman" },
       { "character": "人", "meaning": "person" },
-      { "phrase": "女人", "meaning": "woman" }
     ]
   },
   {
@@ -98,7 +93,6 @@
       { "character": "是", "meaning": "am, is, are" },
       { "character": "男", "meaning": "male, man" },
       { "character": "子", "meaning": "child, son" },
-      { "phrase": "男子", "meaning": "man" }
     ]
   },
   {
@@ -118,7 +112,6 @@
     "breakdown": [
       { "character": "山", "meaning": "mountain" },
       { "character": "下", "meaning": "below, under" },
-      { "phrase": "山下", "meaning": "under the mountain" },
       { "character": "有", "meaning": "have, there is" },
       { "character": "水", "meaning": "water" }
     ]
@@ -130,7 +123,6 @@
     "breakdown": [
       { "character": "门", "meaning": "door, gate" },
       { "character": "口", "meaning": "mouth, entrance" },
-      { "phrase": "门口", "meaning": "doorway, entrance" },
       { "character": "有", "meaning": "have, there is" },
       { "character": "人", "meaning": "person" }
     ]

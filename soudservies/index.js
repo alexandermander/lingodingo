@@ -4,11 +4,12 @@ const sdk = require('microsoft-cognitiveservices-speech-sdk');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
+const { ALL } = require('dns');
 
 const app = express();
 
 app.use(cors({
-	origin: ['http://localhost:3000', 'https://example.com'], // only allow these domains
+	origin: ['http://192.168.1.68:3000', 'http://localhost:3000'], // only allow requests from this domain
 	methods: ['GET', 'POST'], // only allow specific HTTP methods
 }));
 
@@ -58,36 +59,33 @@ function saveAudioToFile(audioData, filename) {
 
 function getBuffersFromfiles(listOfFiles) {
 	let listOfBuffers = [];
+
 	listOfFiles.forEach((file) => {
-
-		file = file.replace(/。/g, "");
-		const fileName = "audio-" + file + ".wav";
-		const filePath = path.join(__dirname, 'savedSounds', fileName);
-
-		if (fs.existsSync(filePath)) {
-			const buffer = fs.readFileSync(filePath);
-			listOfBuffers.push(buffer);
+		const filename = "audio-" + file.replace(/。/g, "") + ".wav";
+		const filepath = path.join(__dirname, 'savedSounds', filename)
+		console.log("filepath: ", filepath);
+		if (fs.existsSync(filepath)) {
+			const buffer = fs.readFileSync(filepath);
+			listOfBuffers.push({ text: file, audioData: buffer });
 		}
 	});
 
 	return listOfBuffers;
 }
 
-
-
-
-
-
-
-
-
 app.post('/synthesize', (req, res) => {
 	console.log(req.body.text);
 
-	const text = req.body.text;
+	let text = req.body.text;
 	const listOfOldBuffers = getBuffersFromfiles(text);
 
-	if (listOfOldBuffers.length != 0) {
+	listOfOldBuffers.map((buffer) => { text = text.filter((t) => t !== buffer.text) });
+
+	console.log("text: ", text);
+
+	if (text.length === 0) {
+		console.log("No new text to synthesize");
+
 		res.set({
 			'Content-Type': 'audio/wav',
 			'Content-Length': listOfOldBuffers.length
@@ -97,66 +95,77 @@ app.post('/synthesize', (req, res) => {
 		return;
 	}
 
-	// Create an audio configuration that points to an (in-memory) file
-
-
 	const audioConfig = sdk.AudioConfig.fromDefaultSpeakerOutput();
 	const synthesizer = new sdk.SpeechSynthesizer(speechConfig, audioConfig);
 
-	//const getAudio = async () => {
-	//	let listOfAudio = [];
-	//	for (let i = 0; i < text.length; i++) {
-	//		try {
-	//			const result = await new Promise((resolve, reject) => {
-	//				synthesizer.speakTextAsync(
-	//					text[i], // Assuming you want to synthesize each text in the array
-	//					(result) => {
-	//						if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
-	//							console.log(`Speech synthesized for text: ${text[i]}`);
-	//							const audioData = result.audioData; // <Buffer ...>
-	//							listOfAudio.push(audioData);
-	//							console.log(audioData, `audio-${text[i]}.wav`);
-	//							saveAudioToFile(audioData, `audio-${text[i]}.wav`);
-	//							resolve(result);
-	//						} else if (result.reason === sdk.ResultReason.Canceled) {
-	//							const cancellation = sdk.CancellationDetails.fromResult(result);
-	//							console.error("Speech Synthesis Canceled:", cancellation.reason);
-	//							if (cancellation.reason === sdk.CancellationReason.Error) {
-	//								console.error("Error details:", cancellation.errorDetails);
-	//							}
-	//							reject(new Error("Synthesis canceled. Check your logs for details."));
-	//						}
-	//					},
-	//					(err) => {
-	//						console.error("Error during synthesis:", err);
-	//						reject(err);
-	//					}
-	//				);
-	//			});
-	//		} catch (error) {
-	//			console.error("Error during synthesis:", error);
-	//			throw error; // Re-throw the error to handle it in the calling function
-	//		}
-	//	}
+	const getAudio = async () => {
+		let listOfAudio = [];
+		for (let i = 0; i < text.length; i++) {
+			console.log(`Synthesizing speech for text: ${text[i]}`);
+			try {
+				const result = await new Promise((resolve, reject) => {
+					synthesizer.speakTextAsync(
+						text[i], // Assuming you want to synthesize each text in the array
+						(result) => {
+							if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
+								console.log(`Speech synthesized for text: ${text[i]}`);
+								const audioData = result.audioData; // <Buffer ...>
 
-	//	synthesizer.close(); // Close the synthesizer after all text has been processed
-	//	return listOfAudio;
-	//};
+								saveAudioToFile(audioData, `audio-${text[i]}.wav`);
+								listOfAudio.push({ text: text[i], audioData: audioData });
 
-	//getAudio()
-	//	.then((data) => {
+								resolve(result);
+							} else if (result.reason === sdk.ResultReason.Canceled) {
+								const cancellation = sdk.CancellationDetails.fromResult(result);
+								console.error("Speech Synthesis Canceled:", cancellation.reason);
+								if (cancellation.reason === sdk.CancellationReason.Error) {
+									console.error("Error details:", cancellation.errorDetails);
+								}
+								reject(new Error("Synthesis canceled. Check your logs for details."));
+							}
+						},
+						(err) => {
+							console.error("Error during synthesis:", err);
+							reject(err);
+						}
+					);
+				});
+			} catch (error) {
+				console.error("Error during synthesis:", error);
+				throw error; // Re-throw the error to handle it in the calling function
+			}
+		}
 
-	//		res.set({
-	//			'Content-Type': 'audio/wav',
-	//			'Content-Length': data.length
-	//		});
+		synthesizer.close(); // Close the synthesizer after all text has been processed
 
-	//		res.send(data);
-	//	})
-	//	.catch((error) => {
-	//		console.error("Error in getAudio:", error);
-	//		res.status(500).send("Error during speech synthesis.");
-	//	});
+		return listOfAudio;
+	};
+
+	getAudio()
+		.then((data) => {
+			let listOfBuffers = [];
+			data.forEach((ArrayBuffer) => {
+				listOfBuffers.push({ text: ArrayBuffer.text, audioData: Buffer.from(ArrayBuffer.audioData) });
+			});
+
+			// add the old audio to the new audio list of buffers
+			listOfBuffers = listOfBuffers.concat(listOfOldBuffers);
+
+			res.set({
+				'Content-Type': 'audio/wav',
+				'Content-Length': listOfBuffers.length
+			});
+			// Send the combined buffer to the client
+			/*
+			but how do the user know each audio is for which text?
+			we can send the text along with the audio
+			*/
+			res.send(listOfBuffers);
+		})
+		.catch((error) => {
+			console.error("Error in getAudio:", error);
+			res.status(500).send("Error during speech synthesis.");
+		});
 
 });
 
