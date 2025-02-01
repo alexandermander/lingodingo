@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./LevelOne.css";
-// add keyboard event listener to listen for backspace key
-// add event listener to listen for backspace key
+import "../LevelCss.css";
 
 type BreakdownItem = {
 	character: string;
@@ -36,10 +34,29 @@ type Message = {
 	chineseChar: string;
 	pinyin: string;
 };
-const LevelOne: React.FC = () => {
+
+const LevelTwo: React.FC = () => {
 	const [sentences, setSentences] = useState<Sentence[]>([]);
 	const [selected, setSelected] = useState<SelectedSentence | null>(null); // Initialize as null
-	const [message, setMessage] = useState<Message[]>([{ chineseChar: " ", pinyin: " " }]);
+	const [message, setMessage] = useState<Message[]>([]);
+	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
+	const [inputValue, setInputValue] = useState<string>("");
+
+	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+		setInputValue(event.target.value);
+	};
+
+	const getCorretSound = async () => {
+		const response = await fetch('/corrktSound.mp3', {
+			method: 'get',
+			headers: {
+				'Content-Type': 'audio/mpeg',
+			},
+		});
+
+		const data = await response.arrayBuffer();
+		setCorrectSound(data);
+	}
 
 	const fetchAudio = async (text: string[]) => {
 		try {
@@ -85,7 +102,7 @@ const LevelOne: React.FC = () => {
 		};
 
 		fetchSentences()
-
+		getCorretSound();
 	}, []);
 
 
@@ -153,17 +170,24 @@ const LevelOne: React.FC = () => {
 			return;
 		}
 		const corrnctAnswer = selected.chineseSentence.replace(/。/g, "");
-		const userAnswer = message.map((item) => item.chineseChar).join("");
+		// now its the input value
+		const userAnswer = inputValue;
 		console.log("User answer:", userAnswer);
 		console.log("Correct answer:", corrnctAnswer);
 
 		const correct = corrnctAnswer === userAnswer;
 		if (correct) {
 			console.log("Correct!");
-			setMessage([{ chineseChar: "✅ Correct!", pinyin: "" }]);
-
-			const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
-			sound.play()
+			if (correctSound != null) {
+				setMessage([{ chineseChar: "✅ Correct!", pinyin: "" }]);
+				const url = URL.createObjectURL(new Blob([correctSound], { type: 'audio/mpeg' }));
+				const audio = new Audio(url);
+				audio.play();
+				setTimeout(() => {
+					const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
+					sound.play()
+				}, 500);
+			}
 		}
 
 		else {
@@ -178,6 +202,7 @@ const LevelOne: React.FC = () => {
 		// pop the first sentence from the array
 		const newSentences = sentences.slice(1);
 		setMessage([]);
+		setInputValue("");
 		setSentences(newSentences);
 	}
 
@@ -201,34 +226,38 @@ const LevelOne: React.FC = () => {
 
 	return (
 		<div className="level-container">
-			<h2 className="level-title">Level 1: Pinyin practice</h2>
-			<h3 className="level-instructions">Listen to the pinyin and select the correct characters</h3>
+			<h2 className="level-title">Level 2: Pinyin practice and character recognition</h2>
+			<h3 className="level-instructions">Listen to the pinyin and type what you hear</h3>
 			<div className="level-card">
-				<button className="play-button" onClick={() => playSound()}>Play</button>
+				<button className="play-button" onClick={() => playSound()}>
+					🎧
+				</button>
 				<h2 className="level-sentence">{selected.chineseSentence}</h2>
 				<p className="level-translation">{selected.tranlation}</p>
-				<div className="options">
-					{
-						selected.chineseCharAndSound.map((item, index) => (
-							<button key={index} onClick={() => getPinyin(item)} className="option-button">
-								{item.pinyin}
-							</button>
-						))
-					}
-				</div>
 				<h3 className="user-answer">Your Answer:</h3>
+				<div className="options">
+					<input className="input-box" value={inputValue} onChange={handleInputChange} />
+				</div>
 				<p className="user-answer">
 					{message.map((item) => item.chineseChar).join("")}
 				</p>
-				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
+				<button onClick={
+					message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer
+				} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
 				</button>
 				<br />
 				<br />
-				<a className="skip-button" onClick={() => setMessage([])}>clear</a>
+				<a className="skip-button" onClick={() => {
+					setMessage([])
+					setInputValue("");
+				}
+				}>clear</a>
 			</div>
 		</div >
 	);
+
 }
 
-export default LevelOne;
+export default LevelTwo;
+

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./LevelOne.css";
+import "../LevelCss.css";
 
 type BreakdownItem = {
 	character: string;

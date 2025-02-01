@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./LevelOne.css";
-// add keyboard event listener to listen for backspace key
-// add event listener to listen for backspace key
-
+import "../LevelCss.css";
 
 type BreakdownItem = {
 	character: string;
@@ -37,10 +34,24 @@ type Message = {
 	chineseChar: string;
 	pinyin: string;
 };
+
 const LevelOne: React.FC = () => {
 	const [sentences, setSentences] = useState<Sentence[]>([]);
 	const [selected, setSelected] = useState<SelectedSentence | null>(null); // Initialize as null
 	const [message, setMessage] = useState<Message[]>([]);
+	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
+
+	const getCorretSound = async () => {
+		const response = await fetch('/corrktSound.mp3', {
+			method: 'get',
+			headers: {
+				'Content-Type': 'audio/mpeg',
+			},
+		});
+
+		const data = await response.arrayBuffer();
+		setCorrectSound(data);
+	}
 
 	const fetchAudio = async (text: string[]) => {
 		try {
@@ -86,7 +97,7 @@ const LevelOne: React.FC = () => {
 		};
 
 		fetchSentences()
-
+		getCorretSound();
 	}, []);
 
 
@@ -161,10 +172,16 @@ const LevelOne: React.FC = () => {
 		const correct = corrnctAnswer === userAnswer;
 		if (correct) {
 			console.log("Correct!");
-			setMessage([{ chineseChar: "✅ Correct!", pinyin: "" }]);
-
-			const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
-			sound.play()
+			if (correctSound != null) {
+				setMessage([{ chineseChar: "✅ Correct!", pinyin: "" }]);
+				const url = URL.createObjectURL(new Blob([correctSound], { type: 'audio/mpeg' }));
+				const audio = new Audio(url);
+				audio.play();
+				setTimeout(() => {
+					const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
+					sound.play()
+				}, 500);
+			}
 		}
 
 		else {
@@ -205,7 +222,9 @@ const LevelOne: React.FC = () => {
 			<h2 className="level-title">Level 1: Pinyin practice</h2>
 			<h3 className="level-instructions">Listen to the pinyin and select the correct characters</h3>
 			<div className="level-card">
-				<button className="play-button" onClick={() => playSound()}></button>
+				<button className="play-button" onClick={() => playSound()}>
+					🔉
+				</button>
 				<h2 className="level-sentence">{selected.chineseSentence}</h2>
 				<p className="level-translation">{selected.tranlation}</p>
 				<div className="options">
