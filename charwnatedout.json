@@ -1,0 +1,27 @@
+{
+  "chinese": "我们晚上去吃饭吧。",
+  "pinyin": "Wǒmen wǎnshang qù chīfàn ba.",
+  "translation": "Let's go eat dinner tonight.",
+  "breakdown": [
+    {
+      "character": "我们",
+      "meaning": "we/us (我 = I/me, 们 = plural marker)"
+    },
+    {
+      "character": "晚上",
+      "meaning": "evening/night (晚 = evening, 上 = up/on)"
+    },
+    {
+      "character": "去",
+      "meaning": "to go"
+    },
+    {
+      "character": "吃饭",
+      "meaning": "to eat a meal (吃 = eat, 饭 = rice/meal)"
+    },
+    {
+      "character": "吧",
+      "meaning": "suggestion particle (softens the sentence)"
+    }
+  ]
+}

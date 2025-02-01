@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../LevelCss.css";
 import { useLocation } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ type Message = {
 	pinyin: string;
 };
 
-const LevelTwo: React.FC = () => {
+const LevelTree = () => {
 	//const location = useLocation();
 	//const getLocaktion = (location.state as SelectedSentence[] | []); // Get the selected sentence from the location state
 	const [sentences, setSentences] = useState<Sentence[]>([]);
@@ -44,6 +44,8 @@ const LevelTwo: React.FC = () => {
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [inputValue, setInputValue] = useState<string>("");
+	const inputRef = useRef<HTMLInputElement>(null);
+	const nextRef = useRef<HTMLButtonElement>(null);
 
 	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		setInputValue(event.target.value);
@@ -108,6 +110,8 @@ const LevelTwo: React.FC = () => {
 		getCorretSound();
 	}, []);
 
+	// create when lo
+
 
 	useEffect(() => {
 		if (sentences.length > 0) {
@@ -140,17 +144,15 @@ const LevelTwo: React.FC = () => {
 
 				const shuffled = selectedSentence.chineseCharAndSound.sort(() => Math.random() - 0.5);
 
-				// set the selected sentence
 				selectedSentence.chineseCharAndSound = shuffled;
-				setSelected(selectedSentence);
+				setSelected(selectedSentence)
+
 			});
 		}
 	}, [sentences]);
 
 	function getPinyin(selected: ChineseCharAndSound) {
-
 		console.log("selected", message[0]?.pinyin);
-
 		const bufferData = new Uint8Array(selected.chineseSound.data);
 		const blob = new Blob([bufferData], { type: 'audio/wav' });
 		const url = URL.createObjectURL(blob);
@@ -190,7 +192,6 @@ const LevelTwo: React.FC = () => {
 					const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
 					sound.play()
 				}, 500);
-				getNewSentence();
 			}
 		}
 
@@ -202,20 +203,21 @@ const LevelTwo: React.FC = () => {
 
 	function getNewSentence() {
 		console.log("getNewSentence");
-
 		// pop the first sentence from the array
 		const newSentences = sentences.slice(1);
 		setMessage([]);
 		setInputValue("");
 		setSentences(newSentences);
+
+		nextRef.current?.focus();
 	}
 
 	if (selected === null) {
 		return <p>Loading...</p>;
 	}
 
-	function playSound() {
 
+	function playSound() {
 		if (selected === null) {
 			return;
 		}
@@ -226,7 +228,12 @@ const LevelTwo: React.FC = () => {
 		const audio = new Audio(url);
 
 		audio.play();
+		//fokus the input
+
+		inputRef.current?.focus();
+
 	}
+
 	function pressEnter(event: React.KeyboardEvent<HTMLInputElement>) {
 		if (event.key === "Enter") {
 			checkAnswer();
@@ -235,17 +242,16 @@ const LevelTwo: React.FC = () => {
 
 	return (
 		<div className="level-container">
-			<h2 className="level-title">Level 2: Pinyin practice and character recognition</h2>
-			<h3 className="level-instructions">Listen to the pinyin and type what you hear</h3>
+			<h2 className="level-title">Level 3:  listen and type</h2>
+			<h3 className="level-instructions">Listen to the audio and type the sentence in Chinese</h3>
 			<div className="level-card">
-				<button className="play-button" onClick={() => playSound()}>
+				<button className="play-button" onClick={() => playSound()} ref={nextRef}>
 					🎧
 				</button>
-				<h2 className="level-sentence">{selected.chineseSentence}</h2>
-				<p className="level-translation">{selected.tranlation}</p>
 				<h3 className="user-answer">Your Answer:</h3>
 				<div className="options">
-					<input className="input-box" value={inputValue} onChange={handleInputChange} onKeyPress={pressEnter} />
+					<input className="input-box" value={inputValue} ref={inputRef}
+						onChange={handleInputChange} onKeyPress={pressEnter} />
 				</div>
 				<p className="user-answer">
 					{message.map((item) => item.chineseChar).join("")}
@@ -268,5 +274,4 @@ const LevelTwo: React.FC = () => {
 
 }
 
-export default LevelTwo;
-
+export default LevelTree;

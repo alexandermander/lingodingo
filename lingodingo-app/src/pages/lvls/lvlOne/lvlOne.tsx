@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../LevelCss.css";
+import SentenceBreakdown, { SentenceData } from '../SentenceBreakdown';
 
 type BreakdownItem = {
 	character: string;
@@ -40,6 +41,21 @@ const LevelOne: React.FC = () => {
 	const [selected, setSelected] = useState<SelectedSentence | null>(null); // Initialize as null
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
+	const [mySentenceData, setMySentenceData] = useState<SentenceData | null>(null);
+
+
+	const getFormat = async (word: string) => {
+		//http://192.168.1.131:8000/generate?api_word={word}
+		const request = fetch('http://192.168.1.131:8000/generate?api_word=' + word, {
+			method: 'GET',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+		});
+
+		const response = await request;
+		console.log("response", response)
+	}
 
 	const getCorretSound = async () => {
 		const response = await fetch('/corrktSound.mp3', {
@@ -134,6 +150,7 @@ const LevelOne: React.FC = () => {
 
 				// set the selected sentence
 				selectedSentence.chineseCharAndSound = shuffled;
+
 				setSelected(selectedSentence);
 			});
 		}
@@ -217,6 +234,42 @@ const LevelOne: React.FC = () => {
 		audio.play();
 	}
 
+	function getWordExpalation() {
+		const data: SentenceData = {
+			chinese: "我们晚上去吃饭吧。",
+			pinyin: "Wǒmen wǎnshang qù chīfàn ba.",
+			translation: "Let's go eat dinner tonight.",
+			breakdown: [
+				{
+					character: "我们",
+					pinyin: "wǒ men",
+					meaning: "we/us (我 = I/me, 们 = plural marker)"
+				},
+				{
+					character: "晚上",
+					pinyin: "wǎn shang",
+					meaning: "evening/night (晚 = evening, 上 = up/on)"
+				},
+				{
+					character: "去",
+					pinyin: "qù",
+					meaning: "to go"
+				},
+				{
+					character: "吃饭",
+					pinyin: "chī fàn",
+					meaning: "to eat a meal (吃 = eat, 饭 = rice/meal)"
+				},
+				{
+					character: "吧",
+					pinyin: "ba",
+					meaning: "suggestion particle (softens the sentence)"
+				}
+			]
+		};
+		setMySentenceData(data);
+	}
+
 	return (
 		<div className="level-container">
 			<h2 className="level-title">Level 1: Pinyin practice</h2>
@@ -226,6 +279,11 @@ const LevelOne: React.FC = () => {
 					🔉
 				</button>
 				<h2 className="level-sentence">{selected.chineseSentence}</h2>
+				<div
+					className="sentence-wrapper"
+				>
+				</div>
+
 				<p className="level-translation">{selected.tranlation}</p>
 				<div className="options">
 					{

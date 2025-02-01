@@ -1,0 +1,59 @@
+/* Container for the sentence breakdown */
+.sentence-breakdown {
+  font-size: 24px;
+  font-weight: bold;
+  /* Using inline-block allows the breakdown to remain on one line if needed */
+  display: inline-block;
+  gap: 4px; /* spacing between words */
+}
+
+/* Each word is inline-block and relatively positioned */
+.word {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+/* Popup box styling */
+.popup-box {
+  position: absolute;
+  bottom: 120%;  /* Positions the popup above the word */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 2px solid #7b61ff;
+  border-radius: 8px;
+  padding: 8px;
+  white-space: nowrap;
+  z-index: 100;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Arrow styling: creates a small triangle under the popup */
+.popup-box .arrow {
+  position: absolute;
+  top: 100%;  /* Position the arrow at the bottom edge of the popup */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #7b61ff;  /* Same purple as the border */
+}
+
+/* Content inside the popup */
+.popup-content {
+  font-size: 25px;
+  color: #444;
+}
+
+.popup-content .pinyin {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.popup-content .meaning {
+  font-size: 18px;
+}
