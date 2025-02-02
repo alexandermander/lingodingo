@@ -1,103 +1,57 @@
 import React, { useEffect, useState } from "react";
 import "../LevelCss.css";
-import { useLocation } from 'react-router-dom';
+import SentenceBreakdown, {
+	SelectedSentence,
+	Message,
+	Sentence,
+	ChineseCharAndSound,
+	SoundAndChar,
+	SoundBuffer
+} from "../SentenceBreakdown";
+import {
+	fetchAudio,
+	getCorretSound
+} from "../getCompurents"
 
-type BreakdownItem = {
-	character: string;
-	meaning: string;
-};
-
-type Sentence = {
-	chinese: string;
-	pinyin: string;
-	translation: string;
-	breakdown: BreakdownItem[];
-};
-
-interface SoundBuffer {
-	data: number[];
-}
-
-type ChineseCharAndSound = {
-	chineseChar: string;
-	chineseSound: SoundBuffer;
-	pinyin: string;
-};
-
-type SelectedSentence = {
-	chineseSentence: string;
-	chineseSound: SoundBuffer;
-	chineseCharAndSound: ChineseCharAndSound[];
-	tranlation: string;
-};
-
-type Message = {
-	chineseChar: string;
-	pinyin: string;
-};
 
 const LevelTwo: React.FC = () => {
-	//const location = useLocation();
-	//const getLocaktion = (location.state as SelectedSentence[] | []); // Get the selected sentence from the location state
 	const [sentences, setSentences] = useState<Sentence[]>([]);
 	const [selected, setSelected] = useState<SelectedSentence | null>(null); // Initialize as null
+	const [shuffled, setShuffled] = useState<SelectedSentence | null>(null);
+
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
-	const [inputValue, setInputValue] = useState<string>("");
+	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
+	const [inputValue, setInputValue] = useState("");
+
 
 	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		setInputValue(event.target.value);
 	};
 
-	const getCorretSound = async () => {
-		const response = await fetch('/corrktSound.mp3', {
-			method: 'get',
+	const getFormat = async (word: string) => {
+		const request = fetch('http://192.168.1.131:8000/generate?api_word=' + word, {
+			method: 'GET',
 			headers: {
-				'Content-Type': 'audio/mpeg',
+				'Content-Type': 'application/json',
 			},
 		});
 
-		const data = await response.arrayBuffer();
-		setCorrectSound(data);
+		const response = await request;
+		console.log("response", response)
 	}
 
-	const fetchAudio = async (text: string[]) => {
-		try {
-			console.log("text", JSON.stringify({ text }));
-			const response = await fetch('http://192.168.1.68:3001/synthesize', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-				},
-				body: JSON.stringify({ text }),
-			});
-			if (!response.ok) {
-				throw new Error('Failed to fetch audio');
-			}
-			const data = await response.json()
-
-			const listOfsounds = data.map((item: any, index: number) => {
-				return {
-					chinese: item.text,
-					sound: item.audioData
-				};
-			});
-
-			return listOfsounds;
-
-		} catch (err) {
-			console.error('Error fetching audio:', err);
-		}
-	};
 
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
 				const response = await fetch("/firstlvl.json");
 				const data = await response.json();
+
 				data.sort(() => Math.random() - 0.5);
 
 				setSentences(data);
+				console.log("data", data);
 
 			} catch (error) {
 				console.error("Error fetching sentences:", error);
@@ -105,14 +59,17 @@ const LevelTwo: React.FC = () => {
 		};
 
 		fetchSentences()
-		getCorretSound();
+		getCorretSound().then((data) => {
+			setCorrectSound(data)
+		})
+
 	}, []);
 
 
 	useEffect(() => {
 		if (sentences.length > 0) {
-			const sentence = sentences[2];
-			console.log("sentence", sentence);
+
+			const sentence = sentences[0];
 
 			const brakeChar = sentence.breakdown.map((item) => {
 				return item.character
@@ -120,60 +77,108 @@ const LevelTwo: React.FC = () => {
 
 			const allText = [...brakeChar, sentence.chinese];
 
+
 			fetchAudio(allText).then((sounds) => {
+
 				let lastElement = sounds[sounds.length - 1];
 				let newSounds = sounds.slice(0, sounds.length - 1);
 
-				let pinyinList = sentence.pinyin.split(" ");
 				const selectedSentence: SelectedSentence = {
 					chineseSentence: sentence.chinese,
 					chineseSound: lastElement.sound,
 					chineseCharAndSound: sentence.breakdown.map((item, index) => {
+
 						return {
-							pinyin: pinyinList[index].toLowerCase(),
+							pinyin: item.pinyin.toLowerCase(),
 							chineseChar: item.character,
-							chineseSound: newSounds[index].sound
+							chineseSound: newSounds.find((sound: any) => sound.chinese === item.character).sound,
+							meaning: item.meaning
 						};
 					}),
 					tranlation: sentence.translation
 				};
-
-				const shuffled = selectedSentence.chineseCharAndSound.sort(() => Math.random() - 0.5);
-
-				// set the selected sentence
-				selectedSentence.chineseCharAndSound = shuffled;
+				console.log("selectedSentence", selectedSentence);
 				setSelected(selectedSentence);
+				const shuffledSentence: SelectedSentence = {
+					chineseSentence: sentence.chinese,
+					chineseSound: lastElement.sound,
+					chineseCharAndSound: sentence.breakdown.map((item, index) => {
+						return {
+							pinyin: sentence.breakdown[index].pinyin.toLowerCase(),
+							chineseChar: item.character,
+							chineseSound: newSounds[index].sound,
+							meaning: item.meaning
+						};
+					}).sort(() => Math.random() - 0.5),
+					tranlation: sentence.translation
+				};
+
+				const currentSounds: SoundAndChar[] = [];
+				selectedSentence.chineseCharAndSound.forEach((word) => {
+
+					const bufferData = new Uint8Array(word.chineseSound.data);
+					const blob = new Blob([bufferData], { type: 'audio/wav' });
+					const url = URL.createObjectURL(blob);
+					currentSounds.push({ sound: url, char: word.chineseChar });
+
+				});
+				// add the 	chineseSound: SoundBuffer; data
+
+				const mainsound: SoundAndChar = {
+					sound: URL.createObjectURL(new Blob([new Uint8Array(lastElement.sound.data)], { type: 'audio/wav' })),
+					char: selectedSentence.chineseSentence
+				};
+
+				currentSounds.push(mainsound);
+
+				setSoundAndChar(currentSounds);
+				setShuffled(shuffledSentence);
+
 			});
 		}
 	}, [sentences]);
 
 	function getPinyin(selected: ChineseCharAndSound) {
 
-		console.log("selected", message[0]?.pinyin);
+		const selectedSound = soundAndChar.find((item) => item.char === selected.chineseChar);
+		if (!selectedSound) {
+			return;
+		}
 
-		const bufferData = new Uint8Array(selected.chineseSound.data);
-		const blob = new Blob([bufferData], { type: 'audio/wav' });
-		const url = URL.createObjectURL(blob);
-
+		const url = selectedSound.sound;
 		const audio = new Audio(url);
 		audio.play();
 
 		if (message[0]?.pinyin === "WORNG") {
-			console.log("INSTETETHIETIEIHTI");
 			setMessage([{ chineseChar: selected.chineseChar, pinyin: selected.pinyin }]);
 		}
 		else {
 			setMessage([...message, { chineseChar: selected.chineseChar, pinyin: selected.pinyin }]);
-		}
+			//rembe the selected item from the shuffled array
+			if (!shuffled || !shuffled.chineseCharAndSound) return;
 
+			const indexToRemove = shuffled.chineseCharAndSound.findIndex(
+				(item) => item.chineseChar === selected.chineseChar
+			);
+
+			if (indexToRemove === -1) return; // If not found, do nothing
+
+			const newShuffled = shuffled.chineseCharAndSound.filter((_, index) => index !== indexToRemove);
+
+
+			setShuffled({
+				...shuffled,
+				chineseCharAndSound: newShuffled
+			});
+
+		}
 	}
 
 	function checkAnswer() {
 		if (selected === null) {
 			return;
 		}
-		const corrnctAnswer = selected.chineseSentence.replace(/。/g, "");
-		// now its the input value
+		const corrnctAnswer = selected.chineseSentence.replace(/[。！？，]/g, "");
 		const userAnswer = inputValue;
 		console.log("User answer:", userAnswer);
 		console.log("Correct answer:", corrnctAnswer);
@@ -190,7 +195,6 @@ const LevelTwo: React.FC = () => {
 					const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
 					sound.play()
 				}, 500);
-				getNewSentence();
 			}
 		}
 
@@ -202,11 +206,12 @@ const LevelTwo: React.FC = () => {
 
 	function getNewSentence() {
 		console.log("getNewSentence");
-
-		// pop the first sentence from the array
+		if (sentences.length === 0) {
+			window.location.href = "/level-two";
+		}
 		const newSentences = sentences.slice(1);
+
 		setMessage([]);
-		setInputValue("");
 		setSentences(newSentences);
 	}
 
@@ -227,7 +232,23 @@ const LevelTwo: React.FC = () => {
 
 		audio.play();
 	}
+
+	//cleacr the message
+	const clearMessage = () => {
+		setMessage([]);
+
+		const shuffledSentence: SelectedSentence = {
+			chineseSentence: selected?.chineseSentence,
+			chineseSound: selected?.chineseSound,
+			chineseCharAndSound: selected?.chineseCharAndSound.sort(() => Math.random() - 0.5),
+			tranlation: selected?.tranlation
+		};
+
+		setShuffled(shuffledSentence);
+	}
+
 	function pressEnter(event: React.KeyboardEvent<HTMLInputElement>) {
+
 		if (event.key === "Enter") {
 			checkAnswer();
 		}
@@ -237,11 +258,18 @@ const LevelTwo: React.FC = () => {
 		<div className="level-container">
 			<h2 className="level-title">Level 2: Pinyin practice and character recognition</h2>
 			<h3 className="level-instructions">Listen to the pinyin and type what you hear</h3>
+
+
+			<h3 className="level-instructions">{selected.chineseSentence}</h3>
 			<div className="level-card">
 				<button className="play-button" onClick={() => playSound()}>
-					🎧
+					🔉
 				</button>
-				<h2 className="level-sentence">{selected.chineseSentence}</h2>
+				<div
+					className="sentence-wrapper"
+				>
+					<SentenceBreakdown {...selected} />
+				</div>
 				<p className="level-translation">{selected.tranlation}</p>
 				<h3 className="user-answer">Your Answer:</h3>
 				<div className="options">
@@ -268,5 +296,4 @@ const LevelTwo: React.FC = () => {
 
 }
 
-export default LevelTwo;
-
+export default LevelTwo

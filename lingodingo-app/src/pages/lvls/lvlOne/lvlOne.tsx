@@ -151,10 +151,14 @@ const LevelOne: React.FC = () => {
 			//rembe the selected item from the shuffled array
 			if (!shuffled || !shuffled.chineseCharAndSound) return;
 
-			const newShuffled = shuffled.chineseCharAndSound.filter((item) => {
-				return item.chineseChar !== selected.chineseChar;
-			} // 
+			const indexToRemove = shuffled.chineseCharAndSound.findIndex(
+				(item) => item.chineseChar === selected.chineseChar
 			);
+
+			if (indexToRemove === -1) return; // If not found, do nothing
+
+			const newShuffled = shuffled.chineseCharAndSound.filter((_, index) => index !== indexToRemove);
+
 
 			setShuffled({
 				...shuffled,
@@ -196,9 +200,11 @@ const LevelOne: React.FC = () => {
 
 	function getNewSentence() {
 		console.log("getNewSentence");
-
-		// pop the first sentence from the array
+		if (sentences.length === 0) {
+			window.location.href = "/level-two";
+		}
 		const newSentences = sentences.slice(1);
+
 		setMessage([]);
 		setSentences(newSentences);
 	}
