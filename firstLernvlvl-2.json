@@ -6,8 +6,8 @@
     "breakdown": [
       { "character": "我", "meaning": "I, me" },
       { "character": "的", "meaning": "possessive particle" },
-      { "character": "朋友", "meaning": "friend" },
-      { "character": "喜欢", "meaning": "like" },
+      { "character": "朋友", "meaning": "friend (朋 = friend, 友 = friend)" },
+      { "character": "喜欢", "meaning": "like (喜 = like, 欢 = joy)" },
       { "character": "喝", "meaning": "drink" },
       { "character": "茶", "meaning": "tea" }
     ]
@@ -18,9 +18,9 @@
     "translation": "He runs every morning.",
     "breakdown": [
       { "character": "他", "meaning": "he, him" },
-      { "character": "每天", "meaning": "every day" },
-      { "character": "早上", "meaning": "morning" },
-      { "character": "跑步", "meaning": "run, jogging" }
+      { "character": "每天", "meaning": "every day (每 = every, 天 = day)" },
+      { "character": "早上", "meaning": "morning (早 = early, 上 = up)" },
+      { "character": "跑步", "meaning": "run, jogging (跑 = run, 步 = step)" }
     ]
   },
   {
@@ -31,20 +31,20 @@
       { "character": "你", "meaning": "you" },
       { "character": "会", "meaning": "can, able to" },
       { "character": "说", "meaning": "speak" },
-      { "character": "中文", "meaning": "Chinese language" },
+      { "character": "中文", "meaning": "Chinese language (中 = middle/China, 文 = language/culture)" },
       { "character": "吗", "meaning": "question particle" }
     ]
   },
   {
     "chinese": "这个商店卖很多水果。",
-    "pinyin": "Zhège shāngdiàn mài hěn duō shuǐguǒ.",
+    "pinyin": "Zhège shāngdiàn mài hěnduō shuguǒ.",
     "translation": "This store sells a lot of fruit.",
     "breakdown": [
-      { "character": "这个", "meaning": "this" },
-      { "character": "商店", "meaning": "store, shop" },
+      { "character": "这个", "meaning": "this (这 = this, 个 = measure word)" },
+      { "character": "商店", "meaning": "store, shop (商 = commerce, 店 = shop)" },
       { "character": "卖", "meaning": "sell" },
-      { "character": "很多", "meaning": "a lot, many" },
-      { "character": "水果", "meaning": "fruit" }
+      { "character": "很多", "meaning": "a lot, many (很 = very, 多 = many)" },
+      { "character": "水果", "meaning": "fruit (水 = water, 果 = fruit)" }
     ]
   },
   {
@@ -52,10 +52,10 @@
     "pinyin": "Wǒmen wǎnshàng qù chīfàn ba.",
     "translation": "Let's go eat dinner tonight.",
     "breakdown": [
-      { "character": "我们", "meaning": "we, us" },
-      { "character": "晚上", "meaning": "evening, night" },
+      { "character": "我们", "meaning": "we, us (我 = I, 们 = plural marker)" },
+      { "character": "晚上", "meaning": "evening, night (晚 = late, 上 = up)" },
       { "character": "去", "meaning": "go" },
-      { "character": "吃饭", "meaning": "eat, meal" },
+      { "character": "吃饭", "meaning": "eat, meal (吃 = eat, 饭 = meal)" },
       { "character": "吧", "meaning": "suggestion particle" }
     ]
   },
@@ -68,8 +68,8 @@
       { "character": "的", "meaning": "possessive particle" },
       { "character": "家", "meaning": "home, house" },
       { "character": "在", "meaning": "at, in, on" },
-      { "character": "学校", "meaning": "school" },
-      { "character": "附近", "meaning": "nearby, vicinity" }
+      { "character": "学校", "meaning": "school (学 = study, 校 = school)" },
+      { "character": "附近", "meaning": "nearby, vicinity (附 = attach, 近 = near)" }
     ]
   },
   {
@@ -78,11 +78,10 @@
     "translation": "I watched a movie yesterday.",
     "breakdown": [
       { "character": "我", "meaning": "I, me" },
-      { "character": "昨天", "meaning": "yesterday" },
-      { "character": "看", "meaning": "watch, see" },
-      { "character": "了", "meaning": "past tense marker" },
-      { "character": "一部", "meaning": "measure word for movies" },
-      { "character": "电影", "meaning": "movie" }
+      { "character": "昨天", "meaning": "yesterday (昨 = yesterday, 天 = day)" },
+      { "character": "看了", "meaning": "watched (看 = watch, 了 = past tense marker)" },
+      { "character": "一部", "meaning": "measure word for movies (一 = one, 部 = measure word)" },
+      { "character": "电影", "meaning": "movie (电 = electric, 影 = shadow)" }
     ]
   },
   {
@@ -90,9 +89,9 @@
     "pinyin": "Běijīng de dōngtiān hěn lěng.",
     "translation": "Beijing's winter is very cold.",
     "breakdown": [
-      { "character": "北京", "meaning": "Beijing" },
+      { "character": "北京", "meaning": "Beijing (北 = north, 京 = capital)" },
       { "character": "的", "meaning": "possessive particle" },
-      { "character": "冬天", "meaning": "winter" },
+      { "character": "冬天", "meaning": "winter (冬 = winter, 天 = day)" },
       { "character": "很", "meaning": "very" },
       { "character": "冷", "meaning": "cold" }
     ]

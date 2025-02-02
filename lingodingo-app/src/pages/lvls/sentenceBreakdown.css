@@ -13,6 +13,12 @@
   position: relative;
   cursor: pointer;
   margin-right: 4px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.word:hover {
+	  transform: scale(1.1);
+	color: #7b61ff;
 }
 
 /* Popup box styling */

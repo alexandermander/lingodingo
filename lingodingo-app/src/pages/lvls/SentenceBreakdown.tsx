@@ -1,70 +1,89 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './sentenceBreakdown.css';
 
-export interface WordBreakdown {
+export type BreakdownItem = {
 	character: string;
 	pinyin: string;
 	meaning: string;
-}
+};
 
-export interface SentenceData {
+export type Sentence = {
 	chinese: string;
 	pinyin: string;
 	translation: string;
-	breakdown: WordBreakdown[];
+	breakdown: BreakdownItem[];
+};
+
+export interface SoundBuffer {
+	data: number[];
 }
 
-interface SentenceBreakdownProps {
-	data: SentenceData;
-}
+export type ChineseCharAndSound = {
+	chineseChar: string;
+	chineseSound: SoundBuffer;
+	pinyin: string;
+	meaning: string;
+};
 
-const SentenceBreakdown: React.FC = () => {
+export type SelectedSentence = {
+	chineseSentence: string;
+	chineseSound: SoundBuffer;
+	chineseCharAndSound: ChineseCharAndSound[];
+	tranlation: string;
+};
+
+export type Message = {
+	chineseChar: string;
+	pinyin: string;
+};
+
+export type SoundAndChar = {
+	sound: string;
+	char: string;
+};
+
+const SentenceBreakdown: React.FC<SelectedSentence> = (currentSentence) => {
+
 	const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
 
-	const data: SentenceData = {
-		chinese: "我们晚上去吃饭吧。",
-		pinyin: "Wǒmen wǎnshang qù chīfàn ba.",
-		translation: "Let's go eat dinner tonight.",
-		breakdown: [
-			{
-				character: "我们",
-				pinyin: "wǒ men",
-				meaning: "we/us (我 = I/me, 们 = plural marker)"
-			},
-			{
-				character: "晚上",
-				pinyin: "wǎn shang",
-				meaning: "evening/night (晚 = evening, 上 = up/on)"
-			},
-			{
-				character: "去",
-				pinyin: "qù",
-				meaning: "to go"
-			},
-			{
-				character: "吃饭",
-				pinyin: "chī fàn",
-				meaning: "to eat a meal (吃 = eat, 饭 = rice/meal)"
-			},
-			{
-				character: "吧",
-				pinyin: "ba",
-				meaning: "suggestion particle (softens the sentence)"
-			}
-		]
-	};
 
+	useEffect(() => {
+		console.log("currentSentence", currentSentence);
+
+		const sounds: SoundAndChar[] = [];
+		currentSentence.chineseCharAndSound.forEach((word) => {
+			const bufferData = new Uint8Array(word.chineseSound.data);
+			const blob = new Blob([bufferData], { type: 'audio/wav' });
+			const url = URL.createObjectURL(blob);
+			sounds.push({ sound: url, char: word.chineseChar });
+		});
+
+		setSoundAndChar(sounds);
+	}, []);
+
+
+	function playSound(currntChar: string) {
+		const selected = soundAndChar.find((item) => item.char === currntChar);
+		if (!selected) {
+			return;
+		}
+
+		const audio = new Audio(selected.sound);
+		audio.play();
+	}
 
 	return (
 		<div className="sentence-breakdown">
-			{data.breakdown.map((word, index) => (
+			{currentSentence.chineseCharAndSound.map((word, index) => (
 				<span
 					key={index}
 					className="word"
 					onMouseEnter={() => setHoveredIndex(index)}
 					onMouseLeave={() => setHoveredIndex(null)}
+					onClick={() => playSound(word.chineseChar)}
 				>
-					{word.character}
+					{word.chineseChar}
 					{hoveredIndex === index && (
 						<div className="popup-box">
 							<div className="popup-content">

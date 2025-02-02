@@ -1,0 +1,151 @@
+[
+  {
+    "chinese": "我是一人。",
+    "pinyin": "Wǒ shì yī rén.",
+    "translation": "I am one person.",
+    "breakdown": [
+      { "character": "我", "meaning": "I, me" },
+      { "character": "是", "meaning": "am, is, are" },
+      { "character": "一", "meaning": "one" },
+      { "character": "人", "meaning": "person" }
+    ]
+  },
+  {
+    "chinese": "二人走。",
+    "pinyin": "Èr rén zǒu.",
+    "translation": "Two people walk.",
+    "breakdown": [
+      { "character": "二", "meaning": "two" },
+      { "character": "人", "meaning": "person, people" },
+      { "character": "走", "meaning": "walk, go" }
+    ]
+  },
+  {
+    "chinese": "日出山上。",
+    "pinyin": "Rì chū shān shàng.",
+    "translation": "Sunrise over the mountain.",
+    "breakdown": [
+      { "character": "日", "meaning": "sun, day" },
+      { "character": "出", "meaning": "rise, exit" },
+      { "character": "山", "meaning": "mountain" },
+      { "character": "上", "meaning": "on, above" }
+    ]
+  },
+  {
+    "chinese": "火很大。",
+    "pinyin": "Huǒ hěn dà.",
+    "translation": "The fire is very big.",
+    "breakdown": [
+      { "character": "火", "meaning": "fire" },
+      { "character": "很", "meaning": "very" },
+      { "character": "大", "meaning": "big, large" }
+    ]
+  },
+  {
+    "chinese": "小水流。",
+    "pinyin": "Xiǎo shuǐ liú.",
+    "translation": "Small water flows.",
+    "breakdown": [
+      { "character": "小", "meaning": "small, little" },
+      { "character": "水", "meaning": "water" },
+      { "character": "流", "meaning": "flow" }
+    ]
+  },
+  {
+    "chinese": "天上有月。",
+    "pinyin": "Tiān shàng yǒu yuè.",
+    "translation": "There is a moon in the sky.",
+    "breakdown": [
+      { "character": "天", "meaning": "sky, heaven, day" },
+      { "character": "上", "meaning": "on, above" },
+      { "character": "有", "meaning": "have, there is" },
+      { "character": "月", "meaning": "moon, month" }
+    ]
+  },
+  {
+    "chinese": "口里有饭。",
+    "pinyin": "Kǒu lǐ yǒu fàn.",
+    "translation": "There is food in the mouth.",
+    "breakdown": [
+      { "character": "口", "meaning": "mouth" },
+      { "character": "里", "meaning": "inside" },
+      { "character": "有", "meaning": "have, there is" },
+      { "character": "饭", "meaning": "rice, food" }
+    ]
+  },
+  {
+    "chinese": "我是女人。",
+    "pinyin": "Wǒ shì nǚ rén.",
+    "translation": "I am a woman.",
+    "breakdown": [
+      { "character": "我", "meaning": "I, me" },
+      { "character": "是", "meaning": "am, is, are" },
+      { "character": "女", "meaning": "woman" },
+      { "character": "人", "meaning": "person" }
+    ]
+  },
+  {
+    "chinese": "他是男子。",
+    "pinyin": "Tā shì nán zǐ.",
+    "translation": "He is a man.",
+    "breakdown": [
+      { "character": "他", "meaning": "he, him" },
+      { "character": "是", "meaning": "am, is, are" },
+      { "character": "男", "meaning": "male, man" },
+      { "character": "子", "meaning": "child, son" }
+    ]
+  },
+  {
+    "chinese": "土很重。",
+    "pinyin": "Tǔ hěn zhòng.",
+    "translation": "The earth is heavy.",
+    "breakdown": [
+      { "character": "土", "meaning": "earth, soil" },
+      { "character": "很", "meaning": "very" },
+      { "character": "重", "meaning": "heavy" }
+    ]
+  },
+  {
+    "chinese": "山下有水。",
+    "pinyin": "Shān xià yǒu shuǐ.",
+    "translation": "There is water under the mountain.",
+    "breakdown": [
+      { "character": "山", "meaning": "mountain" },
+      { "character": "下", "meaning": "below, under" },
+      { "character": "有", "meaning": "have, there is" },
+      { "character": "水", "meaning": "water" }
+    ]
+  },
+  {
+    "chinese": "门口有人。",
+    "pinyin": "Mén kǒu yǒu rén.",
+    "translation": "There is someone at the door.",
+    "breakdown": [
+      { "character": "门", "meaning": "door, gate" },
+      { "character": "口", "meaning": "mouth, entrance" },
+      { "character": "有", "meaning": "have, there is" },
+      { "character": "人", "meaning": "person" }
+    ]
+  },
+  {
+    "chinese": "我吃饭。",
+    "pinyin": "Wǒ chī fàn.",
+    "translation": "I eat rice/food.",
+    "breakdown": [
+      { "character": "我", "meaning": "I, me" },
+      { "character": "吃", "meaning": "eat" },
+      { "character": "饭", "meaning": "rice, food" }
+    ]
+  },
+  {
+    "chinese": "你喝水吗？",
+    "pinyin": "Nǐ hē shuǐ ma?",
+    "translation": "Do you drink water?",
+    "breakdown": [
+      { "character": "你", "meaning": "you" },
+      { "character": "喝", "meaning": "drink" },
+      { "character": "水", "meaning": "water" },
+      { "character": "吗", "meaning": "question particle" }
+    ]
+  }
+]

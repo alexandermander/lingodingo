@@ -12,6 +12,7 @@
     "@types/react-dom": "^18.3.5",
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
+    "lodash": "^4.17.21",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.3",

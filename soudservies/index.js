@@ -77,7 +77,7 @@ app.post('/synthesize', (req, res) => {
 	console.log(req.body.text);
 
 	let text = req.body.text;
-	const listOfOldBuffers = getBuffersFromfiles(text);
+	let listOfOldBuffers = getBuffersFromfiles(text);
 
 	listOfOldBuffers.map((buffer) => { text = text.filter((t) => t !== buffer.text) });
 
@@ -149,18 +149,17 @@ app.post('/synthesize', (req, res) => {
 			});
 
 			// add the old audio to the new audio list of buffers
-			listOfBuffers = listOfBuffers.concat(listOfOldBuffers);
+			//listOfBuffers = listOfBuffers.concat(listOfOldBuffers);
+			listOfOldBuffers = listOfOldBuffers.concat(listOfBuffers);
 
+			console.log("listOfBuffers: ", listOfBuffers);
+			//now the old
+			console.log("listOfOldBuffers: ", listOfOldBuffers);
 			res.set({
 				'Content-Type': 'audio/wav',
 				'Content-Length': listOfBuffers.length
 			});
-			// Send the combined buffer to the client
-			/*
-			but how do the user know each audio is for which text?
-			we can send the text along with the audio
-			*/
-			res.send(listOfBuffers);
+			res.send(listOfOldBuffers);
 		})
 		.catch((error) => {
 			console.error("Error in getAudio:", error);
