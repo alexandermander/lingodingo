@@ -1,0 +1,19 @@
+[
+    {
+        "chinese": "一天",
+        "pinyin": "yīán",
+        "translation": "A day.",
+        "breakdown": [
+            {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "one (一 = one)"
+            },
+            {
+                "character": "天",
+                "pinyin": "tiān",
+                "meaning": "day (天 = day)"
+            }
+        ]
+    }
+]
