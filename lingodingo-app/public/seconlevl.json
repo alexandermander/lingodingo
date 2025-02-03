@@ -1,0 +1,169 @@
+[
+  {
+    "chinese": "小李买了一台新电脑。",
+    "pinyin": "Xiǎo Lǐ mǎi le yī tái xīn diànnǎo.",
+    "translation": "Xiao Li bought a new computer.",
+    "breakdown": [
+      { "character": "小李", "pinyin": "Xiǎo Lǐ", "meaning": "Xiao Li (name) (小 = small, 李 = plum)" },
+      { "character": "买", "pinyin": "mǎi", "meaning": "to buy" },
+      { "character": "了", "pinyin": "le", "meaning": "particle indicating completed action" },
+      { "character": "一台", "pinyin": "yī tái", "meaning": "one unit (measure word for machines) (一 = one, 台 = unit)" },
+      { "character": "新", "pinyin": "xīn", "meaning": "new" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer (电 = electric, 脑 = brain)" }
+    ]
+  },
+  {
+    "chinese": "每天，他用电脑学习，也用电脑写作业。",
+    "pinyin": "Měi tiān, tā yòng diànnǎo xuéxí, yě yòng diànnǎo xiě zuòyè.",
+    "translation": "Every day, he uses the computer to study and also to do homework.",
+    "breakdown": [
+      { "character": "每天", "pinyin": "měi tiān", "meaning": "every day (每 = every, 天 = day)" },
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer" },
+      { "character": "学习", "pinyin": "xuéxí", "meaning": "to study (学 = learn, 习 = practice)" },
+      { "character": "也", "pinyin": "yě", "meaning": "also" },
+      { "character": "写", "pinyin": "xiě", "meaning": "to write" },
+      { "character": "作业", "pinyin": "zuòyè", "meaning": "homework (作 = do, 业 = work)" }
+    ]
+  },
+  {
+    "chinese": "有时候，他和朋友在网上聊天，一起看视频。",
+    "pinyin": "Yǒu shíhou, tā hé péngyou zài wǎng shàng liáotiān, yīqǐ kàn shìpín.",
+    "translation": "Sometimes, he chats with friends online and watches videos together.",
+    "breakdown": [
+      { "character": "有时候", "pinyin": "yǒu shíhou", "meaning": "sometimes (有 = have, 时候 = time)" },
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "和", "pinyin": "hé", "meaning": "and/with" },
+      { "character": "朋友", "pinyin": "péngyou", "meaning": "friend" },
+      { "character": "在", "pinyin": "zài", "meaning": "at/on" },
+      { "character": "网上", "pinyin": "wǎng shàng", "meaning": "online (网 = net, 上 = on)" },
+      { "character": "聊天", "pinyin": "liáotiān", "meaning": "to chat (聊 = chat, 天 = sky/day)" },
+      { "character": "一起", "pinyin": "yīqǐ", "meaning": "together (一 = one, 起 = rise)" },
+      { "character": "看", "pinyin": "kàn", "meaning": "to watch" },
+      { "character": "视频", "pinyin": "shìpín", "meaning": "video (视 = view, 频 = frequency)" }
+    ]
+  },
+  {
+    "chinese": "一天，电脑突然坏了，他打不开网页，也不能听音乐。",
+    "pinyin": "Yī tiān, diànnǎo tūrán huài le, tā dǎ bù kāi wǎngyè, yě bù néng tīng yīnyuè.",
+    "translation": "One day, the computer suddenly broke, and he couldn't open web pages or listen to music.",
+    "breakdown": [
+      { "character": "一天", "pinyin": "yī tiān", "meaning": "one day (一 = one, 天 = day)" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer" },
+      { "character": "突然", "pinyin": "tūrán", "meaning": "suddenly" },
+      { "character": "坏了", "pinyin": "huài le", "meaning": "broke (坏 = bad, 了 = particle indicating change)" },
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "打不开", "pinyin": "dǎ bù kāi", "meaning": "cannot open (打 = hit, 不 = not, 开 = open)" },
+      { "character": "网页", "pinyin": "wǎngyè", "meaning": "web page (网 = net, 页 = page)" },
+      { "character": "也", "pinyin": "yě", "meaning": "also" },
+      { "character": "不能", "pinyin": "bù néng", "meaning": "cannot (不 = not, 能 = can)" },
+      { "character": "听", "pinyin": "tīng", "meaning": "to listen" },
+      { "character": "音乐", "pinyin": "yīnyuè", "meaning": "music (音 = sound, 乐 = music)" }
+    ]
+  },
+  {
+    "chinese": "他觉得很麻烦，因为他不能查资料，也不能完成作业。",
+    "pinyin": "Tā juéde hěn máfan, yīnwèi tā bù néng chá zīliào, yě bù néng wánchéng zuòyè.",
+    "translation": "He felt it was very troublesome because he couldn't look up information or finish his homework.",
+    "breakdown": [
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "觉得", "pinyin": "juéde", "meaning": "to feel (觉 = feel, 得 = particle)" },
+      { "character": "很", "pinyin": "hěn", "meaning": "very" },
+      { "character": "麻烦", "pinyin": "máfan", "meaning": "troublesome" },
+      { "character": "因为", "pinyin": "yīnwèi", "meaning": "because" },
+      { "character": "不能", "pinyin": "bù néng", "meaning": "cannot" },
+      { "character": "查", "pinyin": "chá", "meaning": "to look up" },
+      { "character": "资料", "pinyin": "zīliào", "meaning": "information/materials (资 = resources, 料 = material)" },
+      { "character": "也", "pinyin": "yě", "meaning": "also" },
+      { "character": "完成", "pinyin": "wánchéng", "meaning": "to complete (完 = finish, 成 = accomplish)" },
+      { "character": "作业", "pinyin": "zuòyè", "meaning": "homework" }
+    ]
+  },
+  {
+    "chinese": "后来，小李想了一个办法。",
+    "pinyin": "Hòulái, Xiǎo Lǐ xiǎng le yī gè bànfǎ.",
+    "translation": "Later, Xiao Li thought of a solution.",
+    "breakdown": [
+      { "character": "后来", "pinyin": "hòulái", "meaning": "later (后 = after, 来 = come)" },
+      { "character": "小李", "pinyin": "Xiǎo Lǐ", "meaning": "Xiao Li" },
+      { "character": "想", "pinyin": "xiǎng", "meaning": "to think" },
+      { "character": "了", "pinyin": "le", "meaning": "particle indicating completed action" },
+      { "character": "一个", "pinyin": "yī gè", "meaning": "one (measure word) (一 = one, 个 = general measure word)" },
+      { "character": "办法", "pinyin": "bànfǎ", "meaning": "solution/method (办 = handle, 法 = method)" }
+    ]
+  },
+  {
+    "chinese": "他去图书馆借了一本书，开始用书学习。",
+    "pinyin": "Tā qù túshūguǎn jiè le yī běn shū, kāishǐ yòng shū xuéxí.",
+    "translation": "He went to the library to borrow a book and started studying with it.",
+    "breakdown": [
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "去", "pinyin": "qù", "meaning": "to go" },
+      { "character": "图书馆", "pinyin": "túshūguǎn", "meaning": "library (图 = diagram, 书 = book, 馆 = place)" },
+      { "character": "借", "pinyin": "jiè", "meaning": "to borrow" },
+      { "character": "了", "pinyin": "le", "meaning": "particle indicating completed action" },
+      { "character": "一本", "pinyin": "yī běn", "meaning": "one (measure word for books) (一 = one, 本 = volume)" },
+      { "character": "书", "pinyin": "shū", "meaning": "book" },
+      { "character": "开始", "pinyin": "kāishǐ", "meaning": "to start (开 = open, 始 = begin)" },
+      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+      { "character": "书", "pinyin": "shū", "meaning": "book" },
+      { "character": "学习", "pinyin": "xuéxí", "meaning": "to study" }
+    ]
+  },
+  {
+    "chinese": "他发现，没有电脑也能学到很多东西。",
+    "pinyin": "Tā fāxiàn, méiyǒu diànnǎo yě néng xué dào hěn duō dōngxi.",
+    "translation": "He discovered that he could learn a lot even without a computer.",
+    "breakdown": [
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "发现", "pinyin": "fāxiàn", "meaning": "to discover (发 = emit, 现 = appear)" },
+      { "character": "没有", "pinyin": "méiyǒu", "meaning": "without (没 = not, 有 = have)" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer" },
+      { "character": "也", "pinyin": "yě", "meaning": "also" },
+      { "character": "能", "pinyin": "néng", "meaning": "can" },
+      { "character": "学到", "pinyin": "xué dào", "meaning": "to learn (学 = learn, 到 = achieve)" },
+      { "character": "很多", "pinyin": "hěn duō", "meaning": "a lot (很 = very, 多 = many)" },
+      { "character": "东西", "pinyin": "dōngxi", "meaning": "things (东 = east, 西 = west)" }
+    ]
+  },
+  {
+    "chinese": "晚上，电脑修好了，小李又可以用电脑了。",
+    "pinyin": "Wǎnshàng, diànnǎo xiū hǎo le, Xiǎo Lǐ yòu kěyǐ yòng diànnǎo le.",
+    "translation": "In the evening, the computer was fixed, and Xiao Li could use it again.",
+    "breakdown": [
+      { "character": "晚上", "pinyin": "wǎnshàng", "meaning": "evening (晚 = late, 上 = on)" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer" },
+      { "character": "修好", "pinyin": "xiū hǎo", "meaning": "to fix (修 = repair, 好 = good)" },
+      { "character": "了", "pinyin": "le", "meaning": "particle indicating completed action" },
+      { "character": "小李", "pinyin": "Xiǎo Lǐ", "meaning": "Xiao Li" },
+      { "character": "又", "pinyin": "yòu", "meaning": "again" },
+      { "character": "可以", "pinyin": "kěyǐ", "meaning": "can" },
+      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer" },
+      { "character": "了", "pinyin": "le", "meaning": "particle indicating change" }
+    ]
+  },
+  {
+    "chinese": "但是，他决定以后每天少用一点电脑，多看看书，多和朋友交流。",
+    "pinyin": "Dànshì, tā juédìng yǐhòu měi tiān shǎo yòng yīdiǎn diànnǎo, duō kàn kàn shū, duō hé péngyou jiāoliú.",
+    "translation": "However, he decided to use the computer less every day, read more books, and communicate more with friends.",
+    "breakdown": [
+      { "character": "但是", "pinyin": "dànshì", "meaning": "however (但 = but, 是 = is)" },
+      { "character": "他", "pinyin": "tā", "meaning": "he" },
+      { "character": "决定", "pinyin": "juédìng", "meaning": "to decide (决 = decide, 定 = fix)" },
+      { "character": "以后", "pinyin": "yǐhòu", "meaning": "in the future (以 = with, 后 = after)" },
+      { "character": "每天", "pinyin": "měi tiān", "meaning": "every day" },
+      { "character": "少用", "pinyin": "shǎo yòng", "meaning": "to use less (少 = less, 用 = use)" },
+      { "character": "一点", "pinyin": "yīdiǎn", "meaning": "a little (一 = one, 点 = dot)" },
+      { "character": "电脑", "pinyin": "diànnǎo", "meaning": "computer" },
+      { "character": "多", "pinyin": "duō", "meaning": "more" },
+      { "character": "看看", "pinyin": "kàn kàn", "meaning": "to read/look (看 = look)" },
+      { "character": "书", "pinyin": "shū", "meaning": "book" },
+      { "character": "多", "pinyin": "duō", "meaning": "more" },
+      { "character": "和", "pinyin": "hé", "meaning": "with" },
+      { "character": "朋友", "pinyin": "péngyou", "meaning": "friend" },
+      { "character": "交流", "pinyin": "jiāoliú", "meaning": "to communicate (交 = exchange, 流 = flow)" }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "chinese": "丹麦宣布将加强在北极及北大西洋地区军事存在。",
+    "pinyin": "Dānmài xuānbù jiāqiáng zài Běijí jí Běidàxīyáng dìqū jūnshì cúnzài.",
+    "translation": "Denmark announced it will strengthen its military presence in the Arctic and North Atlantic region.",
+    "breakdown": [
+      { "character": "丹麦", "pinyin": "Dānmài", "meaning": "Denmark" },
+      { "character": "宣布", "pinyin": "xuānbù", "meaning": "announce" },
+      { "character": "将", "pinyin": "jiāng", "meaning": "will (future tense marker)" },
+      { "character": "加强", "pinyin": "jiāqiáng", "meaning": "strengthen" },
+      { "character": "在", "pinyin": "zài", "meaning": "in, at (location marker)" },
+      { "character": "北极", "pinyin": "Běijí", "meaning": "Arctic (北 = north, 极 = pole/extreme)" },
+      { "character": "及", "pinyin": "jí", "meaning": "and, as well as" },
+      { "character": "北大西洋", "pinyin": "Běidàxīyáng", "meaning": "North Atlantic (北 = north, 大 = big, 西洋 = western ocean)" },
+      { "character": "地区", "pinyin": "dìqū", "meaning": "region" },
+      { "character": "军事", "pinyin": "jūnshì", "meaning": "military" },
+      { "character": "存在", "pinyin": "cúnzài", "meaning": "presence, existence" }
+    ]
+  },
+  {
+    "chinese": "美国威胁要夺取格陵兰岛的控制权。",
+    "pinyin": "Měiguó wēixié yào duóqǔ Gélínglándǎo de kòngzhìquán.",
+    "translation": "The United States threatened to seize control of Greenland.",
+    "breakdown": [
+      { "character": "美国", "pinyin": "Měiguó", "meaning": "United States (美 = beautiful, 国 = country)" },
+      { "character": "威胁", "pinyin": "wēixié", "meaning": "threaten" },
+      { "character": "要", "pinyin": "yào", "meaning": "want to, intend to" },
+      { "character": "夺取", "pinyin": "duóqǔ", "meaning": "seize, capture" },
+      { "character": "格陵兰岛", "pinyin": "Gélínglándǎo", "meaning": "Greenland" },
+      { "character": "的", "pinyin": "de", "meaning": "possessive particle" },
+      { "character": "控制权", "pinyin": "kòngzhìquán", "meaning": "control (控制 = control, 权 = power/authority)" }
+    ]
+  },
+  {
+    "chinese": "针对这一威胁，丹麦政府决定采取行动。",
+    "pinyin": "Zhēnduì zhè yī wēixié, Dānmài zhèngfǔ juédìng cǎiqǔ xíngdòng.",
+    "translation": "In response to this threat, the Danish government decided to take action.",
+    "breakdown": [
+      { "character": "针对", "pinyin": "zhēnduì", "meaning": "in response to, targeting" },
+      { "character": "这一", "pinyin": "zhè yī", "meaning": "this (这 = this, 一 = one)" },
+      { "character": "威胁", "pinyin": "wēixié", "meaning": "threat" },
+      { "character": "丹麦", "pinyin": "Dānmài", "meaning": "Denmark" },
+      { "character": "政府", "pinyin": "zhèngfǔ", "meaning": "government (政 = politics, 府 = office)" },
+      { "character": "决定", "pinyin": "juédìng", "meaning": "decide" },
+      { "character": "采取", "pinyin": "cǎiqǔ", "meaning": "adopt, take (measure or action)" },
+      { "character": "行动", "pinyin": "xíngdòng", "meaning": "action, operation" }
+    ]
+  },
+  {
+    "chinese": "丹麦政府于1月27日宣布了这一决定。",
+    "pinyin": "Dānmài zhèngfǔ yú yī yuè èrshíqī rì xuānbù le zhè yī juédìng.",
+    "translation": "The Danish government announced this decision on January 27.",
+    "breakdown": [
+      { "character": "丹麦", "pinyin": "Dānmài", "meaning": "Denmark" },
+      { "character": "政府", "pinyin": "zhèngfǔ", "meaning": "government" },
+      { "character": "于", "pinyin": "yú", "meaning": "at, on (time preposition)" },
+      { "character": "1月27日", "pinyin": "yī yuè èrshíqī rì", "meaning": "January 27 (1 = one, 月 = month, 27日 = 27th day)" },
+      { "character": "宣布", "pinyin": "xuānbù", "meaning": "announce" },
+      { "character": "了", "pinyin": "le", "meaning": "past tense marker" },
+      { "character": "这一", "pinyin": "zhè yī", "meaning": "this (这 = this, 一 = one)" },
+      { "character": "决定", "pinyin": "juédìng", "meaning": "decision" }
+    ]
+  },
+  {
+    "chinese": "北极和北大西洋地区对丹麦非常重要。",
+    "pinyin": "Běijí hé Běidàxīyáng dìqū duì Dānmài fēicháng zhòngyào.",
+    "translation": "The Arctic and North Atlantic regions are very important to Denmark.",
+    "breakdown": [
+      { "character": "北极", "pinyin": "Běijí", "meaning": "Arctic (北 = north, 极 = pole/extreme)" },
+      { "character": "和", "pinyin": "hé", "meaning": "and" },
+      { "character": "北大西洋", "pinyin": "Běidàxīyáng", "meaning": "North Atlantic (北 = north, 大 = big, 西洋 = western ocean)" },
+      { "character": "地区", "pinyin": "dìqū", "meaning": "region" },
+      { "character": "对", "pinyin": "duì", "meaning": "towards, regarding" },
+      { "character": "丹麦", "pinyin": "Dānmài", "meaning": "Denmark" },
+      { "character": "非常", "pinyin": "fēicháng", "meaning": "very, extremely" },
+      { "character": "重要", "pinyin": "zhòngyào", "meaning": "important" }
+    ]
+  }
+]

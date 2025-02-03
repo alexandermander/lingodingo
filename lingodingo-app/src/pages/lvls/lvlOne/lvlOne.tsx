@@ -8,11 +8,11 @@ import SentenceBreakdown, {
 	SoundAndChar,
 	SoundBuffer
 } from "../SentenceBreakdown";
+
 import {
 	fetchAudio,
 	getCorretSound
 } from "../getCompurents"
-
 
 const LevelOne: React.FC = () => {
 	const [sentences, setSentences] = useState<Sentence[]>([]);
@@ -39,13 +39,12 @@ const LevelOne: React.FC = () => {
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
-				const response = await fetch("/firstlvl.json");
+				const response = await fetch("/seconlevl.json");
 				const data = await response.json();
 
 				data.sort(() => Math.random() - 0.5);
 
 				setSentences(data);
-				console.log("data", data);
 
 			} catch (error) {
 				console.error("Error fetching sentences:", error);
@@ -107,6 +106,8 @@ const LevelOne: React.FC = () => {
 					tranlation: sentence.translation
 				};
 
+
+
 				const currentSounds: SoundAndChar[] = [];
 				selectedSentence.chineseCharAndSound.forEach((word) => {
 
@@ -133,7 +134,6 @@ const LevelOne: React.FC = () => {
 	}, [sentences]);
 
 	function getPinyin(selected: ChineseCharAndSound) {
-
 		const selectedSound = soundAndChar.find((item) => item.char === selected.chineseChar);
 		if (!selectedSound) {
 			return;
@@ -168,10 +168,12 @@ const LevelOne: React.FC = () => {
 		}
 	}
 
-	function checkAnswer() {
+	function checkAnswer(this: any) {
+		// add a stlye to the button
 		if (selected === null) {
 			return;
 		}
+
 		const corrnctAnswer = selected.chineseSentence.replace(/[。！？，]/g, "");
 		const userAnswer = message.map((item) => item.chineseChar).join("");
 		console.log("User answer:", userAnswer);
@@ -231,14 +233,24 @@ const LevelOne: React.FC = () => {
 	const clearMessage = () => {
 		setMessage([]);
 
-		const shuffledSentence: SelectedSentence = {
+		const pinIn: ChineseCharAndSound[] = selected?.chineseCharAndSound.map((item, index) => {
+			return {
+				pinyin: item.pinyin,
+				chineseChar: item.chineseChar,
+				chineseSound: item.chineseSound,
+				meaning: item.meaning
+			};
+		}).sort(() => Math.random() - 0.5);
+
+		setShuffled({
 			chineseSentence: selected?.chineseSentence,
 			chineseSound: selected?.chineseSound,
-			chineseCharAndSound: selected?.chineseCharAndSound.sort(() => Math.random() - 0.5),
+			chineseCharAndSound: pinIn,
 			tranlation: selected?.tranlation
-		};
+		});
 
-		setShuffled(shuffledSentence);
+		console.log("pinIn", pinIn);
+
 	}
 
 	return (
@@ -268,6 +280,10 @@ const LevelOne: React.FC = () => {
 				<h3 className="user-answer">Your Answer:</h3>
 				<p className="user-answer">
 					{message.map((item) => item.chineseChar).join("")}
+				</p>
+				<h3 className="user-answer">Pinyin:</h3>
+				<p className="user-answer">
+					{message.map((item) => item.pinyin).join("")}
 				</p>
 				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}

@@ -151,10 +151,6 @@ app.post('/synthesize', (req, res) => {
 			// add the old audio to the new audio list of buffers
 			//listOfBuffers = listOfBuffers.concat(listOfOldBuffers);
 			listOfOldBuffers = listOfOldBuffers.concat(listOfBuffers);
-
-			console.log("listOfBuffers: ", listOfBuffers);
-			//now the old
-			console.log("listOfOldBuffers: ", listOfOldBuffers);
 			res.set({
 				'Content-Type': 'audio/wav',
 				'Content-Length': listOfBuffers.length

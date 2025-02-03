@@ -3,160 +3,176 @@
     "chinese": "小明有一部新的智能手机。",
     "pinyin": "Xiǎo Míng yǒu yī bù xīn de zhìnéng shǒujī.",
     "translation": "Xiao Ming has a new smartphone.",
-    "breakdown": [
-      { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name)" },
-      { "character": "有", "pinyin": "yǒu", "meaning": "to have" },
-      { "character": "一部", "pinyin": "yī bù", "meaning": "one unit (measure word for devices)" },
-      { "character": "新的", "pinyin": "xīn de", "meaning": "new" },
-      { "character": "智能手机", "pinyin": "zhìnéng shǒujī", "meaning": "smartphone" }
-    ]
+	"breakdown": [
+	  { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name) (小 = small, 明 = bright)" },
+	  { "character": "有", "pinyin": "yǒu", "meaning": "to have" },
+	  { "character": "一部", "pinyin": "yī bù", "meaning": "one unit (measure word for devices) (一 = one, 部 = part/unit)" },
+	  { "character": "新的", "pinyin": "xīn de", "meaning": "new (新 = new, 的 = possessive/modifier)" },
+	  { "character": "智能手机", "pinyin": "zhìnéng shǒujī", "meaning": "smartphone (智能 = smart/intelligent, 手机 = mobile phone)" }
+	]
   },
   {
     "chinese": "每天早上，他用手机看新闻，也用手机学习中文。",
     "pinyin": "Měitiān zǎoshang, tā yòng shǒujī kàn xīnwén, yě yòng shǒujī xuéxí Zhōngwén.",
     "translation": "Every morning, he uses his phone to read the news and learn Chinese.",
     "breakdown": [
-      { "character": "每天", "pinyin": "měitiān", "meaning": "every day" },
-      { "character": "早上", "pinyin": "zǎoshang", "meaning": "morning" },
-      { "character": "他", "pinyin": "tā", "meaning": "he, him" },
-      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" },
-      { "character": "看", "pinyin": "kàn", "meaning": "to read/watch" },
-      { "character": "新闻", "pinyin": "xīnwén", "meaning": "news" },
-      { "character": "也", "pinyin": "yě", "meaning": "also" },
-      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" },
-      { "character": "学习", "pinyin": "xuéxí", "meaning": "to learn" },
-      { "character": "中文", "pinyin": "Zhōngwén", "meaning": "Chinese language" }
-    ]
+	  { "character": "每天", "pinyin": "měitiān", "meaning": "every day (每 = every, 天 = day)" },
+	  { "character": "早上", "pinyin": "zǎoshang", "meaning": "morning (早 = early, 上 = up/on)" },
+	  { "character": "他", "pinyin": "tā", "meaning": "he, him" },
+	  { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" },
+	  { "character": "看", "pinyin": "kàn", "meaning": "to read/watch" },
+	  { "character": "新闻", "pinyin": "xīnwén", "meaning": "news (新 = new, 闻 = hear)" },
+	  { "character": "也", "pinyin": "yě", "meaning": "also" },
+	  { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" },
+	  { "character": "学习", "pinyin": "xuéxí", "meaning": "to learn (学 = study, 习 = practice)" },
+	  { "character": "中文", "pinyin": "Zhōngwén", "meaning": "Chinese language (中 = middle/China, 文 = language/writing)" }
+	]
   },
   {
     "chinese": "一天，小明的手机没电了，他找不到充电器。",
     "pinyin": "Yī tiān, Xiǎo Míng de shǒujī méi diàn le, tā zhǎo bù dào chōngdiànqì.",
     "translation": "One day, Xiao Ming's phone ran out of battery, and he couldn't find the charger.",
     "breakdown": [
-      { "character": "一天", "pinyin": "yī tiān", "meaning": "one day" },
-      { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name)" },
-      { "character": "的", "pinyin": "de", "meaning": "possessive particle" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" },
-      { "character": "没电", "pinyin": "méi diàn", "meaning": "no battery" },
-      { "character": "了", "pinyin": "le", "meaning": "completed action marker" },
-      { "character": "他", "pinyin": "tā", "meaning": "he" },
-      { "character": "找不到", "pinyin": "zhǎo bù dào", "meaning": "can't find" },
-      { "character": "充电器", "pinyin": "chōngdiànqì", "meaning": "charger" }
-    ]
+	  { "character": "一天", "pinyin": "yī tiān", "meaning": "one day (一 = one, 天 = day)" },
+	  { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name) (小 = small, 明 = bright)" },
+	  { "character": "的", "pinyin": "de", "meaning": "possessive particle" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" },
+	  { "character": "没电", "pinyin": "méi diàn", "meaning": "no battery (没 = no/not, 电 = electricity)" },
+	  { "character": "了", "pinyin": "le", "meaning": "completed action marker" },
+	  { "character": "他", "pinyin": "tā", "meaning": "he" },
+	  { "character": "找不到", "pinyin": "zhǎo bù dào", "meaning": "can't find (找 = to find, 不 = not, 到 = to reach)" },
+	  { "character": "充电器", "pinyin": "chōngdiànqì", "meaning": "charger (充电 = to charge, 器 = device)" }
+	]
   },
   {
     "chinese": "他觉得很不方便，因为他不能查天气，也不能听音乐。",
     "pinyin": "Tā juéde hěn bù fāngbiàn, yīnwèi tā bù néng chá tiānqì, yě bù néng tīng yīnyuè.",
     "translation": "He felt very inconvenienced because he couldn't check the weather or listen to music.",
     "breakdown": [
-      { "character": "他", "pinyin": "tā", "meaning": "he" },
-      { "character": "觉得", "pinyin": "juéde", "meaning": "to feel/think" },
-      { "character": "很", "pinyin": "hěn", "meaning": "very" },
-      { "character": "不方便", "pinyin": "bù fāngbiàn", "meaning": "inconvenient" },
-      { "character": "因为", "pinyin": "yīnwèi", "meaning": "because" },
-      { "character": "他", "pinyin": "tā", "meaning": "he" },
-      { "character": "不能", "pinyin": "bù néng", "meaning": "cannot" },
-      { "character": "查", "pinyin": "chá", "meaning": "to check" },
-      { "character": "天气", "pinyin": "tiānqì", "meaning": "weather" },
-      { "character": "也", "pinyin": "yě", "meaning": "also" },
-      { "character": "不能", "pinyin": "bù néng", "meaning": "cannot" },
-      { "character": "听", "pinyin": "tīng", "meaning": "to listen" },
-      { "character": "音乐", "pinyin": "yīnyuè", "meaning": "music" }
-    ]
+  { "character": "他", "pinyin": "tā", "meaning": "he" },
+  { "character": "觉得", "pinyin": "juéde", "meaning": "to feel/think (觉 = to feel, 得 = particle indicating possibility)" },
+  { "character": "很", "pinyin": "hěn", "meaning": "very" },
+  { "character": "不方便", "pinyin": "bù fāngbiàn", "meaning": "inconvenient (不 = not, 方便 = convenient)" },
+  { "character": "因为", "pinyin": "yīnwèi", "meaning": "because (因 = cause, 为 = for)" },
+  { "character": "他", "pinyin": "tā", "meaning": "he" },
+  { "character": "不能", "pinyin": "bù néng", "meaning": "cannot (不 = not, 能 = can)" },
+  { "character": "查", "pinyin": "chá", "meaning": "to check" },
+  { "character": "天气", "pinyin": "tiānqì", "meaning": "weather (天 = sky, 气 = air)" },
+  { "character": "也", "pinyin": "yě", "meaning": "also" },
+  { "character": "不能", "pinyin": "bù néng", "meaning": "cannot (不 = not, 能 = can)" },
+  { "character": "听", "pinyin": "tīng", "meaning": "to listen" },
+  { "character": "音乐", "pinyin": "yīnyuè", "meaning": "music (音 = sound, 乐 = music)" }
+]
   },
   {
     "chinese": "后来，小明想了一个办法。",
     "pinyin": "Hòulái, Xiǎo Míng xiǎng le yī gè bànfǎ.",
     "translation": "Later, Xiao Ming thought of a solution.",
     "breakdown": [
-      { "character": "后来", "pinyin": "hòulái", "meaning": "later" },
-      { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name)" },
-      { "character": "想了", "pinyin": "xiǎng le", "meaning": "thought" },
-      { "character": "一个", "pinyin": "yī gè", "meaning": "one" },
-      { "character": "办法", "pinyin": "bànfǎ", "meaning": "solution/method" }
-    ]
+	  { "character": "后来", "pinyin": "hòulái", "meaning": "later (后 = after, 来 = come)" },
+	  { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (小 = little, 明 = bright)" },
+	  { "character": "想了", "pinyin": "xiǎng le", "meaning": "thought (想 = think, 了 = completed action marker)" },
+	  { "character": "一个", "pinyin": "yī gè", "meaning": "one (一 = one, 个 = measure word)" },
+	  { "character": "办法", "pinyin": "bànfǎ", "meaning": "solution/method (办 = handle/manage, 法 = method/law)" }
+	]
   },
   {
     "chinese": "他去书店买了一本书，开始用书学习。",
     "pinyin": "Tā qù shūdiàn mǎi le yī běn shū, kāishǐ yòng shū xuéxí.",
     "translation": "He went to the bookstore, bought a book, and started learning with it.",
     "breakdown": [
-      { "character": "他", "pinyin": "tā", "meaning": "he" },
-      { "character": "去", "pinyin": "qù", "meaning": "to go" },
-      { "character": "书店", "pinyin": "shūdiàn", "meaning": "bookstore" },
-      { "character": "买了", "pinyin": "mǎi le", "meaning": "bought" },
-      { "character": "一本", "pinyin": "yī běn", "meaning": "one (measure word for books)" },
-      { "character": "书", "pinyin": "shū", "meaning": "book" },
-      { "character": "开始", "pinyin": "kāishǐ", "meaning": "to start" },
-      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
-      { "character": "书", "pinyin": "shū", "meaning": "book" },
-      { "character": "学习", "pinyin": "xuéxí", "meaning": "to study" }
-    ]
+	  { "character": "他", "pinyin": "tā", "meaning": "he" },
+	  { "character": "去", "pinyin": "qù", "meaning": "to go" },
+	  { "character": "书店", "pinyin": "shūdiàn", "meaning": "bookstore (书 = book, 店 = store)" },
+	  { "character": "买了", "pinyin": "mǎi le", "meaning": "bought (买 = to buy, 了 = particle indicating completed action)" },
+	  { "character": "一本", "pinyin": "yī běn", "meaning": "one (measure word for books) (一 = one, 本 = measure word for books)" },
+	  { "character": "书", "pinyin": "shū", "meaning": "book" },
+	  { "character": "开始", "pinyin": "kāishǐ", "meaning": "to start (开 = to open, 始 = to begin)" },
+	  { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+	  { "character": "书", "pinyin": "shū", "meaning": "book" },
+	  { "character": "学习", "pinyin": "xuéxí", "meaning": "to study (学 = to learn, 习 = to practice)" }
+	]
   },
   {
     "chinese": "他发现，不用手机也可以学到很多东西。",
     "pinyin": "Tā fāxiàn, bù yòng shǒujī yě kěyǐ xué dào hěn duō dōngxi.",
     "translation": "He realized that he could still learn a lot without using his phone.",
     "breakdown": [
-      { "character": "他", "pinyin": "tā", "meaning": "he" },
-      { "character": "发现", "pinyin": "fāxiàn", "meaning": "discovered/realized" },
-      { "character": "不用", "pinyin": "bù yòng", "meaning": "without using" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" },
-      { "character": "也", "pinyin": "yě", "meaning": "also" },
-      { "character": "可以", "pinyin": "kěyǐ", "meaning": "can" },
-      { "character": "学到", "pinyin": "xué dào", "meaning": "learn" },
-      { "character": "很多", "pinyin": "hěn duō", "meaning": "a lot" },
-      { "character": "东西", "pinyin": "dōngxi", "meaning": "things" }
-    ]
+	  { "character": "他", "pinyin": "tā", "meaning": "he" },
+	  { "character": "发现", "pinyin": "fāxiàn", "meaning": "discovered/realized (发 = to send, 现 = to appear)" },
+	  { "character": "不用", "pinyin": "bù yòng", "meaning": "without using (不 = not, 用 = to use)" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" },
+	  { "character": "也", "pinyin": "yě", "meaning": "also" },
+	  { "character": "可以", "pinyin": "kěyǐ", "meaning": "can (可 = can, 以 = to use)" },
+	  { "character": "学到", "pinyin": "xué dào", "meaning": "learn (学 = to learn, 到 = to reach)" },
+	  { "character": "很多", "pinyin": "hěn duō", "meaning": "a lot (很 = very, 多 = many)" },
+	  { "character": "东西", "pinyin": "dōngxi", "meaning": "things (东 = east, 西 = west)" }
+	]
   },
   {
     "chinese": "晚上，手机充满电了，小明又可以用手机了。",
     "pinyin": "Wǎnshàng, shǒujī chōngmǎn diàn le, Xiǎo Míng yòu kěyǐ yòng shǒujī le.",
     "translation": "At night, the phone was fully charged, and Xiao Ming could use it again.",
-    "breakdown": [
-      { "character": "晚上", "pinyin": "wǎnshàng", "meaning": "night" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" },
-      { "character": "充满", "pinyin": "chōngmǎn", "meaning": "fully charged" },
-      { "character": "电", "pinyin": "diàn", "meaning": "electricity" },
-      { "character": "了", "pinyin": "le", "meaning": "completed action marker" },
-      { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name)" },
-      { "character": "又", "pinyin": "yòu", "meaning": "again" },
-      { "character": "可以", "pinyin": "kěyǐ", "meaning": "can" },
-      { "character": "用", "pinyin": "yòng", "meaning": "to use" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" },
-      { "character": "了", "pinyin": "le", "meaning": "completed action marker" }
-    ]
+	"breakdown": [
+	  { "character": "晚上", "pinyin": "wǎnshàng", "meaning": "night (晚 = late, 上 = on)" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" },
+	  { "character": "充满", "pinyin": "chōngmǎn", "meaning": "fully charged (充 = to fill, 满 = full)" },
+	  { "character": "电", "pinyin": "diàn", "meaning": "electricity" },
+	  { "character": "了", "pinyin": "le", "meaning": "completed action marker" },
+	  { "character": "小明", "pinyin": "Xiǎo Míng", "meaning": "Xiao Ming (name)" },
+	  { "character": "又", "pinyin": "yòu", "meaning": "again" },
+	  { "character": "可以", "pinyin": "kěyǐ", "meaning": "can (可 = can, 以 = to use)" },
+	  { "character": "用", "pinyin": "yòng", "meaning": "to use" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" },
+	  { "character": "了", "pinyin": "le", "meaning": "completed action marker" }
+	]
   },
   {
     "chinese": "但是，他决定以后每天少用一点手机。",
     "pinyin": "Dànshì, tā juédìng yǐhòu měitiān shǎo yòng yīdiǎn shǒujī.",
     "translation": "However, he decided to use his phone a little less every day in the future.",
-    "breakdown": [
-      { "character": "但是", "pinyin": "dànshì", "meaning": "but/however" },
-      { "character": "他", "pinyin": "tā", "meaning": "he" },
-      { "character": "决定", "pinyin": "juédìng", "meaning": "decided" },
-      { "character": "以后", "pinyin": "yǐhòu", "meaning": "in the future" },
-      { "character": "每天", "pinyin": "měitiān", "meaning": "every day" },
-      { "character": "少用", "pinyin": "shǎo yòng", "meaning": "use less" },
-      { "character": "一点", "pinyin": "yīdiǎn", "meaning": "a little" },
-      { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone" }
-    ]
+	"breakdown": [
+	  { "character": "但是", "pinyin": "dànshì", "meaning": "but/however (但 = but, 是 = to be)" },
+	  { "character": "他", "pinyin": "tā", "meaning": "he" },
+	  { "character": "决定", "pinyin": "juédìng", "meaning": "decided (决 = to decide, 定 = to set)" },
+	  { "character": "以后", "pinyin": "yǐhòu", "meaning": "in the future (以 = to use, 后 = after)" },
+	  { "character": "每天", "pinyin": "měitiān", "meaning": "every day (每 = every, 天 = day)" },
+	  { "character": "少用", "pinyin": "shǎo yòng", "meaning": "use less (少 = few, 用 = to use)" },
+	  { "character": "一点", "pinyin": "yīdiǎn", "meaning": "a little (一 = one, 点 = dot/little)" },
+	  { "character": "手机", "pinyin": "shǒujī", "meaning": "mobile phone (手 = hand, 机 = machine)" }
+	]
   },
   {
     "chinese": "多看看书，多和家人聊天。",
     "pinyin": "Duō kàn kàn shū, duō hé jiārén liáotiān.",
     "translation": "Read more books and chat more with family.",
     "breakdown": [
-      { "character": "多", "pinyin": "duō", "meaning": "more" },
-      { "character": "看看", "pinyin": "kàn kàn", "meaning": "take a look" },
-      { "character": "书", "pinyin": "shū", "meaning": "book" },
-      { "character": "多", "pinyin": "duō", "meaning": "more" },
-      { "character": "和", "pinyin": "hé", "meaning": "with" },
-      { "character": "家人", "pinyin": "jiārén", "meaning": "family" },
-      { "character": "聊天", "pinyin": "liáotiān", "meaning": "chat" }
-    ]
+	  { "character": "多", "pinyin": "duō", "meaning": "more" },
+	  { "character": "看看", "pinyin": "kàn kàn", "meaning": "take a look (看 = to see, 看 = to see (repeated for emphasis))" },
+	  { "character": "书", "pinyin": "shū", "meaning": "book" },
+	  { "character": "多", "pinyin": "duō", "meaning": "more" },
+	  { "character": "和", "pinyin": "hé", "meaning": "with" },
+	  { "character": "家人", "pinyin": "jiārén", "meaning": "family (家 = home, 人 = person)" },
+	  { "character": "聊天", "pinyin": "liáotiān", "meaning": "chat (聊 = to chat, 天 = sky/space (used as a metaphor for casual talking))" }
+	]
+  },
+  {
+	"chinese": "有时候，他和朋友在网上聊天，一起玩游戏。",
+	"pinyin": "Yǒu shíhòu, tā hé péngyǒu zài wǎngshàng liáotiān, yīqǐ wán yóuxì.",
+	"translation": "Sometimes, he chats with friends online and plays games together.",
+    "breakdown": [
+	  { "character": "有时候", "pinyin": "yǒu shíhòu", "meaning": "sometimes (有 = to have, 时候 = time/moment)" },
+	  { "character": "他", "pinyin": "tā", "meaning": "he" },
+	  { "character": "和", "pinyin": "hé", "meaning": "and" },
+	  { "character": "朋友", "pinyin": "péngyǒu", "meaning": "friends (朋 = friend, 友 = friend)" },
+	  { "character": "在", "pinyin": "zài", "meaning": "at/in" },
+	  { "character": "网上", "pinyin": "wǎngshàng", "meaning": "online (网 = net, 上 = on)" },
+	  { "character": "聊天", "pinyin": "liáotiān", "meaning": "chat (聊 = to chat, 天 = sky/space (used as a metaphor for casual talking))" },
+	  { "character": "一起", "pinyin": "yīqǐ", "meaning": "together (一 = one, 起 = together)" },
+	  { "character": "玩", "pinyin": "wán", "meaning": "to play" },
+	  { "character": "游戏", "pinyin": "yóuxì", "meaning": "games (游 = to swim, 戏 = play)" }
+	]
   }
 ]
-

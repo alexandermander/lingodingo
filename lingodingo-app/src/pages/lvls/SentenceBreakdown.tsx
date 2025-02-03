@@ -47,11 +47,9 @@ const SentenceBreakdown: React.FC<SelectedSentence> = (currentSentence) => {
 	const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
 
-
 	useEffect(() => {
-		console.log("currentSentence", currentSentence);
-
 		const sounds: SoundAndChar[] = [];
+
 		currentSentence.chineseCharAndSound.forEach((word) => {
 			const bufferData = new Uint8Array(word.chineseSound.data);
 			const blob = new Blob([bufferData], { type: 'audio/wav' });
@@ -60,8 +58,7 @@ const SentenceBreakdown: React.FC<SelectedSentence> = (currentSentence) => {
 		});
 
 		setSoundAndChar(sounds);
-	}, []);
-
+	}, [currentSentence]);
 
 	function playSound(currntChar: string) {
 		const selected = soundAndChar.find((item) => item.char === currntChar);
