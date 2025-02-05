@@ -1,0 +1,1249 @@
+[
+    {
+        "chinese": "一天",
+        "pinyin": "yītiān",
+        "translation": "One day",
+        "breakdown": [
+            {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "one (the numeral one)"
+            },
+            {
+                "character": "天",
+                "pinyin": "tiān",
+                "meaning": "day"
+            }
+        ]
+    },
+    {
+        "chinese": "一只小鸟飞到一棵大树上",
+        "pinyin": "yī zhǐ xiǎo niāo fēi dào yī kē dà shù shàng",
+        "translation": "A small bird flew onto a big tree.",
+        "breakdown": [
+            {
+                "character": "一只",
+                "pinyin": "yī zhǐ",
+                "meaning": "a/one (each character: 一 = a, 只 = small)"
+            },
+            {
+                "character": "小鸟",
+                "pinyin": "xiǎo niāo",
+                "meaning": "small bird (each character: 小 = small, 鸟 = bird)"
+            },
+            {
+                "character": "飞到",
+                "pinyin": "fēi dào",
+                "meaning": "flies to/flew to"
+            },
+            {
+                "character": "一棵",
+                "pinyin": "yī kē",
+                "meaning": "a big tree (each character: 一 = a, 棵 = tree)"
+            },
+            {
+                "character": "大树",
+                "pinyin": "dà shù",
+                "meaning": "big tree"
+            },
+            {
+                "character": "上",
+                "pinyin": "shàng",
+                "meaning": "onto, on top of"
+            }
+        ]
+    },
+    [
+        {
+            "pinyin": "Xiǎo",
+            "meaning": "Small or young."
+        },
+        {
+            "pinyin": "Niāo",
+            "meaning": "Bird."
+        },
+        {
+            "pinyin": "Hěn",
+            "meaning": "Very."
+        },
+        {
+            "pinyin": "Kuài",
+            "meaning": "Tired or exhausted."
+        }
+    ],
+    {
+        "chinese": "它想在树上休息一下",
+        "pinyin": "tā xiǎng zai shǒu shí hní xí yījiān",
+        "translation": "It wants to rest a little on the tree.",
+        "breakdown": [
+            {
+                "character": "它",
+                "pinyin": "tā",
+                "meaning": "it, him/her"
+            },
+            {
+                "character": "想",
+                "pinyin": "xiǎng",
+                "meaning": "to want, to wish"
+            },
+            {
+                "character": "在树上",
+                "pinyin": "zai shǒu",
+                "meaning": "on the tree (在 = on/inside/at, 树 = tree)"
+            },
+            {
+                "character": "休息一下",
+                "pinyin": "hní xí yījiān",
+                "meaning": "to take a rest; to relax a little"
+            }
+        ]
+    },
+    {
+        "chinese": "大树看见小鸟",
+        "pinyin": "Dàshù xiànjiàn xiǎoniǎo",
+        "translation": "The big tree saw a small bird.",
+        "breakdown": [
+            {
+                "character": "大树",
+                "pinyin": "dàshù",
+                "meaning": "big tree (大 = big, 树 = tree)"
+            },
+            {
+                "phrase": "看到",
+                "pinyin": "xiànjiàn",
+                "meaning": "to see/spot"
+            },
+            {
+                "character": "小鸟",
+                "pinyin": "xiǎoniǎo",
+                "meaning": "small bird (小 = small, 鸟 = bird)"
+            }
+        ]
+    },
+    {
+        "chinese": "微笑着说：'你好'",
+        "pinyin": "wēi xiào zǐng shuō : 'nǐ hǎo'",
+        "translation": "It's good to see you.",
+        "breakdown": [
+            {
+                "character": "微",
+                "pinyin": "wēi",
+                "meaning": "slightly smile (微 = slight)"
+            },
+            {
+                "character": "笑着",
+                "pinyin": "xiào zǐng",
+                "meaning": "smiling (笑 = smile, 着 = while/while doing)"
+            },
+            {
+                "character": "说",
+                "pinyin": "shuō",
+                "meaning": "to say"
+            },
+            {
+                "character": ":",
+                "pinyin": "",
+                "meaning": "colon punctuation mark (used in spoken language)"
+            },
+            {
+                "character": "'你好'",
+                "pinyin": "'nǐ hǎo'",
+                "meaning": "hello (你 = you, 好 = good/okay)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟！你为什么这么累？'小鸟叹了口气",
+        "pinyin": "Xiǎoniǎo！ Nǐ guóshì zhěmeiliao? 'Xiǎoniǎo tèm了kǒuxi",
+        "translation": "'Bird! You why so tired?' Bird sighed deeply.",
+        "breakdown": [
+            {
+                "character": "小鸟",
+                "pinyin": "Xiǎoniǎo",
+                "meaning": "bird (小 = small,鸟= bird)"
+            },
+            {
+                "character": "你",
+                "pinyin": "Nǐ",
+                "meaning": "you"
+            },
+            {
+                "character": "为什么",
+                "pinyin": "Guóshì",
+                "meaning": "why/reason"
+            },
+            {
+                "character": "这么累",
+                "pinyin": "Zhěmeiliao",
+                "meaning": "so tired (累 = exhausted)"
+            },
+            {
+                "character": "小鸟",
+                "pinyin": "Xiǎoniǎo",
+                "meaning": "bird (小 = small,鸟= bird)"
+            },
+            {
+                "character": "叹了口气",
+                "pinyin": "Tèm了kǒuxi",
+                "meaning": "sighed deeply"
+            }
+        ]
+    },
+    {
+        "chinese": "我飞了一整天",
+        "pinyin": "wǒ fēi le yī zhàng tiān",
+        "translation": "I'm going to fly all day.",
+        "breakdown": [
+            {
+                "character": "我",
+                "pinyin": "wǒ",
+                "meaning": "I, me"
+            },
+            {
+                "character": "飞",
+                "pinyin": "feǐ",
+                "meaning": "to fly (飞 = to fly)"
+            },
+            {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "one (个 = one, 一 = one)"
+            },
+            {
+                "character": "整",
+                "pinyin": "zhàng",
+                "meaning": "whole, complete (整 = whole/complete)"
+            },
+            {
+                "character": "天",
+                "pinyin": "tiān",
+                "meaning": "day"
+            }
+        ]
+    },
+    {
+        "chinese": "找不到食物",
+        "pinyin": "Hóngbù dáo shíwù",
+        "translation": "I can't find any food.",
+        "breakdown": [
+            {
+                "character": "找不到",
+                "pinyin": "hóngbù dáo",
+                "meaning": "not to be found (找 = to look for, 不到 = not to be found)"
+            },
+            {
+                "character": "食物",
+                "pinyin": "shíwù",
+                "meaning": "food (食 = food, 物 = object/thing)"
+            }
+        ]
+    },
+    {
+        "chinese": "也找不到水",
+        "pinyin": "yě bùzhǐ shuǐ",
+        "translation": "Neither do I know where to find water.",
+        "breakdown": [
+            {
+                "character": "也",
+                "pinyin": "yē",
+                "meaning": "also/too (used to indicate that the preceding idea is shared or continued)"
+            },
+            {
+                "character": "找不到",
+                "pinyin": "bùzhǐ",
+                "meaning": "not find/not have (negative aspect regarding finding something)"
+            },
+            {
+                "character": "水",
+                "pinyin": "shuǐ",
+                "meaning": "water"
+            }
+        ]
+    },
+    {
+        "chinese": "说：'别担心'",
+        "pinyin": "Shuō: 'Bié chánwǔ'",
+        "translation": "'Don't worry.'",
+        "breakdown": [
+            {
+                "character": "说",
+                "pinyin": "shuō",
+                "meaning": "to say"
+            },
+            {
+                "character": "：",
+                "pinyin": "",
+                "meaning": " quotation mark"
+            },
+            {
+                "character": "别",
+                "pinyin": "bié",
+                "meaning": "not to worry (别 = don't, 担 = worry)"
+            },
+            {
+                "character": "担",
+                "pinyin": "chán",
+                "meaning": "to worry"
+            },
+            {
+                "character": "心",
+                "pinyin": "xīn",
+                "meaning": "heart/mind"
+            }
+        ]
+    },
+    {
+        "chinese": "这边有许多果子",
+        "pinyin": "Zhébiān yǒu duō shǔ guǒzi.",
+        "translation": "This place has many fruits.",
+        "breakdown": [
+            {
+                "character": "这边",
+                "pinyin": "zhébiān",
+                "meaning": "this side/place (这 = this, 边 = edge/area)"
+            },
+            {
+                "character": "有",
+                "pinyin": "yǒu",
+                "meaning": "to have/contain"
+            },
+            {
+                "character": "许多",
+                "pinyin": "hánkuǒ",
+                "meaning": "many (多 = many, 么 = also)"
+            },
+            {
+                "character": "果子",
+                "pinyin": "guǒzi",
+                "meaning": "fruit (果 = fruit, 子 = child/seed)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟高兴地跳到一根树枝上",
+        "pinyin": "Xīniáo gāoxìng dì jiǎo dào yīgē shùzhí shàng",
+        "translation": "A small bird happily jumps onto a branch.",
+        "breakdown": [
+            {
+                "character": "小鸟",
+                "pinyin": "xǐniáo",
+                "meaning": "a small bird (小 = small, 鸟 = bird)"
+            },
+            {
+                "character": "高兴地",
+                "pinyin": "gāoxìng dì",
+                "meaning": "happily (高兴 = happy, 地 = location)"
+            },
+            {
+                "character": "跳到",
+                "pinyin": "jiǎo dào",
+                "meaning": "to jump to"
+            },
+            {
+                "character": "一根",
+                "pinyin": "yīgē",
+                "meaning": "a single (一 = one, 根 = root)"
+            },
+            {
+                "character": "树枝",
+                "pinyin": "shùzhí",
+                "meaning": "branch (树 = tree, 枝 = branch)"
+            },
+            {
+                "character": "上",
+                "pinyin": "shàng",
+                "meaning": "on"
+            }
+        ]
+    },
+    {
+        "chinese": "啄了一口果子",
+        "pinyin": "Zhǎo le yī kǒu guǒzi",
+        "translation": "He bit a fruit.",
+        "breakdown": [
+            {
+                "character": "啄",
+                "pinyin": "zhǎo",
+                "meaning": "to bite (third tone)"
+            },
+            {
+                "character": "了",
+                "pinyin": "le",
+                "meaning": "aspect particle indicating completion"
+            },
+            {
+                "character": "一口",
+                "pinyin": "yī kǒu",
+                "meaning": "a bite or a piece (yī = one, kǒu = mouth)"
+            },
+            {
+                "character": "果子",
+                "pinyin": "guǒzi",
+                "meaning": "fruit (guǒ = fruit, zi = substance)"
+            }
+        ]
+    },
+    {
+        "chinese": "好甜啊！谢谢你",
+        "pinyin": "Hǎo tián ah! Xiè xie nǐ.",
+        "translation": "I’m so sweet! Thank you!",
+        "breakdown": [
+            {
+                "character": "好",
+                "pinyin": "hǎo",
+                "meaning": "good, nice (好 = good, pleasant)"
+            },
+            {
+                "character": "甜",
+                "pinyin": "tián",
+                "meaning": "sweet"
+            },
+            {
+                "character": "啊",
+                "pinyin": "ah",
+                "meaning": "interjection expressing pleasure or agreement"
+            },
+            {
+                "character": "谢谢",
+                "pinyin": "xiè xie",
+                "meaning": "Thank you (谢 = to thank, 谢 = gratitude)"
+            },
+            {
+                "character": "你",
+                "pinyin": "nǐ",
+                "meaning": "you (subjective pronoun)"
+            }
+        ]
+    },
+    {
+        "chinese": "大树！'大树笑了笑",
+        "pinyin": "Dàshǔ！'Zhúshū xiào le xiào",
+        "translation": "Big Tree! 'Big Tree laughed a little'",
+        "breakdown": [
+            {
+                "character": "大树",
+                "pinyin": "Dàshǔ",
+                "meaning": "Big Tree (大 = big, 树 = tree)"
+            },
+            {
+                "phrase": "'大树笑了笑",
+                "pinyin": "'Zhúshū xiào le xiào",
+                "meaning": "' Big Tree laughed a little'"
+            }
+        ]
+    },
+    {
+        "chinese": "你喜欢就好",
+        "pinyin": "Shuō：nǐ huíyì jiùhǎo",
+        "translation": "Say: 'You like it, that's fine.'",
+        "breakdown": [
+            {
+                "character": "说",
+                "pinyin": "shuō",
+                "meaning": "to say (shuō = to speak; 语言表达)"
+            },
+            {
+                "character": "你",
+                "pinyin": "nǐ",
+                "meaning": "you, you(rself) (nǐ = you)"
+            },
+            {
+                "character": "喜欢",
+                "pinyin": "huíyì",
+                "meaning": "to like (huí = to like, yì = okay/acceptable)"
+            },
+            {
+                "character": "就好",
+                "pinyin": "jiùhǎo",
+                "meaning": "it's fine, that's okay (jiù = just, hǎo = good/ok)"
+            }
+        ]
+    },
+    {
+        "chinese": "你也可以住在这里。",
+        "pinyin": "nǐ yě kě zhù zài hǐ",
+        "translation": "You can also live here.",
+        "breakdown": [
+            {
+                "character": "你",
+                "pinyin": "nǐ",
+                "meaning": "you"
+            },
+            {
+                "character": "也",
+                "pinyin": "yě",
+                "meaning": "also"
+            },
+            {
+                "character": "可以",
+                "pinyin": "hǎo",
+                "meaning": "can (可 = can, 么 = question particle)"
+            },
+            {
+                "character": "住",
+                "pinyin": "jū",
+                "meaning": "to live"
+            },
+            {
+                "character": "在",
+                "pinyin": "zài",
+                "meaning": "at (在 = in, 里 = within)"
+            },
+            {
+                "character": "这里",
+                "pinyin": "hǐce",
+                "meaning": "here (这 = this, 里 = within)"
+            }
+        ]
+    },
+    {
+        "chinese": "我会保护你",
+        "pinyin": "Wǒ huì bǎo nǐ.",
+        "translation": "I will protect you.",
+        "breakdown": [
+            {
+                "character": "我",
+                "pinyin": "wǒ",
+                "meaning": "I, myself"
+            },
+            {
+                "character": "会",
+                "pinyin": "huì",
+                "meaning": "to protect; the meaning of '会' can also refer to a gathering or association."
+            },
+            {
+                "character": "保护",
+                "pinyin": "bǎo",
+                "meaning": "to protect. The character 互 (bǎo's radical) means 'mutual' or 'helping each other'."
+            },
+            {
+                "character": "你",
+                "pinyin": "nǐ",
+                "meaning": "you (used in a familial or intimate context)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟点点头",
+        "pinyin": "xiǎo niāo diàn diàn tóu",
+        "translation": "The small bird nodded.",
+        "breakdown": [
+            {
+                "character": "小",
+                "pinyin": "xiǎo",
+                "meaning": "small"
+            },
+            {
+                "character": "鸟",
+                "pinyin": "niāo",
+                "meaning": "bird"
+            },
+            {
+                "character": "点",
+                "pinyin": "diàn",
+                "meaning": "to point or a point"
+            },
+            {
+                "character": "头",
+                "pinyin": "tou",
+                "meaning": "head"
+            }
+        ]
+    },
+    {
+        "chinese": "它觉得这个地方很安全",
+        "pinyin": "tā juué guó diào jiē dì fācíáng qù 安全。",
+        "translation": "He thinks this place is very safe.",
+        "breakdown": [
+            {
+                "character": "它",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "觉得",
+                "pinyin": "juué",
+                "meaning": "to think, to feel"
+            },
+            {
+                "character": "这个",
+                "pinyin": "guó",
+                "meaning": "this (指示一个范围或对象)"
+            },
+            {
+                "character": "地方",
+                "pinyin": "dì",
+                "meaning": "place, location"
+            },
+            {
+                "character": "很",
+                "pinyin": "hěn",
+                "meaning": "very (程度副词，表示程度或程度的强度)"
+            },
+            {
+                "character": "安全",
+                "pinyin": "ànquán",
+                "meaning": "safe, secure (安 = peace, 全 = complete)"
+            }
+        ]
+    },
+    {
+        "chinese": "很温暖",
+        "pinyin": "hánwēnnuǔ",
+        "translation": "Very warm.",
+        "breakdown": [
+            {
+                "character": "很",
+                "pinyin": "hán",
+                "meaning": "very (人 = person, 十 = ten; together meaning 'great' or 'extremely')"
+            },
+            {
+                "character": "温",
+                "pinyin": "wēn",
+                "meaning": "warm (言 = speech, 水 = water; together signifying warmth through words or water)"
+            },
+            {
+                "character": "暖",
+                "pinyin": "nuǔ",
+                "meaning": "warm (人 = person, 火 = fire; together indicating warm feelings)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟每天都住在大树上",
+        "pinyin": "Xiǎoniào měitiān dōu zhù zài dàoshù shàng",
+        "translation": "The bird lives in the big tree every day.",
+        "breakdown": [
+            {
+                "character": "小鸟",
+                "pinyin": "xiǎoniào",
+                "meaning": "small bird (小 = small, 鸟 = bird)"
+            },
+            {
+                "character": "每天都",
+                "pinyin": "měitiān dōu",
+                "meaning": "every day (每 = every day, 都 = all/both)"
+            },
+            {
+                "character": "住在",
+                "pinyin": "zhù zài",
+                "meaning": "lives in"
+            },
+            {
+                "character": "大树上",
+                "pinyin": "dàoshù shàng",
+                "meaning": "big tree (大 = big, 树 = tree, 上 = on)"
+            }
+        ]
+    },
+    {
+        "chinese": "它们成了最好的朋友",
+        "pinyin": "tāmenɛ chéngle zuìhǎi de hóu jī yǒuxué tóng wèi",
+        "translation": "They became the best friends.",
+        "breakdown": [
+            {
+                "character": "它们",
+                "pinyin": "tāmenɛ",
+                "meaning": "they, them"
+            },
+            {
+                "character": "成了",
+                "pinyin": "chéngle",
+                "meaning": "became, turned into"
+            },
+            {
+                "character": "最好的朋友",
+                "pinyin": "zuìhǎi de hóu jī yǒuxué tóng wèi",
+                "meaning": "best friends (最 = best/very, 好的 = good, 朋友 = friend)"
+            }
+        ]
+    },
+    {
+        "chinese": "日子一天天过去",
+        "pinyin": "rìzǐyītián guóqù",
+        "translation": "Each day passes by.",
+        "breakdown": [
+            {
+                "character": "日子",
+                "pinyin": "rìzǐ",
+                "meaning": "daily life (日 = each day, 子 = related to family/children)"
+            },
+            {
+                "character": "一天天",
+                "pinyin": "yītiān",
+                "meaning": "each day (一 = each, 天 = days)"
+            },
+            {
+                "character": "过去",
+                "pinyin": "guóqù",
+                "meaning": "to pass by"
+            }
+        ]
+    },
+    {
+        "chinese": "冬天来了",
+        "pinyin": "Dōngtiān",
+        "translation": "Winter has come.",
+        "breakdown": [
+            {
+                "character": "冬",
+                "pinyin": "dōng",
+                "meaning": "winter (cold season)"
+            },
+            {
+                "character": "天",
+                "pinyin": "tiān",
+                "meaning": "day (marking the start of winter)"
+            }
+        ]
+    },
+    {
+        "chinese": "天气变冷了",
+        "pinyin": "Tiānqì biàn lǎngle",
+        "translation": "The weather has become colder.",
+        "breakdown": [
+            {
+                "character": "天气",
+                "pinyin": "Tiānqì",
+                "meaning": "weather (天 = heaven, 气 = atmosphere)"
+            },
+            {
+                "character": "变",
+                "pinyin": "Biàn",
+                "meaning": "to change"
+            },
+            {
+                "character": "冷",
+                "pinyin": "Lèng",
+                "meaning": "cold (冷 = cold)"
+            },
+            {
+                "character": "了",
+                "pinyin": "Le",
+                "meaning": "a sentence-ending particle indicating completion"
+            }
+        ]
+    },
+    {
+        "chinese": "树上的叶子也落了",
+        "pinyin": "Shǒu shàng de yèzǐ yě luó le",
+        "translation": "The leaves on the tree also fell.",
+        "breakdown": [
+            {
+                "character": "树",
+                "pinyin": "shǒu",
+                "meaning": "tree (木 = wood)"
+            },
+            {
+                "character": "上的叶子",
+                "pinyin": "shàng de yèzǐ",
+                "meaning": "leaves on the tree (上 = on/above, 叶 = leaf)"
+            },
+            {
+                "character": "也",
+                "pinyin": "yě",
+                "meaning": "also"
+            },
+            {
+                "character": "落了",
+                "pinyin": "luó le",
+                "meaning": "fell (落 = to fall)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟抖了抖翅膀",
+        "pinyin": "xiǎo niāo, dóu dóu, chì cǎo",
+        "translation": "A small bird flapped its wings.",
+        "breakdown": [
+            {
+                "character": "小鸟",
+                "pinyin": "xiǎo niāo",
+                "meaning": "a small bird (小 = small, 鸟 = bird)"
+            },
+            {
+                "character": "抖了",
+                "pinyin": "dóu dóu",
+                "meaning": "flapped/waved (动词：抖 = to flap/throw; 了 = past tense marker)"
+            },
+            {
+                "character": "翅膀",
+                "pinyin": "chì cǎo",
+                "meaning": "wings (翅 = wings, 膀 = wing)"
+            }
+        ]
+    },
+    {
+        "chinese": "说：‘大树’",
+        "pinyin": "Shuó: ‘Dà shǔ’",
+        "translation": "'Big tree'",
+        "breakdown": [
+            {
+                "character": "说",
+                "pinyin": "shuó",
+                "meaning": "to say (说 = to speak)"
+            },
+            {
+                "character": "：",
+                "pinyin": "",
+                "meaning": " quotation mark"
+            },
+            {
+                "character": "大树",
+                "pinyin": "Dà shǔ",
+                "meaning": "big tree (大 = big, 树 = tree)"
+            },
+            {
+                "character": "——",
+                "pinyin": "",
+                "meaning": "elipsis indicating continuation of speech"
+            },
+            {
+                "character": "——",
+                "pinyin": "",
+                "meaning": "another elipsis indicating continuation of speech"
+            }
+        ]
+    },
+    {
+        "chinese": "我要飞到南方去。",
+        "pinyin": "wǒ yào fēi dáo nánfāng qù",
+        "translation": "I want to fly to the south.",
+        "breakdown": [
+            {
+                "character": "我",
+                "pinyin": "wǒ",
+                "meaning": "I"
+            },
+            {
+                "character": "要",
+                "pinyin": "yào",
+                "meaning": "want (third tone)"
+            },
+            {
+                "character": "飞",
+                "pinyin": "fēi",
+                "meaning": "to fly (third tone)"
+            },
+            {
+                "character": "到",
+                "pinyin": "dáo",
+                "meaning": "to go there (fourth tone)"
+            },
+            {
+                "character": "南",
+                "pinyin": "nán",
+                "meaning": "south (first tone)"
+            },
+            {
+                "character": "方",
+                "pinyin": "fāng",
+                "meaning": "direction(s) (second tone)"
+            },
+            {
+                "character": "去",
+                "pinyin": "qù",
+                "meaning": "to go (fourth tone)"
+            }
+        ]
+    },
+    {
+        "chinese": "那里暖和",
+        "pinyin": "nàlǐ nuǎnhuo",
+        "translation": "That place is quite warm.",
+        "breakdown": [
+            {
+                "character": "那",
+                "pinyin": "nà",
+                "meaning": "that (那 = that)"
+            },
+            {
+                "character": "里",
+                "pinyin": "lǐ",
+                "meaning": "at/within (里 = in the middle/inside)"
+            },
+            {
+                "character": "暖",
+                "pinyin": "nuǎn",
+                "meaning": "warm (暖 = warm)"
+            },
+            {
+                "character": "和",
+                "pinyin": "hé",
+                "meaning": "and (和 = and)"
+            }
+        ]
+    },
+    {
+        "chinese": "还有很多食物",
+        "pinyin": "Hái yóu duō shí shí wù.",
+        "translation": "There are many foods.",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "yǒu",
+                "meaning": "to have, to behave (有 = to have/possess)"
+            },
+            {
+                "character": "很多",
+                "pinyin": "duō shí",
+                "meaning": "a lot of, many (多 = many, 什 = several)"
+            },
+            {
+                "character": "食物",
+                "pinyin": "shíwù",
+                "meaning": "food (食 = to eat, 物 = thing/object)"
+            }
+        ]
+    },
+    {
+        "chinese": "大树有些伤心",
+        "pinyin": "dàshǔ shāngxīn",
+        "translation": "The tree has some worries.",
+        "breakdown": [
+            {
+                "character": "大树",
+                "pinyin": "dàshǔ",
+                "meaning": "big tree (大 = big, 树 = tree)"
+            },
+            {
+                "character": "有些",
+                "pinyin": "shāngxīn",
+                "meaning": "some worry (些 = some, 心 = heart)"
+            }
+        ]
+    },
+    {
+        "chinese": "但它知道小鸟必须离开",
+        "pinyin": "bùtā zhī xiǎoniǎo bìyǒu liǎokē",
+        "translation": "But it knows the bird must leave.",
+        "breakdown": [
+            {
+                "character": "但",
+                "pinyin": "bù",
+                "meaning": "but (不 = not; 但 = but)"
+            },
+            {
+                "character": "它",
+                "pinyin": "tā",
+                "meaning": "it, him, her"
+            },
+            {
+                "character": "知道",
+                "pinyin": "zhī tóu",
+                "meaning": "know (知 = know, 到 = reach)"
+            },
+            {
+                "character": "小鸟",
+                "pinyin": "xiǎoniǎo",
+                "meaning": "bird (小 = small/dwarf; 鸟 = bird)"
+            },
+            {
+                "character": "必须",
+                "pinyin": "bìyǒu",
+                "meaning": "must (必 = must, 予 = give)"
+            },
+            {
+                "character": "离开",
+                "pinyin": "liǎokē",
+                "meaning": "to leave (离 = apart/leave; 去 = go)"
+            }
+        ]
+    },
+    {
+        "chinese": "去吧",
+        "pinyin": "Qù bā",
+        "translation": "Go!",
+        "breakdown": [
+            {
+                "character": "去",
+                "pinyin": "qù",
+                "meaning": "to go, to depart"
+            },
+            {
+                "character": "吧",
+                "pinyin": "bā",
+                "meaning": "acknowledgment, permission (often used in a manner similar to 'okay' or 'go ahead')"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟",
+        "pinyin": "xiǎoniāo",
+        "translation": "Little bird",
+        "breakdown": [
+            {
+                "character": "小",
+                "pinyin": "xiǎo",
+                "meaning": "small/young"
+            },
+            {
+                "character": "鸟",
+                "pinyin": "niāo",
+                "meaning": "bird"
+            }
+        ]
+    },
+    {
+        "chinese": "等春天来了",
+        "pinyin": "Dé chūn tiān lái le",
+        "translation": "Spring has come.",
+        "breakdown": [
+            {
+                "character": "等",
+                "pinyin": "dé",
+                "meaning": "to wait (等 = to wait)"
+            },
+            {
+                "character": "春天来了",
+                "pinyin": "chūn tiān lái le",
+                "meaning": "spring has come (春 = spring, 天 = day; came/arrived comes)"
+            }
+        ]
+    },
+    {
+        "chinese": "你再回来",
+        "pinyin": "nǐ zài huí lái",
+        "translation": "You come back again.",
+        "breakdown": [
+            {
+                "character": "你",
+                "pinyin": "nǐ",
+                "meaning": "you, you're (互 = mutual; 亲 = close/kin; 这里用于称呼)"
+            },
+            {
+                "character": "再",
+                "pinyin": "zài",
+                "meaning": "again, once more (再 = again)"
+            },
+            {
+                "character": "回来",
+                "pinyin": "huílái",
+                "meaning": "to return, come back (回 = to return; 来 = to come/arrive)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟展开翅膀",
+        "pinyin": "Xiǎoniāo zhánkāi yìjiǎo",
+        "translation": "The little bird spread its wings.",
+        "breakdown": [
+            {
+                "character": "小鸟",
+                "pinyin": "xiǎoniāo",
+                "meaning": "little bird (小 = small, 鸟 = bird)"
+            },
+            {
+                "character": "展开",
+                "pinyin": "zhánkāi",
+                "meaning": "to spread/expand"
+            },
+            {
+                "character": "翅膀",
+                "pinyin": "yìjiǎo",
+                "meaning": "wings (翅 = wings, 膀 = feather)"
+            }
+        ]
+    },
+    {
+        "chinese": "绕着大树飞了一圈",
+        "pinyin": "Bǐngzhí Dàshǔ Fēi Shímáng Qū",
+        "translation": "Around the big tree, he flew in a circle.",
+        "breakdown": [
+            {
+                "character": "绕着",
+                "pinyin": "Bǐngzhí",
+                "meaning": "around (绕 = to go around, 着 = with/attached to)"
+            },
+            {
+                "character": "大树",
+                "pinyin": "Dàshǔ",
+                "meaning": "big tree (大 = big, 树 = tree)"
+            },
+            {
+                "character": "飞",
+                "pinyin": "Fēi",
+                "meaning": "to fly"
+            },
+            {
+                "character": "一圈",
+                "pinyin": "Yīqū",
+                "meaning": "a circle (一 = one, 圈 = round/circle)"
+            }
+        ]
+    },
+    {
+        "chinese": "说：‘谢谢你’",
+        "pinyin": "Shùòshì nǐ",
+        "translation": "Said: 'Thank you.'",
+        "breakdown": [
+            {
+                "character": "谢谢",
+                "pinyin": "Shúoshì",
+                "meaning": "To express gratitude (each '谢' = to thank)"
+            },
+            {
+                "character": "你",
+                "pinyin": "nǐ",
+                "meaning": "You"
+            }
+        ]
+    },
+    {
+        "chinese": "大树！明年春天见！大树静静地站在那里",
+        "pinyin": "Dàshù! Míngyǒu Chūntiān jiàn! Dà shǒu jìngjìng de zhídì dìtiān zǐ lǐ",
+        "translation": "Big tree! See you next spring! I'll stand there quietly.",
+        "breakdown": [
+            {
+                "character": "大树",
+                "pinyin": "Dàshù",
+                "meaning": "big tree (大 = big, 树 = tree)"
+            },
+            {
+                "character": "明年春天见",
+                "pinyin": "Míngyǒu Chūntiān jiàn",
+                "meaning": "see you next spring (明 = bright/future, 年 = year, 春 = spring, 天 = sky/day)"
+            },
+            {
+                "character": "大树",
+                "pinyin": "Dàshù",
+                "meaning": "big tree (大 = big, 树 = tree)"
+            },
+            {
+                "character": "静静地",
+                "pinyin": "Jìngjìng de",
+                "meaning": "quietly (静 = quiet, 静 = quiet)"
+            },
+            {
+                "character": "站在那里",
+                "pinyin": "Dìtiān zǐ lǐ",
+                "meaning": "stand there (地 = ground/there, 里面 = inside)"
+            }
+        ]
+    },
+    {
+        "chinese": "看着小鸟飞远了",
+        "pinyin": "Kànxiǎoniǎofēiyuanle",
+        "translation": "Watching the bird fly away.",
+        "breakdown": [
+            {
+                "character": "看",
+                "pinyin": "kàn",
+                "meaning": "to watch"
+            },
+            {
+                "character": "小",
+                "pinyin": "xiǎo",
+                "meaning": "small/child"
+            },
+            {
+                "character": "鸟",
+                "pinyin": "niǎo",
+                "meaning": "bird"
+            },
+            {
+                "character": "飞",
+                "pinyin": "fēi",
+                "meaning": "to fly"
+            },
+            {
+                "character": "远了",
+                "pinyin": "yuanle",
+                "meaning": "far away"
+            }
+        ]
+    },
+    {
+        "chinese": "它知道",
+        "pinyin": "tā zuǒyī",
+        "translation": "It knows.",
+        "breakdown": [
+            {
+                "character": "它",
+                "pinyin": "tā",
+                "meaning": "it, he/she/it (他 = male, 她 = female, 它 = it)"
+            },
+            {
+                "character": "知道",
+                "pinyin": "zuǒyī",
+                "meaning": "to know"
+            }
+        ]
+    },
+    {
+        "chinese": "等春天来临",
+        "pinyin": "Díng chūn tiān lái",
+        "translation": "Awaiting the arrival of spring.",
+        "breakdown": [
+            {
+                "character": "等",
+                "pinyin": "dīng",
+                "meaning": "to wait for"
+            },
+            {
+                "character": "春天",
+                "pinyin": "chūn tiān",
+                "meaning": "spring (春 = spring, 天 = sky/season)"
+            },
+            {
+                "character": "来临",
+                "pinyin": "lái líng",
+                "meaning": "arrival (来 = to come, 临 = to arrive)"
+            }
+        ]
+    },
+    {
+        "chinese": "小鸟一定会回来",
+        "pinyin": "xiǎo niāo yīdìng huí lái",
+        "translation": "The bird will definitely come back.",
+        "breakdown": [
+            {
+                "character": "小",
+                "pinyin": "xiǎo",
+                "meaning": "small (第三声)"
+            },
+            {
+                "character": "鸟",
+                "pinyin": "niāo",
+                "meaning": "bird (第三声)"
+            },
+            {
+                "character": "一定",
+                "pinyin": "yīdìng",
+                "meaning": "definitely, certainly (第四声 一 = one, 定 = certain)"
+            },
+            {
+                "character": "会",
+                "pinyin": "huí",
+                "meaning": "will (return) (第二声)"
+            },
+            {
+                "character": "回来",
+                "pinyin": "huí lái",
+                "meaning": "come back (回 = return, 来 = come)"
+            }
+        ]
+    },
+    {
+        "chinese": "小李每天学习中文。",
+        "pinyin": "Xiǎo Lǐ Měitiān Xuéměi Zhōngwén",
+        "translation": "Little Li learns Chinese every day.",
+        "breakdown": [
+            {
+                "character": "小李",
+                "pinyin": "Xiǎo Lǐ",
+                "meaning": "Little Li (小 = small, 李 = surname Li)"
+            },
+            {
+                "character": "每天",
+                "pinyin": "Měitiān",
+                "meaning": "Every day (每 = every, 天 = day)"
+            },
+            {
+                "character": "学习中文",
+                "pinyin": "Xuéměi Zhōngwén",
+                "meaning": "To learn Chinese (学 = study, 文 = language/writing; 中文 = Chinese language)"
+            }
+        ]
+    }
+]

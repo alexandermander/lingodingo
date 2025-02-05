@@ -4,18 +4,9 @@ import requests
 #add loading bar for the for loop
 from tqdm import tqdm
 import json
+import os
 
 
-with open("textToConvert.txt", "r", encoding="utf-8") as file:
-    text = file.read()
-
-print(text)
-text = text.replace("\n", "")
-
-text =re.split(r"。|，|（|与|、", text)
-
-
-count = 0
 #for i in range(len(text)):
 #    print(text[i])
     #    if "说" in text[i]:
@@ -32,65 +23,62 @@ count = 0
     #            currnetLine += text[j]
 
 
-host = "http://192.168.1.131:8000/process?input_data="
 #for i in range(len(text)):
 #    url = host + text[i]
 #    print(url)
 #    response = requests.get(url)
 #    lines.append(response.text)
 #    print(response.text)
-lines = []
-
-for i in tqdm(range(len(text))):
-    if i == 3:
-        break
-    url = host + text[i]
-    try:
-        response = requests.get(url)
-        response.raise_for_status()  # Raises an HTTPError for bad responses (4xx and 5xx)
-        json_response = json.loads(response.text)
-        #chck taht ise response:
-#                "breakdown": [
-#            {
-#                "character": "一只",
-#                "pinyin": "yī zhǐ",
-#                "meaning": "A (一 = one, 只 = only)"
-
-        if "breakdown" in json_response:
-            for breakdown in json_response["breakdown"]:
-                if "character" in breakdown:
-                    print(breakdown["character"])
-                if "pinyin" in breakdown:
-                    print(breakdown["pinyin"])
-                if "meaning" in breakdown:
-                    print(breakdown["meaning"])
-
-        lines.append(json_response)
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching {url}: {e}")
-
-# Writing the collected lines to a JSON file
-with open("output.json", "w", encoding="utf-8") as file:
-    json.dump(lines, file, ensure_ascii=False, indent=4)
-
-print("Data has been written to output.json")
 
 
 
 
 
+host = "http://192.168.1.131:8000/process?input_data="
 
+def getFijson(file, name):
+    print(f"Processing {name}...")
+    lines = []
 
+    with open(file, "r", encoding="utf-8") as file:
+        text = file.read()
 
+    print(text)
 
+    text = text.replace("\n", "")
+    text =re.split(r"。|，|（|与|、", text)
 
+    for i in tqdm(range(len(text))):
+        url = host + text[i]
+        try:
+            response = requests.get(url)
+            if response.status_code != 200:
+                print(f"Error fetching {url}: {response.status_code}")
+                continue
+            json_response = json.loads(response.text)
+            lines.append(json_response)
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching {url}: {e}")
+            continue
 
+    saveTheFileInJsonFormat(name, lines)
 
+def getFilesInFolder():
+    path = "./files"
+    files = [f"{path}/{file}" for file in os.listdir(path)]
+    for file in files:
+        getFijson(file, file.split("/")[-1])
 
+def saveTheFileInJsonFormat(name, lines):
+    path = "./jsons"
+    name = name.split(".")[0]
 
+    with open(f"{path}/{name}.json", "w", encoding="utf-8") as file:
+        json.dump(lines, file, ensure_ascii=False)
+    print(f"File {path}/{name}.json has been saved")
 
-
-
-
+if __name__ == "__main__":
+    getFilesInFolder()
+    print("All files have been processed")
 
 

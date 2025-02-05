@@ -1,18 +1,3186 @@
 [
     {
-        "chinese": "一天",
-        "pinyin": "yīán",
-        "translation": "A day.",
+        "chinese": "十二月三日",
+        "pinyin": "Shí èr sān rì",
+        "translation": "The 12th of December",
         "breakdown": [
+            {
+                "character": "十二",
+                "pinyin": "shí èr",
+                "meaning": "twelve (一 = one, 二 = two)"
+            },
+            {
+                "character": "月",
+                "pinyin": "yue",
+                "meaning": "month"
+            },
+            {
+                "character": "三",
+                "pinyin": "sān",
+                "meaning": "three"
+            },
+            {
+                "character": "日",
+                "pinyin": "rì",
+                "meaning": "day"
+            }
+        ]
+    },
+    {
+        "chinese": "中国汽车工业协会",
+        "pinyin": "Zhōngguó qìchē gōngyè diūhuì.",
+        "translation": "The China Automobile Industry Association.",
+        "breakdown": [
+            {
+                "character": "中",
+                "pinyin": "zhong",
+                "meaning": "China (中 = middle/China)"
+            },
+            {
+                "character": "国",
+                "pinyin": "guó",
+                "meaning": "country/nation (国 = nation)"
+            },
+            {
+                "character": "汽",
+                "pinyin": "qì",
+                "meaning": "gas/petrol (汽 = gas/petrol)"
+            },
+            {
+                "character": "车",
+                "pinyin": "ché",
+                "meaning": "car/truck (车 = car/truck)"
+            },
+            {
+                "character": "工",
+                "pinyin": "gōng",
+                "meaning": "industry/labor (工 = industry/labor)"
+            },
+            {
+                "character": "业",
+                "pinyin": "yè",
+                "meaning": "business/industry (业 = business/industry)"
+            },
+            {
+                "character": "协",
+                "pinyin": "diū",
+                "meaning": "group/society (协 = group/society)"
+            },
+            {
+                "character": "会",
+                "pinyin": "huì",
+                "meaning": "association/society (会 = association/society)"
+            }
+        ]
+    },
+    {
+        "chinese": "中国半导体行业协会",
+        "pinyin": "Zhōngguó bàidù yèshàng xiāng huì",
+        "translation": "The Chinese Semiconductor Industry Association",
+        "breakdown": [
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (中 = middle/China, 国 = country/civilization)"
+            },
+            {
+                "character": "半导体",
+                "pinyin": "bàidù",
+                "meaning": "semiconductor (半 = half, 导体 = conductor)"
+            },
+            {
+                "character": "行业",
+                "pinyin": "yèshàng",
+                "meaning": "industry (业 = industry, 行 = occupation)"
+            },
+            {
+                "character": "协会",
+                "pinyin": "huì",
+                "meaning": "association/organization (协 = union, 会 = association)"
+            }
+        ]
+    },
+    {
+        "chinese": "中国通信企业协会等发布声明",
+        "pinyin": "Zhōngguó tūnشنγε qūnhui yǔshì xué yóu等发布声明。",
+        "translation": "The China Telecommunications and Enterprises Association, along with other organizations, issued a statement.",
+        "breakdown": [
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (中 = middle/China, 国 = country)"
+            },
+            {
+                "character": "通信",
+                "pinyin": "tūnshèng",
+                "meaning": "telecommunications (电 = electricity, 传 = to transmit)"
+            },
+            {
+                "character": "企业",
+                "pinyin": "qūnhui",
+                "meaning": "enterprises/industry (业 = industry, 体 = body/person)"
+            },
+            {
+                "character": "协会",
+                "pinyin": "xué yóu",
+                "meaning": "associations/society (学 = study, 会 = assembly)"
+            },
+            {
+                "character": "等",
+                "pinyin": "děng",
+                "meaning": "and/or; in addition"
+            },
+            {
+                "character": "发布",
+                "pinyin": "fābù",
+                "meaning": "to release/publish"
+            },
+            {
+                "character": "声明",
+                "pinyin": "shìованie",
+                "meaning": "declaration/announcement (声明 = declaration)"
+            }
+        ]
+    },
+    {
+        "chinese": "指出美国芯片产品不再安全",
+        "pinyin": "jǐngqǔ Měiguó xīnchē chǎngjǐ bùzài anquán",
+        "translation": "Identify that American chip products are no longer safe.",
+        "breakdown": [
+            {
+                "character": "指出",
+                "pinyin": "jǐngqǔ",
+                "meaning": "to point out, to identify"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měiguó",
+                "meaning": "United States (美 =美, 国= country)"
+            },
+            {
+                "character": "芯片产品",
+                "pinyin": "xīnchē chǎngjǐ",
+                "meaning": "chip products (芯= related to chips, 产品=product)"
+            },
+            {
+                "character": "不再安全",
+                "pinyin": "bùzài anquán",
+                "meaning": "no longer safe (不=not, 再=again, 安全=security)"
+            }
+        ]
+    },
+    {
+        "chinese": "呼吁国内企业审慎选择采购美国芯片",
+        "pinyin": "huòjū guóqí qǐyùn xuòzhǒng gòngshǒu bāiguó xìnlǐ",
+        "translation": "Urge domestic enterprises to carefully choose procurement of American chips.",
+        "breakdown": [
+            {
+                "character": "呼吁",
+                "pinyin": "huòjū",
+                "meaning": "To appeal for/urge"
+            },
+            {
+                "character": "国内企业",
+                "pinyin": "guóqí qǐyùn",
+                "meaning": "Domestic companies (国 = country, 内 = inside, 企 = enterprise, 宁 = management)"
+            },
+            {
+                "character": "审慎选择",
+                "pinyin": "shànún zhǎngchēnjī",
+                "meaning": "To choose carefully"
+            },
+            {
+                "character": "采购美国芯片",
+                "pinyin": "bāiguó xìnlǐ",
+                "meaning": "Procurement of American chips (美 = American, 国 = country, 芯 = chip)"
+            }
+        ]
+    },
+    {
+        "chinese": "此前一天",
+        "pinyin": "Cǐqían yī Tiān",
+        "translation": "One day prior",
+        "breakdown": [
+            {
+                "character": "此前一天",
+                "pinyin": "Cǐqían yī Tiān",
+                "meaning": "One day prior (此 = this/this, 前 = previous/prior, 一 = one/day, 天 = day)"
+            }
+        ]
+    },
+    {
+        "chinese": "美国政府宣布了新一轮对华出口限制措施",
+        "pinyin": "Bǐguó Guówù shàobù le xīn yīlún Duìhuá chūkǒu liìmiǎo cüfi",
+        "translation": "The U.S. government has announced new export restrictions on China.",
+        "breakdown": [
+            {
+                "character": "美国",
+                "pinyin": "Bǐguó",
+                "meaning": "United States"
+            },
+            {
+                "character": "政府",
+                "pinyin": "Guówù",
+                "meaning": "government"
+            },
+            {
+                "character": "宣布",
+                "pinyin": "Shàobū",
+                "meaning": "to announce"
+            },
+            {
+                "character": "新一轮",
+                "pinyin": "Xīn Yīlún",
+                "meaning": "new round"
+            },
+            {
+                "character": "对华",
+                "pinyin": "Duìhuá",
+                "meaning": "against China"
+            },
+            {
+                "character": "出口",
+                "pinyin": "Chūkǒu",
+                "meaning": "export (output of goods and services from China)"
+            },
+            {
+                "character": "限制措施",
+                "pinyin": "Liìmiǎo Cüfi",
+                "meaning": "restrictive measures"
+            }
+        ]
+    },
+    {
+        "chinese": "将140余家中国企业列入贸易限制清单",
+        "pinyin": "jiǎng shíqī jiā Zhōngguó qūxiāng lìrù shàngyóu jǐhú Qīngdiǎn",
+        "translation": "More than 140 companies from China are included in the trade restrictions list.",
+        "breakdown": [
+            {
+                "character": "将",
+                "pinyin": "jiǎng",
+                "meaning": "to include, to put"
+            },
+            {
+                "character": "140",
+                "pinyin": "yīqījiàn",
+                "meaning": "one hundred and forty"
+            },
+            {
+                "character": "余",
+                "pinyin": "yóu",
+                "meaning": "more than, surplus"
+            },
+            {
+                "character": "家",
+                "pinyin": "jiā",
+                "meaning": "family, household; companies (in context of count)"
+            },
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China"
+            },
+            {
+                "character": "企业",
+                "pinyin": "qūxiang",
+                "meaning": "companies, business enterprises"
+            },
+            {
+                "character": "列入",
+                "pinyin": "lìrù",
+                "meaning": "to be listed, to include in the list"
+            },
+            {
+                "short_phrase": "贸易限制清单",
+                "pinyin": "shàngyóu jǐhú qīngdiǎn",
+                "meaning": "trade restrictions list"
+            }
+        ]
+    },
+    {
+        "chinese": "涉及半导体制造设备",
+        "pinyin": "shèngyù 半导体 制造设备",
+        "translation": "Involves semiconductor manufacturing equipment.",
+        "breakdown": [
+            {
+                "character": "涉及",
+                "pinyin": "shèngyù",
+                "meaning": "involved in; to involve (涉 = involve, 及 = and/also)"
+            },
+            {
+                "character": "半导体",
+                "pinyin": " bàn duǒ tǐ",
+                "meaning": "semiconductor (半 = half/semi-, 导体 = conductor/conducting material)"
+            },
+            {
+                "character": "制造设备",
+                "pinyin": "zhìhuà qì jì huò shèqū qì",
+                "meaning": "manufacturing equipment; manufacturing tools/equipment (制造 = manufacture, 设备 = machinery/device)"
+            }
+        ]
+    },
+    {
+        "chinese": "电子设计自动化工具等多个种类的半导体产品",
+        "pinyin": "Diànzhìjiànùhǎo yóuú gèzhǒnglèi de hánbǐdē chécuòjùan",
+        "translation": "Automated design tools for semiconductors come in various types or several categories of semiconductor products.",
+        "breakdown": [
+            {
+                "character": "电子设计自动化工具",
+                "pinyin": "Diànzhìjiànùhǎo",
+                "meaning": "Electronics design automation tool (电 = electronic, 设计 = design, 自动化 = automation, 工具 = tool)"
+            },
+            {
+                "character": "等多个种类的半导体产品",
+                "pinyin": "děng duóshàoxī zhǒnglèi de hánbǐdē chécuòjùan",
+                "meaning": "Including several categories of semiconductor products (等 = multiple/many, 多个 = several/few, 种类 = types/categories, 半导体 = semiconductor, 产品 = product)"
+            }
+        ]
+    },
+    {
+        "chinese": "还拓展‘长臂管辖’",
+        "pinyin": "hái tóuchéng ‘zhǎng bì guǎn cháo’",
+        "translation": "This also involves the concept of 'long arm jurisdiction.'",
+        "breakdown": [
+            {
+                "character": "还",
+                "pinyin": "hái",
+                "meaning": "also, add"
+            },
+            {
+                "character": "拓展",
+                "pinyin": "tóuchéng",
+                "meaning": "elaborate, expand"
+            },
+            {
+                "character": "‘长臂管辖’",
+                "pinyin": "'zhǎng bì guǎn cháo'",
+                "meaning": "the term 'long arm jurisdiction', which refers to the authority or control over cases based on certain criteria"
+            }
+        ]
+    },
+    {
+        "chinese": "限制中国",
+        "pinyin": "shímiàn Zhōngguó",
+        "translation": "Limit China",
+        "breakdown": [
+            {
+                "character": "限制",
+                "pinyin": "shímiàn",
+                "meaning": "to restrict, limit (施 = to apply, 门 = gate)"
+            },
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (中 = middle/China, 国 = country)"
+            }
+        ]
+    },
+    {
+        "chinese": "第三国贸易",
+        "pinyin": "Sānn Guó Shǎng Jì",
+        "translation": "Third Country Trade",
+        "breakdown": [
+            {
+                "character": "第三",
+                "pinyin": "Sānn",
+                "meaning": "third (三 = three, third position)"
+            },
+            {
+                "character": "国",
+                "pinyin": "Guó",
+                "meaning": "country or nation"
+            },
+            {
+                "character": "贸易",
+                "pinyin": "Shǎng Jì",
+                "meaning": "trade; shang (商 = trade, third tone), jì (计 = calculate, fourth tone)"
+            }
+        ]
+    },
+    {
+        "chinese": "尽管美国政府以及一些美媒卖力夸大它的效果",
+        "pinyin": "Jiū guǎng Měibù zhōngyè yǐ jīng Měisìshí xiàoróng qiang lì kuài dǐ tiānjià de xiào yàn",
+        "translation": "Despite efforts by the U.S. government and some American media to exaggerate its effects",
+        "breakdown": [
+            {
+                "character": "尽管",
+                "pinyin": "Jiū",
+                "meaning": "despite, although"
+            },
+            {
+                "character": "美国政府",
+                "pinyin": "Měibù zhōngyè",
+                "meaning": "U.S. government (美 = United States, 政府 = government)"
+            },
+            {
+                "character": "以及",
+                "pinyin": "jīng",
+                "meaning": "as well as, including"
+            },
+            {
+                "character": "一些",
+                "pinyin": "yǐ",
+                "meaning": "some, certain"
+            },
+            {
+                "character": "美媒",
+                "pinyin": "Měisì",
+                "meaning": "American media (美 = United States, 媒 = media)"
+            },
+            {
+                "character": "卖力",
+                "pinyin": "mài lì",
+                "meaning": "to make great efforts, to try hard"
+            },
+            {
+                "character": "夸大",
+                "pinyin": "kuài dǐ",
+                "meaning": "to exaggerate, to blow out of proportion"
+            },
+            {
+                "character": "它的",
+                "pinyin": "tā de",
+                "meaning": "its, its (referring back to the previous noun)"
+            },
+            {
+                "character": "效果",
+                "pinyin": "xiào yàn",
+                "meaning": "effect, impact"
+            }
+        ]
+    },
+    {
+        "chinese": "但事实已经反复证明",
+        "pinyin": "Dù shìjídě yǐjīng fǎnfù zhèmíng",
+        "translation": "But the facts have been repeatedly proven.",
+        "breakdown": [
+            {
+                "character": "但",
+                "pinyin": "dù",
+                "meaning": "but"
+            },
+            {
+                "character": "事实已经反复证明",
+                "pinyin": "shìjídě yǐjīng fǎnfù zhèmíng",
+                "meaning": "the facts have been repeatedly proven (事 = fact, 实 = real, 已 = already, 契 = to prove, 证 = evidence, 明 = clear)"
+            }
+        ]
+    },
+    {
+        "chinese": "这样的打压既不可能吓倒",
+        "pinyin": "zhīyǐ dǎozhì jiébùnèi góngdǎo",
+        "translation": "Such oppression will not scare anyone off.",
+        "breakdown": [
+            {
+                "character": "这样",
+                "pinyin": "zhīyǐ",
+                "meaning": "such a situation (这 = this, 似的 = like) - used to indicate that what follows is a description of something."
+            },
+            {
+                "character": "打压",
+                "pinyin": "dǎozhì",
+                "meaning": "oppression, suppress; refers to repressive measures or unfair treatment (打 = hit, 压 = press/weight) - this term carries a negative connotation."
+            },
+            {
+                "character": "既不可能吓倒",
+                "pinyin": "jiébùnèi góngdǎo",
+                "meaning": "not in the least intimidated or scared away (既 = both, 不 = not, 可以 = can; 吓倒 = to frighten off)"
+            }
+        ]
+    },
+    {
+        "chinese": "美方相关限制措施是一只早就预告要落下的靴子",
+        "pinyin": "Měi guó xiāng shǒurǒ zǆì yīzhǐ de qùchuān yào tiān hósī de de /jiǎo zuǒ/",
+        "translation": "The U.S.-related restrictive measures are the shoe that was long forewarned to fall.",
+        "breakdown": [
+            {
+                "character": "美方",
+                "pinyin": "Měi guó",
+                "meaning": "the United States (美 = beautiful/handsome, 方 = square/way)"
+            },
+            {
+                "character": "相关限制措施",
+                "pinyin": "xiāng shǒurǒ zǆì",
+                "meaning": "related restrictive measures (相关 = related, 限制 = restriction, 措 施 = measures)"
+            },
+            {
+                "character": "是一只",
+                "pinyin": "yīzhǐ",
+                "meaning": "is a/one"
+            },
+            {
+                "character": "早就预告要落下",
+                "pinyin": "早就 yào tiān hósī de",
+                "meaning": "was long forewarned to fall (早 = early, 就 = just, 预告 = pre-warn)"
+            },
+            {
+                "character": "靴子",
+                "pinyin": "de /jiǎo zuǒ/",
+                "meaning": "shoe (脚 = foot, 子 = child/pod)"
+            }
+        ]
+    },
+    {
+        "chinese": "有消息称措施中的大部分内容在今年年中就制定完成。",
+        "pinyin": "Yǒu xīwóngáoxìng shǒusúzhong de dàobùduōn nèí zǐ shèng huán jiānfàn wánchéng。",
+        "translation": "There is news that the majority of the content within the measures has been established and completed by this year's first half.",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "yóu",
+                "meaning": "to have, to be (有 = to have/possess)"
+            },
+            {
+                "character": "消息",
+                "pinyin": "xīwóngáoxìng",
+                "meaning": "message, news (消息 = message/hearsay, 今日 = today, 告 = to inform/announce)"
+            },
+            {
+                "character": "称",
+                "pinyin": "chuí",
+                "meaning": "to state, to announce (称 = to state, 命 = to name)"
+            },
+            {
+                "character": "措施",
+                "pinyin": "shǒusú",
+                "meaning": "measures (措 = way, 施 = to practice/apply)"
+            },
+            {
+                "character": "中的",
+                "pinyin": "zhong",
+                "meaning": "within, of (中 = middle/China, 介 = mediate)"
+            },
+            {
+                "character": "大部分",
+                "pinyin": "dàobùduōn",
+                "meaning": "major part, majority (大 = big, 部分 = part/fraction)"
+            },
+            {
+                "character": "内容",
+                "pinyin": "nèí",
+                "meaning": "content, matter (内 = inside, 容 = container)"
+            },
+            {
+                "character": "在",
+                "pinyin": "zǐ",
+                "meaning": "in, within (在 = in/at, 中 = middle/China)"
+            },
+            {
+                "character": "今年",
+                "pinyin": "sì nián",
+                "meaning": "this year (年 = year)"
+            },
+            {
+                "character": "年中",
+                "pinyin": "niánzhong",
+                "meaning": "yearly/annual mid-point (年 = year, 中 = middle)"
+            },
+            {
+                "character": "就",
+                "pinyin": "jiù",
+                "meaning": "by doing so, concerning (就 = in regard to)"
+            },
+            {
+                "character": "制定完成",
+                "pinyin": "zhìfànguān",
+                "meaning": "established and completed (制 = to establish, 完 = complete)"
+            }
+        ]
+    },
+    {
+        "chinese": "之所以拖延了这么长时间才公布",
+        "pinyin": "Zhī suǒ guō yán le zhǐ cháng shí jiān zǐ gong bu",
+        "translation": "Because of the long delay, it was finally announced.",
+        "breakdown": [
+            {
+                "character": "之所以",
+                "pinyin": "Zhī suǒ",
+                "meaning": "because (之 = because, 所以 = therefore)"
+            },
+            {
+                "character": "拖延了",
+                "pinyin": "guó yán le",
+                "meaning": "delayed (拖 = delay, 延 = continuation)"
+            },
+            {
+                "character": "这么长时间",
+                "pinyin": "zhǐ cháng shí jiān",
+                "meaning": "such a long time (那么 = so, 长时间 = long time)"
+            },
+            {
+                "character": "才公布",
+                "pinyin": "zǐ gong bu",
+                "meaning": "just announced/finally announced (才 = just, 公布 = to announce)"
+            }
+        ]
+    },
+    {
+        "chinese": "主要是由于美国",
+        "pinyin": "ZhǑu shì yóu Měiběhuásī",
+        "translation": "The main reason is due to the United States.",
+        "breakdown": [
+            {
+                "character": "主要",
+                "pinyin": "zhǒu",
+                "meaning": "mainly, primarily (主 = mainly, 要 = must)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is, belongs to (属 = belong to)"
+            },
+            {
+                "character": "由于",
+                "pinyin": "yóu",
+                "meaning": "due to, because of (由 = due to)"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měiběhuásī",
+                "meaning": "United States (美 = beauty/China, 国 = country)"
+            }
+        ]
+    },
+    {
+        "chinese": "盟友及芯片企业的意见不一致",
+        "pinyin": "Lìyóu jǐ zhīxī qū yè de yàn yiàn bù tuǒ",
+        "translation": "Liyou and the semiconductor company have differing opinions.",
+        "breakdown": [
+            {
+                "character": "盟友",
+                "pinyin": "lìyóu",
+                "meaning": "Liyou (proper noun)"
+            },
+            {
+                "character": "及",
+                "pinyin": "jǐ",
+                "meaning": "and/or"
+            },
+            {
+                "character": "芯片",
+                "pinyin": "zhīxī",
+                "meaning": "chip/semiconductor (芯 = chip, 笔 = pencil)"
+            },
+            {
+                "character": "企业",
+                "pinyin": "qūyè",
+                "meaning": "company (企 = enterprise, 业 = industry)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of"
+            },
+            {
+                "character": "意见",
+                "pinyin": "yiàn yàn",
+                "meaning": "opinions (议 = discussion, 论 = study)"
+            },
+            {
+                "character": "不一致",
+                "pinyin": "bù tuǒ",
+                "meaning": "not consistent (不 = not, 一 = one, 须 = must)"
+            }
+        ]
+    },
+    {
+        "chinese": "导致其内容一改再改",
+        "pinyin": "Zuìyǐ qí nèí róng yìgǎi zài gǎi",
+        "translation": "To revise its content repeatedly.",
+        "breakdown": [
+            {
+                "character": "导致",
+                "pinyin": "zuìyǐ",
+                "meaning": "to cause, to lead to"
+            },
+            {
+                "character": "其",
+                "pinyin": "qí",
+                "meaning": "its, their, her (used to indicate possession)"
+            },
+            {
+                "character": "内容",
+                "pinyin": "nèí róng",
+                "meaning": "content, matter"
+            },
+            {
+                "character": "一改",
+                "pinyin": "yìgǎi",
+                "meaning": "to revise, to make changes"
+            },
+            {
+                "character": "再改",
+                "pinyin": "zài gǎi",
+                "meaning": "to revise again, further revisions"
+            }
+        ]
+    },
+    {
+        "chinese": "谈判花了数月时间",
+        "pinyin": "Tǎngpiàn huózé shùmǐ shíjiàn.",
+        "translation": "Negotiations took several months.",
+        "breakdown": [
+            {
+                "character": "谈判",
+                "pinyin": "tǎngpiàn",
+                "meaning": "negotiation (谈 = to discuss, 判 = judgment)"
+            },
+            {
+                "character": "花",
+                "pinyin": "huázé",
+                "meaning": "used up/time spent (花 = to spend, 有时 = sometimes, but here used as 'used up')"
+            },
+            {
+                "character": "数月",
+                "pinyin": "shùmǐ",
+                "meaning": "several months (数 = number, 月 = month)"
+            },
+            {
+                "character": "时间",
+                "pinyin": "shíjiàn",
+                "meaning": "time/period (时 = time, 间 = interval)"
+            }
+        ]
+    },
+    {
+        "chinese": "一些芯片制造业巨头为此花在华盛顿的公关费累计高达400多万美元",
+        "pinyin": "yīxué Xìpí zhíyè jùyóu tǐ hua wú shàngtónghù de guān fēi cumulatively reaching over 40 million dollars in public relations fees",
+        "translation": "Some semiconductor manufacturing giants have spent a cumulative total of over 40 million dollars on public relations activities in Washington.",
+        "breakdown": [
+            {
+                "character": "一些",
+                "pinyin": "yīxué",
+                "meaning": "some (一 = one, 些 = some/many)"
+            },
+            {
+                "character": "芯片",
+                "pinyin": "Xìpí",
+                "meaning": "chip (芯 = kernel/processing unit, 片 = slice/chip)"
+            },
+            {
+                "character": "制造业",
+                "pinyin": "Zhíyè",
+                "meaning": "manufacturing industry (制造 = manufacturing, 业 = industry)"
+            },
+            {
+                "character": "巨头",
+                "pinyin": "Jiǎotou",
+                "meaning": "industry giants (巨 = huge, 头 = head/pillar)"
+            },
+            {
+                "character": "为此花在华盛顿的公关费",
+                "pinyin": "huà wú shàngtónghù de guān fēi",
+                "meaning": "public relations expenses incurred in Washington"
+            },
+            {
+                "character": "累计高达400多万美元",
+                "pinyin": "lìúcái gāo dá 400 多 man yuan",
+                "meaning": "cumulatively reaching over 40 million dollars"
+            }
+        ]
+    },
+    {
+        "chinese": "美方最终的文本长达200多页",
+        "pinyin": "Měi shísài de wényán cháng dá 200多页。",
+        "translation": "The final text from the U.S. government is over 200 pages long.",
+        "breakdown": [
+            {
+                "character": "美方",
+                "pinyin": "Méi shísài",
+                "meaning": "U.S. government (美 = USA, 方 = direction/final)"
+            },
+            {
+                "character": "最终",
+                "pinyin": "zuìhuài",
+                "meaning": "final/ultimate (最 = ultimate, 最后 = last)"
+            },
+            {
+                "character": "文本",
+                "pinyin": "wényán",
+                "meaning": "text/document (文 = document/writing, 本 = thing/basis)"
+            },
+            {
+                "character": "长达",
+                "pinyin": "cháng dá",
+                "meaning": "reaching/over 200 pages long (长 = long, 达 = reach)"
+            }
+        ]
+    },
+    {
+        "chinese": "本身就说明了其政策的荒谬性质",
+        "pinyin": "Běnshēn jǐù shìmiang le qí zhèngcídéshēng de huánbù xìnzǐ.",
+        "translation": "This clearly shows that their policies are nonsensical.",
+        "breakdown": [
+            {
+                "character": "本身",
+                "pinyin": "běn shēn",
+                "meaning": "itself, inherently (本 = this/own, 间 = space)"
+            },
+            {
+                "character": "就",
+                "pinyin": "jǐu",
+                "meaning": "just, as a result of (就 = just, 予 = in return)"
+            },
+            {
+                "character": "说明",
+                "pinyin": "shì miang",
+                "meaning": "to explain (释 = to explain)"
+            },
+            {
+                "character": "了",
+                "pinyin": "le",
+                "meaning": "a particle indicating completion"
+            },
+            {
+                "character": "其",
+                "pinyin": "qí",
+                "meaning": "its, their"
+            },
+            {
+                "character": "政策",
+                "pinyin": "zhèng cí dé shēng",
+                "meaning": "policy (政 = government, 策 = strategy)"
+            },
+            {
+                "character": "的",
+                "pinyin": "dé",
+                "meaning": "a particle denoting possession"
+            },
+            {
+                "character": "荒谬",
+                "pinyin": "huán bù",
+                "meaning": "absurd (非 = not, 儋 = child)"
+            },
+            {
+                "character": "性质",
+                "pinyin": "xì n zǐ",
+                "meaning": "nature, quality (性 = nature, 质 = quality)"
+            }
+        ]
+    },
+    {
+        "chinese": "既逆历史潮流而动",
+        "pinyin": "jié qúi lǐ shì jiǔ liú er dòng",
+        "translation": "A person who is in step with the historical trend but takes action against it.",
+        "breakdown": [
+            {
+                "character": "既",
+                "pinyin": "jié",
+                "meaning": "both; as well as"
+            },
+            {
+                "character": "逆历史潮流",
+                "pinyin": "qúi lǐ shì jiǔ liú",
+                "meaning": "against the trend of history"
+            },
+            {
+                "character": "而动",
+                "pinyin": "er dòng",
+                "meaning": "to move forward; to take action against"
+            }
+        ]
+    },
+    {
+        "chinese": "也有损大多数企业和个人的利益",
+        "pinyin": "Yóu yǒu suǒ dàduō qīye和qǐrén de lìjìng.",
+        "translation": "It also affects the interests of most companies and individuals.",
+        "breakdown": [
+            {
+                "character": "也",
+                "pinyin": "yě",
+                "meaning": "also"
+            },
+            {
+                "character": "有",
+                "pinyin": "yóu",
+                "meaning": "have, has had"
+            },
+            {
+                "character": "损",
+                "pinyin": "lùn",
+                "meaning": "to harm, to affect"
+            },
+            {
+                "character": "大多数",
+                "pinyin": "dàduō",
+                "meaning": "most, majority (大 = big, 多 = many)"
+            },
+            {
+                "character": "企业",
+                "pinyin": "qīye",
+                "meaning": "company (企 = enterprise, 业 = industry)"
+            },
+            {
+                "character": "个人的利益",
+                "pinyin": "qǐrén de lìjìng",
+                "meaning": "individual's interests (个 = individual, 人 = person, 利益 = interests)"
+            }
+        ]
+    },
+    {
+        "chinese": "注定难以顺利执行",
+        "pinyin": "zhùyì nánhuà shùnlí xíjiàn",
+        "translation": "It is doomed not to be smoothly implemented.",
+        "breakdown": [
+            {
+                "character": "注",
+                "pinyin": "zhùyì",
+                "meaning": "to mark or determine (注 = to mark)"
+            },
+            {
+                "character": "定",
+                "pinyin": "dìng",
+                "meaning": "fixed; determined (定 = fixed, settled)"
+            },
+            {
+                "character": "难以",
+                "pinyin": "nánhuà",
+                "meaning": "not easy; difficult"
+            },
+            {
+                "character": "顺利",
+                "pinyin": "shùnlí",
+                "meaning": "smoothly; successfully (顺 = smoothly, 利 = benefit/merit)"
+            },
+            {
+                "character": "执行",
+                "pinyin": "xiaoşū",
+                "meaning": "to execute; to carry out"
+            }
+        ]
+    },
+    {
+        "chinese": "更不可能取得预想中的效果",
+        "pinyin": "Gèng bù kě qǐduǒ yóu cūxué zhī xiàqiān zhǒumǒ",
+        "translation": "It is not possible to achieve results better than what one would expect.",
+        "breakdown": [
+            {
+                "character": "更",
+                "pinyin": "gèng",
+                "meaning": "more (ge = more; note: in Chinese, 'ge' as a suffix can mean 'more')"
+            },
+            {
+                "character": "不",
+                "pinyin": "bù",
+                "meaning": "not (bù is an negation particle in Chinese)"
+            },
+            {
+                "character": "可能",
+                "pinyin": "nóng qǐ",
+                "meaning": "possible (nóng = can, qǐ = to have the ability)"
+            },
+            {
+                "character": "取得",
+                "pinyin": "qǒu",
+                "meaning": "to achieve, to attain"
+            },
+            {
+                "character": "预想",
+                "pinyin": "yóu xiǎng",
+                "meaning": "expectation (yóu = to have an expectation, xiǎng = thought)"
+            },
+            {
+                "character": "中的效果",
+                "pinyin": "zhōumǒ de xiàoguǔ",
+                "meaning": "the expected results/effects"
+            }
+        ]
+    },
+    {
+        "chinese": "这是一项不加任何掩饰的蛮横措施",
+        "pinyin": "Zhè shi yī shēng qī bù jia hǎn yì yóu cǐ wéizhi suǒu",
+        "translation": "This is a bold and unapologetic move.",
+        "breakdown": [
+            {
+                "character": "这",
+                "pinyin": "zhè",
+                "meaning": "this"
+            },
+            {
+                "character": "是一项",
+                "pinyin": "yī shēng qī tóu",
+                "meaning": "is a matter/item"
+            },
+            {
+                "character": "不加任何掩饰",
+                "pinyin": "bù jia hǎn yì yóu cí suǒ",
+                "meaning": "without any concealment"
+            },
+            {
+                "character": "蛮横措施",
+                "pinyin": "cǐ wéizhi zuó shù",
+                "meaning": "bold/impudent measures/step(s)"
+            }
+        ]
+    },
+    {
+        "chinese": "被列入清单的140余家中国企业",
+        "pinyin": "bèi lǐrù qīng单 de 140 yú jia Zhōngguó qūyxī",
+        "translation": "Over 140 Chinese companies have been listed on the list.",
+        "breakdown": [
+            {
+                "character": "被",
+                "pinyin": "bèi",
+                "meaning": "to be listed on the list"
+            },
+            {
+                "character": "列入",
+                "pinyin": "liúrù",
+                "meaning": "to be added to the list"
+            },
+            {
+                "character": "清单",
+                "pinyin": "qīng单",
+                "meaning": "the list/listing (清 = clear, 单 = single)"
+            },
+            {
+                "character": "140余家",
+                "pinyin": "sìBASHI yǒu jia",
+                "meaning": "over 140 companies (一百四十 = one hundred forty, 余 = more than)"
+            },
+            {
+                "character": "中国企业",
+                "pinyin": "Zhōngguó qūyxī",
+                "meaning": "Chinese companies (中 = middle/China, 国 = country, 企 = company, 行 = business)"
+            }
+        ]
+    },
+    {
+        "chinese": "有的仅仅是因为",
+        "pinyin": "Hǎo de jǐ jī yǐ 因为",
+        "translation": "Some are merely because of",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "hǎo",
+                "meaning": "exist, have (有 = to have/exist)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of, belonging to (的 = of/belonging to)"
+            },
+            {
+                "character": "仅",
+                "pinyin": "jǐ",
+                "meaning": "only, merely (仅 = only/merely)"
+            },
+            {
+                "character": "仅仅",
+                "pinyin": "jǐ jǐ",
+                "meaning": "merely; used twice to emphasize negation"
+            }
+        ]
+    },
+    {
+        "chinese": "还有的是因为参",
+        "pinyin": "yóu yǒu shì gèruò shùcóng",
+        "translation": "There's also participation because",
+        "breakdown": [
+            {
+                "character": "还有",
+                "pinyin": "yóu",
+                "meaning": "also, still (有 = to have, 同样)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is, are"
+            },
+            {
+                "character": "的",
+                "pinyin": "",
+                "meaning": "particles used for possession or relationship (表示拥有或关联)"
+            },
+            {
+                "character": "也是",
+                "pinyin": "yě shì",
+                "meaning": "also be"
+            },
+            {
+                "character": "因为",
+                "pinyin": "gèruò",
+                "meaning": "because of"
+            },
+            {
+                "character": "参",
+                "pinyin": "shùcóng",
+                "meaning": "participation, to participate (参 = participation)"
+            }
+        ]
+    },
+    {
+        "chinese": "收购了美国的高科技企业",
+        "pinyin": "shōuqiú liú méiyuán de gāoxué qūxiang",
+        "translation": "They acquired a high-tech company in the United States.",
+        "breakdown": [
+            {
+                "character": "收购",
+                "pinyin": "shōuqiú",
+                "meaning": "to acquire (收 = to receive, 买 = to buy)"
+            },
+            {
+                "character": "了",
+                "pinyin": "le",
+                "meaning": "past tense marker"
+            },
+            {
+                "character": "美国",
+                "pinyin": "méiyuán",
+                "meaning": "United States (美 = beautiful/USA, 国 = country)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "particle denoting possession/relationship"
+            },
+            {
+                "character": "高科技",
+                "pinyin": "gāoxué",
+                "meaning": "high technology (高 = high, 科 = science/technology, 学 = study)"
+            },
+            {
+                "character": "企业",
+                "pinyin": "qūxiang",
+                "meaning": "company/corporation (业 = industry/party, 企 = enterprise)"
+            }
+        ]
+    },
+    {
+        "chinese": "就被认为是‘威胁美国国家安全’",
+        "pinyin": "Jiùbèi rùgǎr shì «Wēi zh959i Měiguó Guówèishìxiào».",
+        "translation": "He is believed to be a threat to U.S. national security.",
+        "breakdown": [
+            {
+                "character": "就",
+                "pinyin": "jiù",
+                "meaning": "just, only (j=just, う=on, っ=with)"
+            },
+            {
+                "character": "被",
+                "pinyin": "bèi",
+                "meaning": "to be, am/become"
+            },
+            {
+                "character": "认为",
+                "pinyin": "rùgǎr",
+                "meaning": "to think that"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is, am"
+            },
+            {
+                "character": "威胁",
+                "pinyin": "wēi zh959i",
+                "meaning": "threat (威=worry, 补=supplement)"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měiguó",
+                "meaning": "United States (美=beautiful, 国=nation)"
+            },
+            {
+                "character": "国家安全",
+                "pinyin": "Guówèishìxiào",
+                "meaning": "national security (国=nation, 事=affairs, 安=pacify, safe)"
+            }
+        ]
+    },
+    {
+        "chinese": "美国还借用这项措施极大扩展了自己的权力",
+        "pinyin": "Měibǎo yǔ jiehuo zhè shì cuí zhanle zhe jǐ de quánlǐ",
+        "translation": "The United States has also used this measure to significantly expand its own power.",
+        "breakdown": [
+            {
+                "character": "美国",
+                "pinyin": "Měibǎo",
+                "meaning": "United States (美 = beautiful, 国 = country)"
+            },
+            {
+                "character": "还",
+                "pinyin": "yǔ",
+                "meaning": "also"
+            },
+            {
+                "character": "借用",
+                "pinyin": "jiekǎo",
+                "meaning": "to borrow, to use"
+            },
+            {
+                "character": "这项",
+                "pinyin": "zhè shì",
+                "meaning": "this measure (zhè = this, shì = measure)"
+            },
+            {
+                "character": "措施",
+                "pinyin": "cuí",
+                "meaning": "measure, method"
+            },
+            {
+                "character": "极大",
+                "pinyin": "jí dà",
+                "meaning": "extremely large, extremely big (极 = very, 大 = big)"
+            },
+            {
+                "character": "扩展",
+                "pinyin": "kuò zhan",
+                "meaning": "to expand, to extend"
+            },
+            {
+                "character": "了",
+                "pinyin": "le",
+                "meaning": "a particle indicating completion (了 = have/has + ed)"
+            },
+            {
+                "character": "自己的权力",
+                "pinyin": "zhe jǐ de quánlǐ",
+                "meaning": "one's own power, authority"
+            }
+        ]
+    },
+    {
+        "chinese": "包括日本",
+        "pinyin": "Bàokuò Rìyōan",
+        "translation": "Including Japan",
+        "breakdown": [
+            {
+                "character": "包括",
+                "pinyin": "bàokuò",
+                "meaning": "to include, to cover (包 = package,括= to enclose)"
+            },
+            {
+                "character": "日本",
+                "pinyin": "Rìyōan",
+                "meaning": "Japan (日 = sun, 本 = root/bottom)"
+            }
+        ]
+    },
+    {
+        "chinese": "荷兰",
+        "pinyin": "Hé lán",
+        "translation": "The Netherlands",
+        "breakdown": [
+            {
+                "character": "荷",
+                "pinyin": "hé",
+                "meaning": "荷 (荷 = lotus flower/leaf; also can symbolize elegance or beauty)"
+            },
+            {
+                "character": "兰",
+                "pinyin": "lán",
+                "meaning": "兰 (兰 = iris/lily; also can mean high洁 or excellent)"
+            }
+        ]
+    },
+    {
+        "chinese": "以色列",
+        "pinyin": "Yǐ sekéré",
+        "translation": "Israel",
+        "breakdown": [
+            {
+                "character": "以",
+                "pinyin": "yǐ",
+                "meaning": "Used to express emphasis or to refer to something in a way that suggests 'this' (often used with proper nouns)."
+            },
+            {
+                "character": "色列",
+                "pinyin": "sekélé",
+                "meaning": "A country located in the Middle East. Breaking it down: 色 = color, 领 = leader; overall meaning refers to the leadership or governance."
+            }
+        ]
+    },
+    {
+        "chinese": "马来西亚",
+        "pinyin": "MǎLái XīYà",
+        "translation": "Malaysia",
+        "breakdown": [
+            {
+                "character": "马",
+                "pinyin": "Mǎ",
+                "meaning": "horse"
+            },
+            {
+                "character": "来",
+                "pinyin": "Lái",
+                "meaning": "come"
+            },
+            {
+                "character": "西",
+                "pinyin": "Xī",
+                "meaning": "west"
+            },
+            {
+                "character": "亚",
+                "pinyin": "Yà",
+                "meaning": "asia"
+            }
+        ]
+    },
+    {
+        "chinese": "新加坡",
+        "pinyin": "Xīn jiā pō",
+        "translation": "Singapore",
+        "breakdown": [
+            {
+                "character": "新",
+                "pinyin": "xīn",
+                "meaning": "new (现代汉语中表示‘新的’)"
+            },
+            {
+                "character": "加",
+                "pinyin": "jiā",
+                "meaning": "add, join; in Singapore's name, it refers to the addition of another part"
+            },
+            {
+                "character": "坡",
+                "pinyin": "pō",
+                "meaning": "hill, slope (地名中常用来表示‘山’或‘丘陵’)}"
+            }
+        ]
+    },
+    {
+        "chinese": "韩国和中国台湾在内的许多国家及地区都要受该措施影响",
+        "pinyin": "Hán guó 和 Zhōng gúo Tài wán zhi shàng yǒu kě qí lì huì xiè yǐn yuán",
+        "translation": "Korean and Chinese Taiwan and many other countries and regions are all affected by this measure.",
+        "breakdown": [
+            {
+                "character": "韩国",
+                "pinyin": "Hán guó",
+                "meaning": "Korea (韩 = Korea, 国 = country)"
+            },
+            {
+                "character": "和",
+                "pinyin": "hé",
+                "meaning": "and"
+            },
+            {
+                "character": "中国台湾",
+                "pinyin": "Zhōng gúo Tài wán",
+                "meaning": "China's Taiwan region (中 = China, 国 = country, 台 = Taiwan)"
+            },
+            {
+                "character": "在内的",
+                "pinyin": "zhi shàng yǒu",
+                "meaning": "including (这 = this, 在 = in)"
+            },
+            {
+                "character": "许多国家及地区",
+                "pinyin": "mǎnyòu guójiā dì qü",
+                "meaning": "many countries and regions"
+            },
+            {
+                "character": "都要受",
+                "pinyin": "dōu yào shou",
+                "meaning": "are all affected (都 = all, 要 = must)"
+            },
+            {
+                "character": "该措施影响",
+                "pinyin": "tā zuì huí yǐng",
+                "meaning": "this measure will affect"
+            }
+        ]
+    },
+    {
+        "chinese": "全球产供链的稳定将因此受到严重干扰",
+        "pinyin": "(Guó)(jī)(hái) shǒu gú chǎinlián de wěi(2nd tone) dǐng(3rd tone) jiāo(4th tone) yīn(5th tone) zé(4th tone) bù(4th tone) róng(4th tone) de xīn(1st tone)s",
+        "translation": "The stability of the global supply chain will be severely disrupted due to this.",
+        "breakdown": [
+            {
+                "character": "全球产供链",
+                "pinyin": "(Guó)(jī)(hái)",
+                "meaning": "Global supply chain (全球 = world-wide, 产供链 = production and distribution chain)"
+            },
+            {
+                "character": "的稳定",
+                "pinyin": "de wěn dǐng",
+                "meaning": "The stability of (的 = possessive, 稳定 = stable)"
+            },
+            {
+                "character": "将",
+                "pinyin": "jiǎo",
+                "meaning": "Will be affected (将 = to be affected)"
+            },
+            {
+                "character": "因此受到",
+                "pinyin": "yīn shǒu dūo",
+                "meaning": "Therefore, it will be severely disrupted"
+            },
+            {
+                "character": "严重干扰",
+                "pinyin": "zhǜyóu kàng rǎng",
+                "meaning": "Severe disruptions (严重 = severe, 干扰 = interference)"
+            }
+        ]
+    },
+    {
+        "chinese": "国际经贸秩序将因此受到破坏",
+        "pinyin": "Guójìng Jīngmáo Lìbiàn jiéng yǐnghuà suǒkuò huài tāo",
+        "translation": "The international trade order will therefore be severely disrupted.",
+        "breakdown": [
+            {
+                "character": "国际经贸秩序",
+                "pinyin": "Guójìng Jīngmáo Lìbiàn",
+                "meaning": "International trade order (国 = country, 商 = business, 贸易 = trade, 顺 = order)"
+            },
+            {
+                "character": "将因此",
+                "pinyin": "jiéng yǐnghuà",
+                "meaning": "will therefore be severely disrupted"
+            },
+            {
+                "character": "受到破坏",
+                "pinyin": "suǒkuò huài tāo",
+                "meaning": "be severely disrupted"
+            }
+        ]
+    },
+    {
+        "chinese": "这等于是美国犯病",
+        "pinyin": "Zhè deng shì Měiguó fàn huì.",
+        "translation": "This is equivalent to the United States making a mistake.",
+        "breakdown": [
+            {
+                "character": "这",
+                "pinyin": "zhè",
+                "meaning": "this (used with certain verbs as a topic starter)"
+            },
+            {
+                "character": "等于",
+                "pinyin": "déngyóu",
+                "meaning": "equal, equivalent"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is, equal (used as a copula)"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měiguó",
+                "meaning": "the United States"
+            },
+            {
+                "character": "犯病",
+                "pinyin": "fàn huì",
+                "meaning": "to make a mistake, to err (犯 = to commit, 病 = illness/mistake)"
+            }
+        ]
+    },
+    {
+        "chinese": "全球‘吃药’",
+        "pinyin": "qùòlójǐ 'chīyào'",
+        "translation": "The world takes medicine.",
+        "breakdown": [
+            {
+                "word": "全球",
+                "pinyin": "qùòlójǐ",
+                "meaning": "the world (世界 = the Earth, containing all people and countries)"
+            },
+            {
+                "word": "'吃药'",
+                "pinyin": "'chīyào'",
+                "meaning": "medication or to take medicine (‘= quotation, 吃 = to eat, 药 = medicine)"
+            }
+        ]
+    },
+    {
+        "chinese": "现在",
+        "pinyin": "Xiànqù",
+        "translation": "Now",
+        "breakdown": [
+            {
+                "character": "现",
+                "pinyin": "Xiàn",
+                "meaning": "now, current (现 = present)"
+            },
+            {
+                "character": "求",
+                "pinyin": "Qiū",
+                "meaning": "to seek, request (求 = to seek)"
+            }
+        ]
+    },
+    {
+        "chinese": "绝大多数国际主流舆论都不看好这项新措施",
+        "pinyin": "绝大多数国际主流舆论都不看好这项新措施",
+        "translation": "The vast majority of international mainstream public opinion does not look favorably upon this new measure.",
+        "breakdown": [
+            {
+                "character": "绝",
+                "pinyin": "sé",
+                "meaning": "absolutely, completely"
+            },
+            {
+                "character": "大",
+                "pinyin": "dà",
+                "meaning": "great, large"
+            },
+            {
+                "character": "多",
+                "pinyin": "shuǒ",
+                "meaning": "many, numerous"
+            },
+            {
+                "character": "数",
+                "pinyin": "shù",
+                "meaning": "number, count"
+            },
+            {
+                "character": "国际",
+                "pinyin": "guó",
+                "meaning": "international (国 = country, 交 = exchange)"
+            },
+            {
+                "character": "主流",
+                "pinyin": "zhǓliù",
+                "meaning": "mainstream, dominant"
+            },
+            {
+                "character": "舆",
+                "pinyin": "yù",
+                "meaning": "public opinion (舆 = public opinion)"
+            },
+            {
+                "character": "论",
+                "pinyin": "lùn",
+                "meaning": "discussion, argument"
+            },
+            {
+                "character": "不",
+                "pinyin": "bù",
+                "meaning": "not, no"
+            },
+            {
+                "character": "看",
+                "pinyin": "kàn",
+                "meaning": "to look, to watch"
+            },
+            {
+                "character": "好",
+                "pinyin": "hǎo",
+                "meaning": "well, good (好 = good,坏 = bad)"
+            },
+            {
+                "character": "这",
+                "pinyin": "zhè",
+                "meaning": "this"
+            },
+            {
+                "character": "项",
+                "pinyin": "xiàng",
+                "meaning": "measure, item"
+            },
+            {
+                "character": "新",
+                "pinyin": "xīn",
+                "meaning": "new"
+            },
+            {
+                "character": "措施",
+                "pinyin": "dúihuà",
+                "meaning": "measure (措施 = measures)"
+            }
+        ]
+    },
+    {
+        "chinese": "认为这只能增强中国建立自给自足芯片产业的决心和能力",
+        "pinyin": "Rùmín hǎo zǐ chéng qī yóu zìzhì shējiè qīng wén zhōngguó lǜyú zídòng kěxué de juànshí yàlì",
+        "translation": "Believe that this can only strengthen China's determination and ability to establish a self-sufficient semiconductor industry.",
+        "breakdown": [
+            {
+                "character": "认为",
+                "pinyin": "Rùmín",
+                "meaning": "to believe, to think"
+            },
+            {
+                "character": "这",
+                "pinyin": "zhè",
+                "meaning": "this"
+            },
+            {
+                "character": "只能",
+                "pinyin": "kěshí",
+                "meaning": "can only, can only be"
+            },
+            {
+                "character": "增强",
+                "pinyin": "zú qián",
+                "meaning": "to strengthen, to enhance"
+            },
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (中 = middle/China, 国 = country)"
+            },
+            {
+                "character": "建立自给自足芯片产业",
+                "pinyin": "Shèjiè qīng wén zhōngguó lǜyú zídòng kěxué de juànshí yàlì",
+                "meaning": "to establish an independent and self-sufficient semiconductor industry in China"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of, belong to"
+            },
+            {
+                "character": "决心",
+                "pinyin": "juànshí",
+                "meaning": "determination, resolve"
+            },
+            {
+                "character": "和",
+                "pinyin": "hé",
+                "meaning": "and"
+            },
+            {
+                "character": "能力",
+                "pinyin": "néngliáng",
+                "meaning": "ability, capability"
+            }
+        ]
+    },
+    {
+        "chinese": "这已经是美国近年来推出的第三轮对华芯片出口限制措施。",
+        "pinyin": "Zhè yǐ shì Měilánu jīn nián lái tuō chū de sānzhōu duì huá xì kē chūxū zhi duǒ cúfáng kuàng zhaṌ",
+        "translation": "This is the third round of China's chip export restrictions that the U.S. has recently imposed.",
+        "breakdown": [
+            {
+                "character": "这",
+                "pinyin": "Zhè",
+                "meaning": "this, these (指代前文提到的内容)"
+            },
+            {
+                "character": "已经是",
+                "pinyin": "yǐ shì",
+                "meaning": "already is"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měilánu",
+                "meaning": "United States (美 = beautiful, 兰 = lantern)"
+            },
+            {
+                "character": "近年来",
+                "pinyin": "jīn nián lái",
+                "meaning": "recently, in recent years"
+            },
+            {
+                "character": "推出的",
+                "pinyin": "tuō chū de",
+                "meaning": "to impose, to launch"
+            },
+            {
+                "character": "第三轮",
+                "pinyin": "sānzhōu",
+                "meaning": "third round (三 = three)"
+            },
+            {
+                "character": "对华芯片出口限制措施",
+                "pinyin": "duì huá xì kē chūxū zhi duǒ cúfáng kuàng zhaṌ",
+                "meaning": "export restrictions on China's chip industry (对 = towards, 华 = China, 芯片 = semiconductor)"
+            }
+        ]
+    },
+    {
+        "conversion": {
+            "romanized": "zhè sān lún cào shī qīng dān yòu lā yóu cháng",
+            "pinyin_with_tones": "zhè sān lún cǎochí qīngdán yòu lā yóu cháng",
+            "translation": "These three rounds of measures are getting longer each time."
+        },
+        "breakdown": [
+            {
+                "char": "这",
+                "pinyin": "zhè",
+                "meaning": "this"
+            },
+            {
+                "char": "三",
+                "pinyin": "sān",
+                "meaning": "three"
+            },
+            {
+                "char": "轮",
+                "pinyin": "lún",
+                "meaning": "round, wheel"
+            },
+            {
+                "char": "措",
+                "pinyin": "cào",
+                "meaning": "to do, take measures"
+            },
+            {
+                "char": "施",
+                "pinyin": "shī",
+                "meaning": "implement, execute"
+            },
+            {
+                "char": "清",
+                "pinyin": "qīng",
+                "meaning": "clear, pure"
+            },
+            {
+                "char": "单",
+                "pinyin": "dān",
+                "meaning": "single, simple"
+            },
+            {
+                "char": "越",
+                "pinyin": "yòu",
+                "meaning": "furthermore, more"
+            },
+            {
+                "char": "拉",
+                "pinyin": "lā",
+                "meaning": "pull, drag"
+            },
+            {
+                "char": "又",
+                "pinyin": "yóu",
+                "meaning": "another"
+            },
+            {
+                "char": "长",
+                "pinyin": "cháng",
+                "meaning": "long"
+            }
+        ]
+    },
+    {
+        "chinese": "牵扯的国家和地区越来越多",
+        "pinyin": "tǐnkuò de guójiā he dìqū kuài kuài duō",
+        "translation": "The number of countries and regions involved is increasing.",
+        "breakdown": [
+            {
+                "character": "牵扯",
+                "pinyin": "tǐnkuò",
+                "meaning": "involved, linked (牵 = to connect, 扯 = to draw)"
+            },
+            {
+                "character": "国家",
+                "pinyin": "guójiā",
+                "meaning": "countries (国 = nation, 家 = family)"
+            },
+            {
+                "character": "和",
+                "pinyin": "hé",
+                "meaning": "and"
+            },
+            {
+                "character": "地区",
+                "pinyin": "dìqū",
+                "meaning": "regions (地 = land/earth, 区 = district)"
+            },
+            {
+                "character": "越来越多",
+                "pinyin": "kuài kuài duō",
+                "meaning": "increasingly numerous, growing increasingly numerous"
+            }
+        ]
+    },
+    {
+        "chinese": "美方此作为的逻辑实际陷入了死循环",
+        "pinyin": "Měifàng cǐ zuò de lóu jì yǜshí suǒ zī lóu xiàn qī huán",
+        "translation": "The logic of the U.S. approach has become trapped in a loop.",
+        "breakdown": [
+            {
+                "character": "美方",
+                "pinyin": "Měifàng",
+                "meaning": "U.S. (美 = beauty/USA, 方 = direction/side)"
+            },
+            {
+                "character": "此作为",
+                "pinyin": "cǐ zuò",
+                "meaning": "This approach; to consider as"
+            },
+            {
+                "character": "的逻辑",
+                "pinyin": "de lóu",
+                "meaning": "the logic (的 = of, 逻辑 = logic)"
+            },
+            {
+                "character": "实际",
+                "pinyin": "shí jī",
+                "meaning": "actual/in reality (实 = real, 剂 = limited)"
+            },
+            {
+                "character": "陷入了",
+                "pinyin": "huán qù le",
+                "meaning": "has become trapped/entered a state"
+            },
+            {
+                "character": "死循环",
+                "pinyin": "sǐ huán",
+                "meaning": "a dead end or cycle (死 = dead, 循环 = loop)"
+            }
+        ]
+    },
+    {
+        "chinese": "因为打压遏制中国的起始逻辑就是错的",
+        "pinyin": "Bǐ yüè dǎ zī jì qǔ zhōng guó de qǐ shēnghuà lù nüé jiù shì cuò de.",
+        "translation": "Because the initial logic that leads to suppress and hinder China is wrong.",
+        "breakdown": [
+            {
+                "character": "因为",
+                "pinyin": "bǐ yüè",
+                "meaning": "because (因为 = because)"
+            },
+            {
+                "character": "打压",
+                "pinyin": "dǎ zī",
+                "meaning": "oppression/repression (打 = hit/punch, 压 = press/weight)"
+            },
+            {
+                "character": "遏制",
+                "pinyin": "jì qǔ",
+                "meaning": "to hinder/to suppress (遏 = to check/hinder, 制 = control/restrict)"
+            },
+            {
+                "character": "中国",
+                "pinyin": "zhōng guó",
+                "meaning": "China (中 = middle/China, 国 = country/civilization)"
+            },
+            {
+                "character": "起始逻辑",
+                "pinyin": "qǐ shēnghuà lù nüé",
+                "meaning": "initial logic (起始 = initial, 逻辑 = logic, 遏制中国的 = to suppress/hinder China)"
+            },
+            {
+                "character": "就是",
+                "pinyin": "jiù shì",
+                "meaning": "is just/is simply (就是 = is/is similar)"
+            },
+            {
+                "character": "错的",
+                "pinyin": "cuò de",
+                "meaning": "wrong/incorrect (错 = wrong, 的 = of/related to)"
+            }
+        ]
+    },
+    {
+        "chinese": "不仅无法遏制中国科技产业",
+        "pinyin": "bùjīn wéi nǎo zǐ zhōngguó jiǔ shì yè",
+        "translation": "It is not possible to prevent the rapid growth of China's technology industry.",
+        "breakdown": [
+            {
+                "character": "不",
+                "pinyin": "bù",
+                "meaning": "not (negative suffix)"
+            },
+            {
+                "character": "仅",
+                "pinyin": "jī",
+                "meaning": "only/just ( Particle used to emphasize negation or limitation)"
+            },
+            {
+                "character": "无法",
+                "pinyin": "nóu",
+                "meaning": "cannot (verb meaning 'not possible')"
+            },
+            {
+                "character": "遏制",
+                "pinyin": "vìzhì",
+                "meaning": "to suppress/control; to prevent"
+            },
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (country name)"
+            },
+            {
+                "character": "科技",
+                "pinyin": "Shíjiú",
+                "meaning": "technology/industry (科技 = technology, 产业 = industry)"
+            },
+            {
+                "character": "产业",
+                "pinyin": "shìyè",
+                "meaning": "industry (产业 = industry)"
+            }
+        ]
+    },
+    {
+        "chinese": "在最新的限制措施中",
+        "pinyin": "Zài zuì shùōu cì zǔdòng cǒu.",
+        "translation": "Under the latest restrictions.",
+        "breakdown": [
+            {
+                "character": "在",
+                "pinyin": "zài",
+                "meaning": "in, within (在 = in; 里 = inside)"
+            },
+            {
+                "character": "最新",
+                "pinyin": "zuì",
+                "meaning": "new, recent (最新 = latest)"
+            },
+            {
+                "character": "限制",
+                "pinyin": "shù2",
+                "meaning": "restriction, limit (限制 = restriction)"
+            },
+            {
+                "character": "措施",
+                "pinyin": "cǒu",
+                "meaning": "measure, policy (措施 = measures/policy)"
+            },
+            {
+                "character": "中",
+                "pinyin": "zhōng",
+                "meaning": "middle, center; to contain (中 = middle/China; 义 = righteousness)"
+            }
+        ]
+    },
+    {
+        "chinese": "也就是说",
+        "pinyin": "Jiùshí biǎo",
+        "translation": "That is to say",
+        "breakdown": [
+            {
+                "character": "也",
+                "pinyin": "yóu",
+                "meaning": "also; in other words (又 = another)"
+            },
+            {
+                "character": "就是",
+                "pinyin": "Jiùshí",
+                "meaning": "that is to say, that is (就 = very/just, 是 = to be)"
+            },
+            {
+                "character": "说",
+                "pinyin": "shuō",
+                "meaning": "to say; to state"
+            }
+        ]
+    },
+    {
+        "chinese": "如果产品中包含哪怕一块使用美国技术设计或制造的芯片",
+        "pinyin": "Ruò chéng shȘōu, zhōng yǒu nǎ huá 一 bĕ āng shǐyòng Měibù jīhū Cài huó Zào de Xìnǐpí",
+        "translation": "If the product contains even a single chip that is designed or manufactured using American technology.",
+        "breakdown": [
+            {
+                "character": "如果",
+                "pinyin": "Ruò",
+                "meaning": "if, assuming (如 = like, 复 = difficult)"
+            },
+            {
+                "character": "产品",
+                "pinyin": "chéng",
+                "meaning": "product(s) (畜 = animal, 产 = production)"
+            },
+            {
+                "character": "中",
+                "pinyin": "zhōng",
+                "meaning": "within, in, contain (中 = middle/China, 且 = and)"
+            },
+            {
+                "character": "包含",
+                "pinyin": "bĕ",
+                "meaning": "contain, include (包 = package, 含 = contain)"
+            },
+            {
+                "character": "哪怕",
+                "pinyin": "nǎ huá",
+                "meaning": "even if, at least one"
+            },
+            {
+                "character": "一块",
+                "pinyin": "yī bĕ",
+                "meaning": "one piece, a single (一 = one, 块 = lump)"
+            },
+            {
+                "character": "使用",
+                "pinyin": "shǐyòng",
+                "meaning": "use, utilize (使 = cause, 用 = to use)"
+            },
+            {
+                "character": "美国技术",
+                "pinyin": "Měibù jīhū",
+                "meaning": "American technology (美 = beautiful, 国 = country)"
+            },
+            {
+                "character": "设计或制造",
+                "pinyin": "Cài huó Zào",
+                "meaning": "design or manufacturing (设计 = design, 制造 = production)"
+            },
+            {
+                "character": "芯片",
+                "pinyin": "Xìnǐpí",
+                "meaning": "chip, semiconductor (芯 = kernel, 片 = slice)"
+            }
+        ]
+    },
+    {
+        "chinese": "这样的规定看起来好像很唬人",
+        "pinyin": "Yátuǐde kànshíwei, xiàng shì yǒuróng de bhīrén",
+        "translation": "Such regulations seem quite superficial.",
+        "breakdown": [
+            {
+                "character": "这样的",
+                "pinyin": "yátuǐ",
+                "meaning": "such; used as an adjective suffix (形容词用法)"
+            },
+            {
+                "character": "规定",
+                "pinyin": "zhìding",
+                "meaning": "regulation, rule (常用名词)"
+            },
+            {
+                "character": "看起来",
+                "pinyin": "kànshíwei",
+                "meaning": "to look; to appear (常用动词短语)"
+            },
+            {
+                "character": "好像",
+                "pinyin": "xiàng",
+                "meaning": "as if, like (常用助词或副词)"
+            },
+            {
+                "character": "很",
+                "pinyin": "hěn",
+                "meaning": "very; extremely (形容词)"
+            },
+            {
+                "character": "唬人",
+                "pinyin": "bhīrén",
+                "meaning": "to deceive, to dupe (带俚语意味，意为蒙混过关)"
+            }
+        ]
+    },
+    {
+        "chinese": "实际效果趋近于零",
+        "pinyin": "Shíjiàn huóxué qǔdī yán近。",
+        "translation": "The practical effects are approaching zero.",
+        "breakdown": [
+            {
+                "unit": "实际效果",
+                "pinyin": "shíjiàn huóxué",
+                "meaning": "practical effect (实际 = real/practical, 效果 = effect/outcome)"
+            },
+            {
+                "unit": "趋近于",
+                "pinyin": "qǔdī yán近",
+                "meaning": "tends towards/ approaches (趋 = tends, 近 = near)"
+            },
+            {
+                "unit": "零",
+                "pinyin": "lìng",
+                "meaning": "zero"
+            }
+        ]
+    },
+    {
+        "chinese": "美国早就针对华为采取了类似的‘断供’措施",
+        "pinyin": "Měibǎo zǎi jiù zhǐduì Huàwāi cǎi jī le lì shě de duān供 zuò diào",
+        "translation": "The United States has long targeted Huawei with similar supply disruptions.",
+        "breakdown": [
+            {
+                "character": "美国",
+                "pinyin": "Měibǎo",
+                "meaning": "the United States (美 = beautiful, 邦 = state or nation)"
+            },
+            {
+                "character": "早就",
+                "pinyin": "Zǎi jiù",
+                "meaning": "early on/long ago"
+            },
+            {
+                "character": "针对",
+                "pinyin": "Zhǐduì",
+                "meaning": "targeting, aiming at"
+            },
+            {
+                "character": "华为",
+                "pinyin": "Huàwāi",
+                "meaning": "Huawei (华 = China, 为 = to do, handle)"
+            },
+            {
+                "character": "采取",
+                "pinyin": "Cǎi jī",
+                "meaning": "to take measures, to implement"
+            },
+            {
+                "character": "类似的‘断供’措施",
+                "pinyin": "Lì shě de duān供 zuò diào",
+                "meaning": "similar supply disruptions (措施 = measures)"
+            }
+        ]
+    },
+    {
+        "chinese": "却并未能够阻止华为的‘向上蜕变’",
+        "pinyin": "Gù nín éile bù néng zǐ shì Huàwéi de ‘Xiàngshàng chéngbiàn’",
+        "translation": "However, he/it was not able to stop Huawei's 'ascent'.",
+        "breakdown": [
+            {
+                "character": "却",
+                "pinyin": "gù",
+                "meaning": "however, suddenly (古 = ancient/differing from above)"
+            },
+            {
+                "character": "并未能够阻止",
+                "pinyin": "nín éile bù néng zǐ shì",
+                "meaning": "was not able to stop"
+            },
+            {
+                "character": "华为的",
+                "pinyin": "Huàwéi de",
+                "meaning": "of Huawei (华 = China, 为了 = for)"
+            },
+            {
+                "character": "向上蜕变",
+                "pinyin": "Xiàngshàng chéngbiàn",
+                "meaning": "ascent, evolution (向 = upwards, 上 = higher; 蜕 = to shed/cast off, 变 = change/different)"
+            }
+        ]
+    },
+    {
+        "chinese": "就是一个典型事例",
+        "pinyin": "Jǐùyī Lìbǔ Shìliè",
+        "translation": "One typical example.",
+        "breakdown": [
+            {
+                "character": "就",
+                "pinyin": "jǐ",
+                "meaning": "to be; to consist of"
+            },
+            {
+                "character": "一个",
+                "pinyin": "yī",
+                "meaning": "one; a (used before nouns)"
+            },
+            {
+                "character": "典型",
+                "pinyin": "lìbǔ",
+                "meaning": "typical; model example"
+            },
+            {
+                "character": "事例",
+                "pinyin": "shìliè",
+                "meaning": "case; example"
+            }
+        ]
+    },
+    {
+        "chinese": "《纽约时报》直言",
+        "pinyin": "Niu Yóu Shí Bào Zhīyán",
+        "translation": "In the News",
+        "breakdown": [
+            {
+                "character": "《",
+                "pinyin": "Juàn",
+                "meaning": "a quotation mark (used before a title or name)"
+            },
+            {
+                "character": "纽约时报",
+                "pinyin": "Niu Yóu Shí Bào",
+                "meaning": "The New York Times (a major international newspaper)"
+            },
+            {
+                "character": "直言",
+                "pinyin": "Zhīyán",
+                "meaning": "straightforwardly; directly (used to indicate the tone of a headline)"
+            }
+        ]
+    },
+    {
+        "chinese": "中国是全球大多数电子产品工厂的所在地",
+        "pinyin": "Zhōngguó shì Guólèi dàoshǔu diàxué chénghuǒ gōngchǎng de suǒdìngdiàn",
+        "translation": "China is the location of most electronics factories worldwide.",
+        "breakdown": [
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (中 = middle/China, 国 = country)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is/are"
+            },
+            {
+                "character": "全球",
+                "pinyin": "Guólèi",
+                "meaning": "global/worldwide (全球 = global, 地 = land/earth)"
+            },
+            {
+                "character": "大多数",
+                "pinyin": "dàoshǔu",
+                "meaning": "majority/most (大 = big, 多 = many)"
+            },
+            {
+                "character": "电子产品",
+                "pinyin": "diàxué chénghuǒ",
+                "meaning": "electronic products (电子 = electronics, 产品 = products)"
+            },
+            {
+                "character": "工厂",
+                "pinyin": "gōngchǎng",
+                "meaning": "factory (工 = factory/machine, 厂 = factory/workshop)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of/possessive"
+            },
+            {
+                "character": "所在地",
+                "pinyin": "suǒdìngdiàn",
+                "meaning": "location/address (所 = location, 地 = land/earth)"
+            }
+        ]
+    },
+    {
+        "chinese": "因此",
+        "pinyin": "huǐyì",
+        "translation": "Therefore (thus, consequently)",
+        "breakdown": [
+            {
+                "character": "因此",
+                "pinyin": "huǐyì",
+                "meaning": "therefore (due to this reason, thus)"
+            },
+            {
+                "character": "而已",
+                "pinyin": "rè yǐ",
+                "meaning": "already, in that case (而 = and, 已 = already)"
+            }
+        ]
+    },
+    {
+        "chinese": "同中国围绕半导体进行商贸往来和合作是必然的",
+        "pinyin": "Dónguó huán gù bān半导体 jiū shāng wù guǒ huà yóu",
+        "translation": "It is inevitable for China to engage in trade and cooperation with semiconductor-related activities.",
+        "breakdown": [
+            {
+                "character": "同",
+                "pinyin": "tóng",
+                "meaning": "together, alike"
+            },
+            {
+                "character": "中国",
+                "pinyin": "Zhōngguó",
+                "meaning": "China (中 = middle/China, 国 = country)"
+            },
+            {
+                "character": "围绕",
+                "pinyin": "huán gù",
+                "meaning": "to revolve around, to focus on"
+            },
+            {
+                "character": "半导体",
+                "pinyin": " bàn导体",
+                "meaning": "semiconductor (半 = half, 导体 = conductor)"
+            },
+            {
+                "character": "进行",
+                "pinyin": "jiū shāng",
+                "meaning": "to perform, to conduct"
+            },
+            {
+                "character": "商贸往来",
+                "pinyin": "shǎng màoté chéng shì huá yóu",
+                "meaning": "trade relations (商 = business, 才 = good, 往来 = trade)"
+            },
+            {
+                "character": "和",
+                "pinyin": "yù",
+                "meaning": "and"
+            },
+            {
+                "character": "合作",
+                "pinyin": "huì shèng",
+                "meaning": "cooperation (合 = union, 作 = to do)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is"
+            },
+            {
+                "character": "必然的",
+                "pinyin": " bìbiàn de",
+                "meaning": "inevitable (必 = must, 然 = certainly)"
+            }
+        ]
+    },
+    {
+        "chinese": "这是全球产供链中的自然流动",
+        "pinyin": "Zhǐ shí qiúbǎi shēngcháo liånxìàng de zhìtuó liùdòng",
+        "translation": "This is the natural flow of global supply chains.",
+        "breakdown": [
+            {
+                "character": "这",
+                "pinyin": "zhǐ",
+                "meaning": "this (指 = to point, 这 = this)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is/are (是 = is/are)"
+            },
+            {
+                "character": "全球产供链",
+                "pinyin": "qiúbǎi shēngcháo liånxìàng",
+                "meaning": "global supply chain (全球 = global, 产供链 = production and supply chain)"
+            },
+            {
+                "character": "自然流动",
+                "pinyin": "zhìtuó liùdòng",
+                "meaning": "natural flow (自然 = natural, 流动 = flowing)"
+            }
+        ]
+    },
+    {
+        "chinese": "必须指出的是",
+        "pinyin": "Bǐ zhǐ chū shì",
+        "translation": "Must point out that...",
+        "breakdown": [
+            {
+                "character": "必",
+                "pinyin": "bì",
+                "meaning": "must (a character denoting necessity or compulsion)"
+            },
+            {
+                "character": "指",
+                "pinyin": "zhǐ",
+                "meaning": "to point out, indicate (指 = to indicate, show)"
+            },
+            {
+                "character": "出",
+                "pinyin": "chū",
+                "meaning": "to point out, reveal (出 = to bring out, reveal)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is, copula (用于表示主语与谓语的关系)"
+            }
+        ]
+    },
+    {
+        "chinese": "主要是美国忽视全球产供链的稳定",
+        "pinyin": "huányǐ shì Měibǎo yīwù shèngbǐ chánpàn liánhǎn de zǒuqiáng",
+        "translation": "The main point is that the United States is neglecting the stability of the global production and supply chain.",
+        "breakdown": [
+            {
+                "character": "主要是",
+                "pinyin": "huányǐ shì",
+                "meaning": "the main point is (主要 = mainly/primarily, 是 = is)"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měibǎo",
+                "meaning": "United States (美 = beautiful/USA, 本 = root/basis)"
+            },
+            {
+                "character": "忽视",
+                "pinyin": "yīwù",
+                "meaning": "to neglect (忽 = to ignore, 视 = sight)"
+            },
+            {
+                "character": "全球产供链",
+                "pinyin": "shèngbǐ chánpàn liánhǎn",
+                "meaning": "global production and supply chain (全球 = global, 产 = production, 供 = supply, 链 = chain)",
+                "explanation": "This term refers to the interconnected system of production and supply activities that span the globe."
+            },
+            {
+                "character": "的稳定",
+                "pinyin": "de zǒuqiáng",
+                "meaning": "stability (的 = of, 稳定 = stable)"
+            }
+        ]
+    },
+    {
+        "chinese": "安全所造成的",
+        "pinyin": "Ankuò Sǔ Cǎo de",
+        "translation": "Security measures bring about...",
+        "breakdown": [
+            {
+                "character": "安",
+                "pinyin": "kǒu",
+                "meaning": "safe, secure"
+            },
+            {
+                "character": "所",
+                "pinyin": "sǔ",
+                "meaning": "security; at the"
+            },
+            {
+                "character": "造成",
+                "pinyin": "cǎo",
+                "meaning": "to cause, to lead to"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of; by; at"
+            }
+        ]
+    },
+    {
+        "chinese": "这些协会的呼吁是必要之举",
+        "pinyin": "Zhèmen xiāohui de huìjī shí bùdé zhí dú",
+        "translation": "These organizations’ calls are a necessary action.",
+        "breakdown": [
+            {
+                "character": "这些",
+                "pinyin": "zhèmen",
+                "meaning": "these (这 = this, 些 = some)"
+            },
+            {
+                "character": "协会",
+                "pinyin": "xiāohui",
+                "meaning": "organization or association (协 = union, 会 = group)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of (助词，表示所有名词与形容词之间的关系)"
+            },
+            {
+                "character": "呼吁",
+                "pinyin": "huìjī",
+                "meaning": "call, appeal (呼 = call, 吁 = request)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shí",
+                "meaning": "is, are (助词，表示主语与谓语之间的关系)"
+            },
+            {
+                "character": "必要之举",
+                "pinyin": "bùdézhídú",
+                "meaning": "necessary action or measure (必要 = necessary, 举 = action)"
+            }
+        ]
+    },
+    {
+        "chinese": "小李每天学习中文。",
+        "pinyin": "Xiǎoli each day learning Chinese.",
+        "translation": "Little Li learns Chinese every day.",
+        "breakdown": [
+            {
+                "character": "小李",
+                "pinyin": "Xiǎoli",
+                "meaning": "Little Li (小 = small, 李 = family name)"
+            },
+            {
+                "character": "每天",
+                "pinyin": "měitiān",
+                "meaning": "every day (每 = every, 天 = day)"
+            },
+            {
+                "character": "学习",
+                "pinyin": "xuéxí",
+                "meaning": "to learn (学 = study, 习 = practice)"
+            },
+            {
+                "character": "中文",
+                "pinyin": "Zhōngwén",
+                "meaning": "Chinese language (中 = middle/China, 文 = language/writing)"
+            }
+        ]
+    },
+    {
+        "chinese": "坚持扩大自主开放不矛盾",
+        "pinyin": "Jiānchí kāi dà zì shǒu kuàng fàn bù máo dùn",
+        "translation": "Adhere to expanding self-governance and openness without causing contradictions.",
+        "breakdown": [
+            {
+                "character": "坚持",
+                "pinyin": "Jiānchí",
+                "meaning": "to adhere/carry on steadily (坚 = steadfast, 持 = to carry)"
+            },
+            {
+                "character": "扩大",
+                "pinyin": "Kāi dà",
+                "meaning": "to expand/ enlarge (扩 = expand, 大 = large)"
+            },
+            {
+                "character": "自主",
+                "pinyin": "Zì shǒu",
+                "meaning": "self-governance (自 = self, 主 = main/govern)"
+            },
+            {
+                "character": "开放",
+                "pinyin": "Kuàng fàn",
+                "meaning": "openness/reform (开 = open, 准 = prepare)"
+            },
+            {
+                "character": "不矛盾",
+                "pinyin": "Bù máo dùn",
+                "meaning": "without contradictions (不 = not, 矛盾 = contradiction)"
+            }
+        ]
+    },
+    {
+        "chinese": "中国科技产业的发展根植于全球化",
+        "pinyin": "Zhōngguó Kējìhuáyí Fāzhǎn Gēnjú yú Guójihuaize",
+        "translation": "China's technological industrial development is rooted in globalization.",
+        "breakdown": [
+            {
+                "character": "中国科技产业的发展",
+                "pinyin": "Zhōngguó Kējìhuáyí Fāzhǎn",
+                "meaning": "The development of China's technological industry."
+            },
+            {
+                "character": "根植于",
+                "pinyin": "Gēnjú yú",
+                "meaning": "Rooted in, based upon"
+            },
+            {
+                "character": "全球化",
+                "pinyin": "Guójihuaize",
+                "meaning": "Globalization."
+            }
+        ]
+    },
+    {
+        "chinese": "成长和壮大于全球化",
+        "pinyin": "Chéngzhǎng hé zhang3 dai4 tuán guójihua1",
+        "translation": "Growth and development surpass globalization.",
+        "breakdown": [
+            {
+                "character": "成长",
+                "pinyin": "chéngzhǎng",
+                "meaning": "growth, development (成 = grow, 长 = long/age)"
+            },
+            {
+                "character": "和",
+                "pinyin": "hé",
+                "meaning": "and"
+            },
+            {
+                "character": "壮大",
+                "pinyin": "zhang3 dai4",
+                "meaning": "greatness, development (壮 = strong/mighty, 大 = large)"
+            },
+            {
+                "character": "全球化",
+                "pinyin": "guójihua1",
+                "meaning": "globalization (全球 = world, 化 = change/development)"
+            }
+        ]
+    },
+    {
+        "chinese": "未来仍将继续积极同各国企业深化合作",
+        "pinyin": "Hái shí jiāng继续积极同各国企业深化合作",
+        "translation": "In the future, we will continue to actively cooperate with various countries' enterprises in deepening collaboration.",
+        "breakdown": [
+            {
+                "character": "未来",
+                "pinyin": "Hái",
+                "meaning": "future (未 = not yet, 岁 = age)"
+            },
+            {
+                "character": "仍",
+                "pinyin": "shí",
+                "meaning": "still, yet (石 = stone; 读音为 shì， 此处为第二声 '石'发音为 shí)"
+            },
+            {
+                "character": "将",
+                "pinyin": "jiāng",
+                "meaning": "to be continued, will (将 = to do, 会 = meeting)"
+            },
+            {
+                "character": "继续",
+                "pinyin": "kuòxu",
+                "meaning": "continue (继续 = continue)"
+            },
+            {
+                "character": "积极",
+                "pinyin": "jīcháng",
+                "meaning": "active, positively (积 = to accumulate, 积 + 楼 = room; 读音为 jīchāng)"
+            },
+            {
+                "character": "同",
+                "pinyin": "tóng",
+                "meaning": "same, cooperate with (同 = same; 读音为 tóng)"
+            },
+            {
+                "character": "各国",
+                "pinyin": "qūguó",
+                "meaning": "various countries (各 = each, 国 = country; 读音为 qūguó)"
+            },
+            {
+                "character": "企业",
+                "pinyin": "qiye",
+                "meaning": "companies, enterprises (企 = to start, 业 = industry; 读音为 qiye)"
+            },
+            {
+                "character": "深化",
+                "pinyin": "shēnhua",
+                "meaning": "deepen collaboration (深 = deep, 化 = transform; 读音为 shēnhua)"
+            },
+            {
+                "character": "合作",
+                "pinyin": "hézuó",
+                "meaning": "collaboration, cooperation (合 = join, 作 = deed; 读音为 hézuó)"
+            }
+        ]
+    },
+    {
+        "chinese": "促进全球产业的繁荣发展",
+        "pinyin": "zhùjìn shǒuzhídìng de guójī chéngshèn",
+        "translation": "To promote the prosperity and development of global industries.",
+        "breakdown": [
+            {
+                "character": "促进",
+                "pinyin": "zhù",
+                "meaning": "to promote, to foster"
+            },
+            {
+                "character": "进",
+                "pinyin": "jìn",
+                "meaning": "progress, advancement (also can mean 'enter', but in this context it means 'progress')"
+            },
+            {
+                "character": "全球",
+                "pinyin": "guólǐ",
+                "meaning": "global, world"
+            },
+            {
+                "character": "产业的繁荣发展",
+                "pinyin": "shìdòng de guócháng",
+                "meaning": "the prosperity and development of industries"
+            }
+        ]
+    },
+    {
+        "chinese": "这一方向不会动摇",
+        "pinyin": "Zéi yī Shíwú bùwei dòngyáo",
+        "translation": "This direction will not sway.",
+        "breakdown": [
+            {
+                "character": "这",
+                "pinyin": "zéi",
+                "meaning": "this (used for questions or negatives)"
+            },
             {
                 "character": "一",
                 "pinyin": "yī",
-                "meaning": "one (一 = one)"
+                "meaning": "one"
             },
             {
-                "character": "天",
-                "pinyin": "tiān",
-                "meaning": "day (天 = day)"
+                "character": "方向",
+                "pinyin": "Shíwú",
+                "meaning": "direction, orientation"
+            },
+            {
+                "character": "不会",
+                "pinyin": "bùwei",
+                "meaning": "will not (negative aspect)"
+            },
+            {
+                "character": "动摇",
+                "pinyin": "dòngyáo",
+                "meaning": "to sway"
+            }
+        ]
+    },
+    {
+        "chinese": "其结果必然是中国和其他国家连接得更紧密",
+        "pinyin": "qíjié cènží shì zhóngguó yà其他国家 liánró de gě ńķai shiqí。",
+        "translation": "Its results are naturally closer connections between China and other countries.",
+        "breakdown": [
+            {
+                "character": "其",
+                "pinyin": "qí",
+                "meaning": "its, his/her/their"
+            },
+            {
+                "character": "结果",
+                "pinyin": "cènží",
+                "meaning": "result, outcome (果 = fruit; 果 = fruit, 子 = child, 亦 = also)"
+            },
+            {
+                "character": "必然",
+                "pinyin": "bìbiàn",
+                "meaning": "inevitably, necessarily (必 = inevitable, 然 = naturally)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is, are (Be a verb indicating a state or condition)"
+            },
+            {
+                "character": "中国",
+                "pinyin": "zhóngguó",
+                "meaning": "China (中 = middle/China, 国 = country/civilization)"
+            },
+            {
+                "character": "和",
+                "pinyin": "hé",
+                "meaning": "and, together"
+            },
+            {
+                "character": "其他国家",
+                "pinyin": "qítiān guójiā",
+                "meaning": "other countries (其 = some/each, 其他 = other, 国家 = country)"
+            },
+            {
+                "character": "连接",
+                "pinyin": "liánró",
+                "meaning": "connect, connection (连 = connect, 线 = line/connection)"
+            },
+            {
+                "character": "得",
+                "pinyin": "de",
+                "meaning": "of, to have, get"
+            },
+            {
+                "character": "更",
+                "pinyin": "gēr",
+                "meaning": "more, greater (过 = over, 更 = more)"
+            },
+            {
+                "character": "紧密",
+                "pinyin": "jǐnmì",
+                "meaning": "close, tight; closely connected (紧 = close, 密 = dense/secret)"
+            }
+        ]
+    },
+    {
+        "chinese": "美国反而会成为孤家寡人",
+        "pinyin": "Měiguo Huǐsui huìshèqí Guónjiāwányán",
+        "translation": "The United States, paradoxically, will become isolated.",
+        "breakdown": [
+            {
+                "character": "美国",
+                "pinyin": "Měiguo",
+                "meaning": "United States (美 = beautiful/USA)"
+            },
+            {
+                "character": "反而",
+                "pinyin": "Huǐsui",
+                "meaning": "contrary to expectations or yet"
+            },
+            {
+                "character": "会成为",
+                "pinyin": "huìshèqí",
+                "meaning": "will become"
+            },
+            {
+                "character": "孤家寡人",
+                "pinyin": "Guónjiāwányán",
+                "meaning": "a lone man/woman, in the sense of being isolated or against one another (孤 = lonely, 家 = family, 寡 = few, 人 = person)"
+            }
+        ]
+    },
+    {
+        "chinese": "现在世界上一些国家从金融领域开始的“去美国化”持续向外扩展。",
+        "pinyin": "Xiànzài shìjīè shàng yīqüe guó kāi jiāning lù qiě biàn de “Gōu Měihùa” xùn chéng xiàng wài fàng kuài。",
+        "translation": "Currently, some countries around the world are experiencing a trend of 'de-Americanization' that has started in the financial sector and continues to expand outward.",
+        "breakdown": [
+            {
+                "character": "现在",
+                "pinyin": "Xiànzài",
+                "meaning": "now"
+            },
+            {
+                "character": "世界上",
+                "pinyin": "Shìjīè shàng",
+                "meaning": "around the world"
+            },
+            {
+                "character": "一些国家",
+                "pinyin": "Yīqüe guó",
+                "meaning": "some countries"
+            },
+            {
+                "character": "从金融领域开始的",
+                "pinyin": "Cónguójìng lù qiě biàn de",
+                "meaning": "that have started in the financial sector, having begun"
+            },
+            {
+                "character": "“去美国化”",
+                "pinyin": "Gōu Měihùa",
+                "meaning": "de-Americanization (a trend)"
+            },
+            {
+                "character": "持续向外扩展",
+                "pinyin": "Xùn chéng xiàng wài fàng kuài",
+                "meaning": "continues to expand outward"
+            }
+        ]
+    },
+    {
+        "chinese": "就是这一趋势的直观反映",
+        "pinyin": "jiùshí qúngshì de zhíhuó fànxiáng",
+        "translation": "It is an obvious reflection of this trend.",
+        "breakdown": [
+            {
+                "character": "就是",
+                "pinyin": "jiùshí",
+                "meaning": "just; it is (就 = just, 是 = is)"
+            },
+            {
+                "character": "这一趋势",
+                "pinyin": "qúngshì",
+                "meaning": "this trend (一 = one, 趋势 = trend/direction)"
+            },
+            {
+                "character": "的直观反映",
+                "pinyin": "de zhíhuó fànxiáng",
+                "meaning": "a clear reflection; a straightforward manifestation"
+            }
+        ]
+    },
+    {
+        "chinese": "如果说全球半导体产业发展是千帆竞渡",
+        "pinyin": "Shìjiè kuólìànhu产业发展是 qiānzhāng bǐdú",
+        "translation": "If it is said that the development of the global semiconductor industry is like a thousand ships racing.",
+        "breakdown": [
+            {
+                "character": "如果",
+                "pinyin": "shìjiè",
+                "meaning": "if (说 = to say)"
+            },
+            {
+                "character": "全球",
+                "pinyin": "kuólìyàan",
+                "meaning": "global (国 = country, 利 = profit, 产业 = industry)"
+            },
+            {
+                "character": "半导体",
+                "pinyin": "bànhéngdǔ",
+                "meaning": "semiconductor (半 = half, 导体 = conductor)"
+            },
+            {
+                "character": "产业",
+                "pinyin": "shèngqū",
+                "meaning": "industry"
+            },
+            {
+                "character": "发展",
+                "pinyin": "zīzhù",
+                "meaning": "development (发 = to develop, 展 = to expand)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is"
+            },
+            {
+                "character": "千帆竞渡",
+                "pinyin": "qiānzhāng bǐdú",
+                "meaning": "a thousand ships racing (千 = thousand, 帆 = sail, 竞渡 = racing)"
+            }
+        ]
+    },
+    {
+        "chinese": "那么华盛顿就像一艘偏航的大船",
+        "pinyin": "nà HuáShèngTóu jiù rong yì dì shǒu guó qiān hán de chuan ship.",
+        "translation": "So Washington is like a big ship with a slight drift.",
+        "breakdown": [
+            {
+                "character": "那么",
+                "pinyin": "nà",
+                "meaning": "so, then (常用句子，表示承认或肯定)"
+            },
+            {
+                "character": "华盛顿",
+                "pinyin": "HuáShèngTóu",
+                "meaning": "Washington (胡 = male name part, 盈 = rich/abundant, 宗 = family name part)"
+            },
+            {
+                "character": "就像",
+                "pinyin": "jiù rong",
+                "meaning": "like, similar to"
+            },
+            {
+                "character": "一艘",
+                "pinyin": "yì dī",
+                "meaning": "a ship (一 = one)"
+            },
+            {
+                "character": "偏航",
+                "pinyin": "qiān hán",
+                "meaning": "slight drift, slight deviation (偏 = deviate, 航 = navigate/ship)"
+            },
+            {
+                "character": "大船",
+                "pinyin": "dì chuan ship",
+                "meaning": "big ship (大 = big, 船 = boat)"
+            }
+        ]
+    },
+    {
+        "chinese": "给我带来巨大风险",
+        "pinyin": "yóuliàngjùdàifēixìng",
+        "translation": "This poses a significant risk to me.",
+        "breakdown": [
+            {
+                "character": "我",
+                "pinyin": "yóu",
+                "meaning": "I, me"
+            },
+            {
+                "character": "给",
+                "pinyin": "jǐ",
+                "meaning": "to give"
+            },
+            {
+                "character": "带来",
+                "pinyin": "liàng",
+                "meaning": "to bring/cause to come"
+            },
+            {
+                "character": "巨大",
+                "pinyin": "jùdài",
+                "meaning": "huge, significant (巨 = huge, 大 = big)"
+            },
+            {
+                "character": "风险",
+                "pinyin": "fēi xìng",
+                "meaning": "risk (风 = wind, 风险 = risk)"
+            }
+        ]
+    },
+    {
+        "chinese": "全球科技发展是一个共同体",
+        "pinyin": "Guólìan Shèjièhuà Huàshēng Shí yīsī Góngchuán体",
+        "translation": "The global technological development constitutes a collective entity.",
+        "breakdown": [
+            {
+                "character": "全球",
+                "pinyin": "Guólìan",
+                "meaning": "global (国 = nation/country, 球 = sphere/world)"
+            },
+            {
+                "character": "科技",
+                "pinyin": "Shèjièhuà",
+                "meaning": "technology (科 = science/technology, 技 = skill/technique)"
+            },
+            {
+                "character": "发展",
+                "pinyin": "Huàshēng",
+                "meaning": "development (发 = to develop, 生 = growth/development)"
+            },
+            {
+                "character": "是一个",
+                "pinyin": "yīsī",
+                "meaning": "is a (used as a positive quantifier)"
+            },
+            {
+                "character": "共同体",
+                "pinyin": "Góngchuán体",
+                "meaning": "a collective entity or body (共同 = collectively, 体 = body/structure)"
+            }
+        ]
+    },
+    {
+        "chinese": "回到合作的大队伍中来",
+        "pinyin": "Guóí dào hégòng rén lǐ zhong lái",
+        "translation": "Return to the cooperative large group.",
+        "breakdown": [
+            {
+                "character": "回到",
+                "pinyin": "guóí",
+                "meaning": "to return (回 = return, 到 = to)"
+            },
+            {
+                "character": "合作",
+                "pinyin": "hégòng",
+                "meaning": "cooperation (合 = together, 功 = work/effort)"
+            },
+            {
+                "character": "大队伍",
+                "pinyin": "dàipiào",
+                "meaning": "large group/organization (大 = large, 队伍 = team/organization)"
+            },
+            {
+                "character": "中来",
+                "pinyin": "zhong lái",
+                "meaning": "to return (中 = middle/origin, 来 = come/to return)"
+            }
+        ]
+    },
+    {
+        "chinese": "是美国唯一明智的选择",
+        "pinyin": "shì Měibù Yóu yī Míngzhì de Zhǎi qù",
+        "translation": "This is the wise choice of America.",
+        "breakdown": [
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is/are"
+            },
+            {
+                "character": "美国",
+                "pinyin": "Měibù",
+                "meaning": "America (美 = beautiful, 部 = section)"
+            },
+            {
+                "character": "唯一",
+                "pinyin": "Yóu yī",
+                "meaning": "the only one"
+            },
+            {
+                "character": "明智",
+                "pinyin": "Míngzhì",
+                "meaning": "wise (明 = bright, 智 = intelligent)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of"
+            },
+            {
+                "character": "选择",
+                "pinyin": "Zhǎi qù",
+                "meaning": "choice (选 = to choose, 种 = kind)"
+            }
+        ]
+    },
+    {
+        "chinese": "我们希望华盛顿早日认识到这一点",
+        "pinyin": "Wǒmen hǎiànguó Huáshèngdōng zǎo rì ruòzhìdào zhèyī diǎn",
+        "breakdown": [
+            {
+                "character": "我们",
+                "pinyin": "wǒ(1) mén(2)",
+                "meaning": "we"
+            },
+            {
+                "compound word": "希望",
+                "overall meaning": "hope, expect",
+                "parts": [
+                    {
+                        "character": "希",
+                        "pinyin": "hǎi(1)",
+                        "meaning": "hope"
+                    },
+                    {
+                        "character": "望",
+                        "pinyin": "huàng(4)",
+                        "meaning": "look forward"
+                    }
+                ]
+            },
+            {
+                "compound word": "华盛顿",
+                "overall meaning": "Washington, capital of the United States",
+                "parts": [
+                    {
+                        "character": "华",
+                        "pinyin": "Huá(1)",
+                        "meaning": "flower, Washington"
+                    },
+                    {
+                        "character": "盛",
+                        "pinyin": "shèng(4)",
+                        "meaning": "繁荣, prosperity"
+                    },
+                    {
+                        "character": "京",
+                        "pinyin": "dōng(2)",
+                        "meaning": "capital city"
+                    }
+                ]
+            },
+            {
+                "compound word": "早日",
+                "overall meaning": "soon, early",
+                "parts": [
+                    {
+                        "character": "早",
+                        "pinyin": "zǎo(1)",
+                        "meaning": "early"
+                    },
+                    {
+                        "character": "日",
+                        "pinyin": "rì(1)",
+                        "meaning": "day"
+                    }
+                ]
+            },
+            {
+                "compound word": "认识到",
+                "overall meaning": "to realize, recognize",
+                "parts": [
+                    {
+                        "character": "认",
+                        "pinyin": "ruò(1)",
+                        "meaning": "recognize"
+                    },
+                    {
+                        "character": "识",
+                        "pinyin": "zhì(1)",
+                        "meaning": "identify"
+                    },
+                    {
+                        "character": "到",
+                        "pinyin": "dào(4)",
+                        "meaning": "to, reach"
+                    }
+                ]
+            },
+            {
+                "compound word": "这一",
+                "overall meaning": "this one",
+                "parts": [
+                    {
+                        "character": "这",
+                        "pinyin": "zhè(1)",
+                        "meaning": "this"
+                    },
+                    {
+                        "character": "一",
+                        "pinyin": "yī(2)",
+                        "meaning": "one"
+                    }
+                ]
+            },
+            {
+                "compound word": "点",
+                "overall meaning": "a point, a dot",
+                "parts": [
+                    {
+                        "character": "点",
+                        "pinyin": "diǎn(1)",
+                        "meaning": "a point"
+                    }
+                ]
+            }
+        ],
+        "translation": "We hope Washington realizes this point soon."
+    },
+    {
+        "chinese": "他在广场上看风筝。",
+        "pinyin": "tā zài guǎngchǎng shàng kàn fēngzhàn。",
+        "translation": "He is watching kites in the square.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "在",
+                "pinyin": "zài",
+                "meaning": "at, in (prefix used for location)"
+            },
+            {
+                "character": "广场",
+                "pinyin": "guǎngchǎng",
+                "meaning": "square (广 = wide, 场 = field)"
+            },
+            {
+                "character": "上",
+                "pinyin": "shàng",
+                "meaning": "on/above (used to indicate location on a surface)"
+            },
+            {
+                "character": "看",
+                "pinyin": "kàn",
+                "meaning": "to look at, to watch"
+            },
+            {
+                "character": "风筝",
+                "pinyin": "fēngzhàn",
+                "meaning": "kite (风 = wind/paper kite, 筝 = traditional kite)"
             }
         ]
     }
