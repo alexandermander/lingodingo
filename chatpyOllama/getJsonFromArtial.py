@@ -46,7 +46,7 @@ def getFijson(file, name):
     print(text)
 
     text = text.replace("\n", "")
-    text =re.split(r"。|，|（|与|、", text)
+    text =re.split(r"。|，|（|与|、|和", text)
 
     for i in tqdm(range(len(text))):
         url = host + text[i]
