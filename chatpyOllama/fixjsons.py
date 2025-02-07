@@ -19,10 +19,26 @@ def postFix(obj):
         # Send the request with the JSON object called obj:data as the main
         #obj = {"data": obj}
         #print(obj)
-        dataObj = { "data": json.dumps(obj) }
+
+        stringOfdata = "chinese: "
+        stringOfdata += obj.get("chinese") + "。"
+
+        getBrake = obj.get("breakdown", [])
+        print("curenntFix: ", obj.get("chinese"))
+        stringOfdata += "\n   breakdown: "
+        for i in getBrake:
+            #print("   ", "character: ", i.get("character") )j
+            stringOfdata +=  "\n      " + i.get("character")   
+        print("-----------------")
+
+        print(stringOfdata)
+        dataObj = {"data": stringOfdata}
+        print(dataObj)
+
         response = requests.post(host, json=dataObj)
         response.raise_for_status()  # Raises an error for bad responses (4xx, 5xx)
-        return response.json()
+
+        return  response.json()
     except Exception as e:
         print("Client error:", e)
         return None
@@ -41,9 +57,7 @@ for index, i in enumerate(get_json):
             splitChar = list(getChar)
             if len(splitChar) > 2:
                 retive = postFix(i)
-                print(retive)
-                # how to print so hte json looks nice
-                print(json.dumps(retive, indent=4))
+                #print(json.dumps(retive, indent=4))
 
         except Exception as e:
             print(e)
