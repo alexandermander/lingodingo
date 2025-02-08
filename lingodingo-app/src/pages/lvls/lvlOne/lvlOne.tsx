@@ -39,7 +39,7 @@ const LevelOne: React.FC = () => {
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
-				const response = await fetch("/seconlevl.json");
+				const response = await fetch("/firstlvl.json");
 				const data = await response.json();
 
 				data.sort(() => Math.random() - 0.5);
@@ -169,7 +169,6 @@ const LevelOne: React.FC = () => {
 	}
 
 	function checkAnswer(this: any) {
-		// add a stlye to the button
 		if (selected === null) {
 			return;
 		}
@@ -209,6 +208,7 @@ const LevelOne: React.FC = () => {
 
 		setMessage([]);
 		setSentences(newSentences);
+		setSelected(null);
 	}
 
 	if (selected === null) {
