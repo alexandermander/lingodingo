@@ -61,8 +61,8 @@ const LevelOne: React.FC = () => {
 
 	useEffect(() => {
 		if (sentences.length > 0) {
-
 			const sentence = sentences[0];
+			console.log("sentence", sentences);
 
 			const brakeChar = sentence.breakdown.map((item) => {
 				return item.character
@@ -80,17 +80,16 @@ const LevelOne: React.FC = () => {
 					chineseSentence: sentence.chinese,
 					chineseSound: lastElement.sound,
 					chineseCharAndSound: sentence.breakdown.map((item, index) => {
-
 						return {
-							pinyin: item.pinyin.toLowerCase(),
+							pinyin: sentence.breakdown[index].pinyin.toLowerCase(),
 							chineseChar: item.character,
-							chineseSound: newSounds.find((sound: any) => sound.chinese === item.character).sound,
+							chineseSound: sounds.find((sound: any) => sound.chinese === item.character)?.sound,
 							meaning: item.meaning
 						};
 					}),
 					tranlation: sentence.translation
 				};
-				console.log("selectedSentence", selectedSentence);
+
 				setSelected(selectedSentence);
 				const shuffledSentence: SelectedSentence = {
 					chineseSentence: sentence.chinese,
