@@ -23,29 +23,15 @@ const LevelOne: React.FC = () => {
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
 
-	const getFormat = async (word: string) => {
-		const request = fetch('http://192.168.1.131:8000/generate?api_word=' + word, {
-			method: 'GET',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-		});
-
-		const response = await request;
-		console.log("response", response)
-	}
-
-
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
 				const response = await fetch("/firstlvl.json");
 				const data = await response.json();
 
-				data.sort(() => Math.random() - 0.5);
+				//data.sort(() => Math.random() - 0.5);
 
 				setSentences(data);
-
 			} catch (error) {
 				console.error("Error fetching sentences:", error);
 			}
@@ -199,11 +185,11 @@ const LevelOne: React.FC = () => {
 	}
 
 	function getNewSentence() {
-		console.log("getNewSentence");
-		if (sentences.length === 0) {
+		const newSentences = sentences.slice(1);
+
+		if (newSentences.length === 0) {
 			window.location.href = "/level-two";
 		}
-		const newSentences = sentences.slice(1);
 
 		setMessage([]);
 		setSentences(newSentences);
