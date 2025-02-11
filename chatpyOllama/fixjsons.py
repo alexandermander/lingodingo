@@ -10,34 +10,15 @@ def getFjson(file):
     return json_text
 
 
-get_json = getFjson("./newtest.json")
-
 host = "http://192.168.1.131:8000/fix"
 
 def postFix(obj):
     try:
-        # Send the request with the JSON object called obj:data as the main
-        #obj = {"data": obj}
-        #print(obj)
-
-        stringOfdata = "chinese: "
-        stringOfdata += obj.get("chinese") + "。"
-
-        getBrake = obj.get("breakdown", [])
-        print("curenntFix: ", obj.get("chinese"))
-        stringOfdata += "\n   breakdown: "
-        for i in getBrake:
-            #print("   ", "character: ", i.get("character") )j
-            stringOfdata +=  "\n      " + i.get("character")   
-        print("-----------------")
-
-        print(stringOfdata)
-        dataObj = {"data": stringOfdata}
+        dataObj = {"data": obj.get("chinese") + "。"}
         print(dataObj)
-
         response = requests.post(host, json=dataObj)
-        response.raise_for_status()  # Raises an error for bad responses (4xx, 5xx)
-
+        response.raise_for_status()
+        
         return  response.json()
     except Exception as e:
         print("Client error:", e)
@@ -45,8 +26,18 @@ def postFix(obj):
 
 abc = set(string.ascii_letters)  # All ASCII letters (A-Z, a-z)
 
+def saveTheFileInJsonFormat(name, lines):
+    folder = "./newjsons"
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    with open(f"{folder}/{name}", "w", encoding="utf-8") as file:
+        json.dump(lines, file, ensure_ascii=False, indent=4)
+
+
+get_json = getFjson("./newtest.json")
+linesOfJson = []
+
 for index, i in enumerate(get_json):
-    status = False
     getBreakdown = i.get("breakdown", [])  
     for j in getBreakdown:
         try:
@@ -56,9 +47,16 @@ for index, i in enumerate(get_json):
                 break
             splitChar = list(getChar)
             if len(splitChar) > 2:
+                trys = 0
                 retive = postFix(i)
-                #print(json.dumps(retive, indent=4))
-
+                while retive == None and trys < 3:
+                    retive = postFix(i)
+                    trys += 1
+                if retive != None:
+                    linesOfJson.append(retive)
+                break
         except Exception as e:
             print(e)
             continue
+
+saveTheFileInJsonFormat("newtest.json", linesOfJson)

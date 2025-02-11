@@ -1,0 +1,1733 @@
+[
+    {
+        "chinese": "在很久很久以前",
+        "pinyin": "zài qǔǐ qǔǐ yī qián",
+        "translation": "In the very long time ago.",
+        "breakdown": [
+            {
+                "character": "在",
+                "pinyin": "zài",
+                "meaning": "at, in; within (在 = at/in, 时间 = time)"
+            },
+            {
+                "character": "很久",
+                "pinyin": "qǔǐ",
+                "meaning": "very long (久 = long)"
+            },
+            {
+                "character": "很久",
+                "pinyin": "qǔǐ",
+                "meaning": "very long (久 = long)"
+            },
+            {
+                "character": "以前",
+                "pinyin": "yǐ qíàn",
+                "meaning": "before, in the past (以 = with, 前 = front)"
+            }
+        ]
+    },
+    {
+        "chinese": "有一个小村庄",
+        "pinyin": "yóu yī ge xiǎzhōng",
+        "translation": "There is a small village.",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "yóu",
+                "meaning": "to have, to be"
+            },
+            {
+                "character": "一个",
+                "pinyin": "yīge",
+                "meaning": "a (一 = one, 个 = individual)"
+            },
+            {
+                "character": "小村庄",
+                "pinyin": "xiǎzhōng",
+                "meaning": "small village (小 = small, 村 = village, 庄 = settlement/hamlet)"
+            }
+        ]
+    },
+    {
+        "chinese": "村民们过着宁静的生活",
+        "pinyin": "Cūnmínmen gù zhíng de shēnghuó",
+        "translation": "The villagers are living a quiet life.",
+        "breakdown": [
+            {
+                "character": "村民们",
+                "pinyin": "cūnmínmen",
+                "meaning": "the villagers (村 = village, 民 = people)"
+            },
+            {
+                "character": "过着",
+                "pinyin": "guózhí",
+                "meaning": "to live (过 = to live, 着 = in a state of)"
+            },
+            {
+                "character": "宁静的生活",
+                "pinyin": "níngjīng de shēnghuó",
+                "meaning": "a quiet life (宁静 = quiet, 生活 = life)"
+            }
+        ]
+    },
+    {
+        "chinese": "每天日出而作",
+        "pinyin": "mǐtiánrìchūérzuò",
+        "translation": "Every day at sunrise, he begins work.",
+        "breakdown": [
+            {
+                "character": "每天",
+                "pinyin": "měitiān",
+                "meaning": "every day (每 = every, 天 = day)"
+            },
+            {
+                "character": "日出",
+                "pinyin": "rìchū",
+                "meaning": "sunrise (日 = sun, 出 = exit/come out)"
+            },
+            {
+                "character": "而作",
+                "pinyin": "érzuò",
+                "meaning": "to begin work (而 = while, 作 = to do/to make)"
+            }
+        ]
+    },
+    {
+        "chinese": "日落而息",
+        "pinyin": "rìlù é xì",
+        "translation": "The sun sets and he falls asleep.",
+        "breakdown": [
+            {
+                "character": "日落",
+                "pinyin": "rìlù",
+                "meaning": "sunset (日 = sun, 落 = fall)"
+            },
+            {
+                "character": "而",
+                "pinyin": "é",
+                "meaning": "while, as a result (linking word)"
+            },
+            {
+                "character": "息",
+                "pinyin": "xì",
+                "meaning": "fall asleep ( sleep )"
+            }
+        ]
+    },
+    {
+        "chinese": "有一天",
+        "pinyin": "yǒu tiān",
+        "translation": "One day",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "yǒu",
+                "meaning": "have/has (有 = to have, possess)"
+            },
+            {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "one"
+            },
+            {
+                "character": "天",
+                "pinyin": "tiān",
+                "meaning": "day"
+            }
+        ]
+    },
+    {
+        "chinese": "村里的一个年轻人叫李明",
+        "pinyin": "Cūn de yī ge qīng rén jiāo Lǐ Míng",
+        "translation": "A young man from the village is named Li Ming.",
+        "breakdown": [
+            {
+                "character": "村",
+                "pinyin": "cūn",
+                "meaning": "village (村 = village)"
+            },
+            {
+                "character": "里",
+                "pinyin": "lǐ",
+                "meaning": "at/ in"
+            },
+            {
+                "character": "一个",
+                "pinyin": "yī ge",
+                "meaning": "one, a"
+            },
+            {
+                "character": "年轻人",
+                "pinyin": "qīng rén",
+                "meaning": "young man (年 = year, 轻 = light)"
+            },
+            {
+                "character": "叫",
+                "pinyin": "jiāo",
+                "meaning": "to call, name"
+            },
+            {
+                "character": "李明",
+                "pinyin": "Lǐ Míng",
+                "meaning": "Li Ming (李 = Li, 明 = bright)"
+            }
+        ]
+    },
+    {
+        "chinese": "他是个勇敢而好奇的人",
+        "pinyin": "tā shì jiǎo yǒnghuó ér hàoqí de rén",
+        "translation": "He is a brave and curious person.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "个",
+                "pinyin": "jiǎo",
+                "meaning": "a (used as a classifier here)"
+            },
+            {
+                "character": "勇敢",
+                "pinyin": "yǒnghuó",
+                "meaning": "bold, courageous (勇 = brave, 冠 = crown)"
+            },
+            {
+                "character": "而",
+                "pinyin": "ué",
+                "meaning": "and"
+            },
+            {
+                "character": "好奇",
+                "pinyin": "hàoqí",
+                "meaning": "curious, inquisitive (好 = love/like, 奇 = strange/new)"
+            },
+            {
+                "character": "人",
+                "pinyin": "rén",
+                "meaning": "person"
+            }
+        ]
+    },
+    {
+        "chinese": "他听说在山的另一边",
+        "pinyin": "tā tīnguó zài shān de lǐ mian bĕi",
+        "translation": "He heard that there is a mountain on the other side.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "听说",
+                "pinyin": "tīnguó",
+                "meaning": "to hear/say (听 = to hear, 说 = to say)"
+            },
+            {
+                "character": "在",
+                "pinyin": "zài",
+                "meaning": "at/in"
+            },
+            {
+                "character": "山的另一边",
+                "pinyin": "shān de lǐ mian bĕi",
+                "meaning": "on the other side of the mountains (山 = mountain, 边 = side)"
+            }
+        ]
+    },
+    {
+        "chinese": "有一座传说中的神秘湖泊",
+        "pinyin": "yǒu yīzuò shén mì zhongshèng húbó",
+        "translation": "There is a legendary mysterious lake.",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "yǒu",
+                "meaning": "have, be present"
+            },
+            {
+                "character": "一座",
+                "pinyin": "yīzuò",
+                "meaning": "one lake (一 = one, 座 = seat/dock)"
+            },
+            {
+                "character": "传说中的",
+                "pinyin": "shén mì zhongshèng",
+                "meaning": "(传说 = legend, 中 = middle/China, 传 = spread, 中 = middle/China) a legendary place in China."
+            },
+            {
+                "character": "神秘湖泊",
+                "pinyin": "shén mì zhongshèng húbó",
+                "meaning": "(神秘 = mysterious, 湖泊 = lake/sit of water) a mysterious lake in China."
+            }
+        ]
+    },
+    {
+        "chinese": "湖水清澈见底",
+        "pinyin": "Hú shuǐ qīng chéng jiàn dì",
+        "translation": "The clear water shows the bottom.",
+        "breakdown": [
+            {
+                "character": "湖",
+                "pinyin": "hú",
+                "meaning": "lake (湖 = lake)"
+            },
+            {
+                "character": "水",
+                "pinyin": "shuǐ",
+                "meaning": "water (水 = water)"
+            },
+            {
+                "character": "清",
+                "pinyin": "qīng",
+                "meaning": "clear/transparent (清 = clear)"
+            },
+            {
+                "character": "澈",
+                "pinyin": "chéng",
+                "meaning": "clear/translucent (澈 = clear)"
+            },
+            {
+                "character": "见",
+                "pinyin": "jiàn",
+                "meaning": "to see (见 = to see)"
+            },
+            {
+                "character": "底",
+                "pinyin": "dì",
+                "meaning": "bottom (底 = bottom)"
+            }
+        ]
+    },
+    {
+        "chinese": "能够映照出人的心灵",
+        "pinyin": "Néngeróng yìng cháo shǒu rén de xīn líng",
+        "translation": "Mirror can reflect people's hearts and spirits.",
+        "breakdown": [
+            {
+                "character": "能",
+                "pinyin": "néngeróng",
+                "meaning": "able/can (能 = able, 么 = question particle)"
+            },
+            {
+                "character": "映照",
+                "pinyin": "yìng cháo",
+                "meaning": "to reflect/reflect"
+            },
+            {
+                "character": "出",
+                "pinyin": "chū",
+                "meaning": "out/come from"
+            },
+            {
+                "character": "人的心灵",
+                "pinyin": "rén de xīn líng",
+                "meaning": "people's hearts and spirits (人 = person, 心 = heart/mind, 灵 = spirit)"
+            }
+        ]
+    },
+    {
+        "chinese": "据说",
+        "pinyin": "Juéshuó",
+        "translation": "According to what is said.",
+        "breakdown": [
+            {
+                "character": "据",
+                "pinyin": "Jué",
+                "meaning": "according to, based on (据 = according to/based on)"
+            },
+            {
+                "character": "说",
+                "pinyin": "shuo",
+                "meaning": "to say, to state (说 = to say/to state)"
+            }
+        ]
+    },
+    {
+        "chinese": "只有内心纯净的人",
+        "pinyin": "yǒu dé nèi xīn chún zhǎn de rén",
+        "translation": "Only those who have a pure and inner heart.",
+        "breakdown": [
+            {
+                "character": "有",
+                "pinyin": "yǒu",
+                "meaning": "to have, to possess"
+            },
+            {
+                "character": "的",
+                "pinyin": "dé",
+                "meaning": "of, belonging to"
+            },
+            {
+                "character": "内心",
+                "pinyin": "nèi xīn",
+                "meaning": "inner heart (内 = inner, 心 = heart/mind)"
+            },
+            {
+                "character": "纯净",
+                "pinyin": "chún zhǎn",
+                "meaning": "pure and clean (纯 = pure, 净 = clean)"
+            },
+            {
+                "character": "人",
+                "pinyin": "rén",
+                "meaning": "person"
+            }
+        ]
+    },
+    {
+        "chinese": "才能在湖水中看到自己的未来",
+        "pinyin": "Cái néng zai hú shuǐ zhong guó zi jien de wèi lüe",
+        "translation": "Only then can you see your future in the lake.",
+        "breakdown": [
+            {
+                "character": "才能",
+                "pinyin": "cài nēng",
+                "meaning": "to be able to (can)"
+            },
+            {
+                "character": "在",
+                "pinyin": "zai",
+                "meaning": "in, at"
+            },
+            {
+                "character": "湖水中",
+                "pinyin": "hú shuǐ zhong",
+                "meaning": "in the lake (湖 = lake, 水 = water)"
+            },
+            {
+                "character": "看到",
+                "pinyin": "kàn zhi",
+                "meaning": "to see"
+            },
+            {
+                "character": "自己的未来",
+                "pinyin": "zi jien de wèi lüe",
+                "meaning": "your future (自己的 = your, 未来 = future)"
+            }
+        ]
+    },
+    {
+        "chinese": "他背上行囊",
+        "pinyin": "Tā bēi xíng cáng",
+        "translation": "He is carrying his backpack and luggage.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "背",
+                "pinyin": "bēi",
+                "meaning": "backpack (shoulder bag)"
+            },
+            {
+                "character": "行",
+                "pinyin": "xíng",
+                "meaning": "going, journey (可以表示‘去’的动作，作为动词时意为‘to go’)}"
+            },
+            {
+                "character": "囊",
+                "pinyin": "cáng",
+                "meaning": "luggage, bag"
+            }
+        ]
+    },
+    {
+        "chinese": "水",
+        "pinyin": "shuǐ",
+        "translation": "water",
+        "breakdown": [
+            {
+                "character": "水",
+                "pinyin": "shuǐ",
+                "meaning": "water (水 = water)"
+            }
+        ]
+    },
+    {
+        "chinese": "踏上了这次未知的旅程",
+        "pinyin": "tàshàng shízé bùzhī de lǜjñg",
+        "translation": "Embraced this unknown journey.",
+        "breakdown": [
+            {
+                "character": "踏",
+                "pinyin": "tàshàng",
+                "meaning": "to step on, tread (踏 = step, 上 = up)"
+            },
+            {
+                "character": "上",
+                "pinyin": "shí",
+                "meaning": "on, upon, to step on (上 = up/on)"
+            },
+            {
+                "character": "这",
+                "pinyin": "zhè",
+                "meaning": "this (这 = this)"
+            },
+            {
+                "character": "次",
+                "pinyin": "jǐ",
+                "meaning": "a, one occasion (次 = once/a time)"
+            },
+            {
+                "character": "未知",
+                "pinyin": "wèi zhī",
+                "meaning": "unknown, uncertain (未 = not, 知 = know)"
+            },
+            {
+                "character": "的",
+                "pinyin": "dé",
+                "meaning": "of, belonging to (的 = of/belonging to)"
+            },
+            {
+                "character": "旅程",
+                "pinyin": "lǜjñg",
+                "meaning": "journey, trip (旅 = travel, 程 = journey/step)"
+            }
+        ]
+    },
+    {
+        "chinese": "他穿越了茂密的森林",
+        "pinyin": "tā chuán yuè le mǎo shǜ de sēnlin",
+        "translation": "The man crossed through the dense forest.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "穿越",
+                "pinyin": "chuán yuè",
+                "meaning": "to cross, to go through"
+            },
+            {
+                "character": "茂密",
+                "pinyin": "mǎo shǜ",
+                "meaning": "dense (茂 = dense, 密 = dense)"
+            },
+            {
+                "character": "森林",
+                "pinyin": "sēnlin",
+                "meaning": "forest"
+            }
+        ]
+    },
+    {
+        "chinese": "跨过了湍急的河流",
+        "pinyin": "Guóqù le tàngǔ de héyú.",
+        "translation": "They successfully crossed the rushing river.",
+        "breakdown": [
+            {
+                "character": "跨",
+                "pinyin": "chuǎng",
+                "meaning": "to cross over (过 = to cross, 典型表示动作的完成)"
+            },
+            {
+                "character": "了",
+                "pinyin": "le",
+                "meaning": "completed, indicating the action is done (语末粒子，用于表示完成)"
+            },
+            {
+                "character": "湍急",
+                "pinyin": "tangǔ",
+                "meaning": "rushing, rushing river (湍 = rushing, 急 = urgency)"
+            },
+            {
+                "character": "的",
+                "pinyin": "de",
+                "meaning": "of, used to indicate possession or description (定语助词)"
+            },
+            {
+                "character": "河流",
+                "pinyin": "héyú",
+                "meaning": "river (河 = river, 流 = flow)"
+            }
+        ]
+    },
+    {
+        "chinese": "一路上遇到了许多困难",
+        "pinyin": "yīlù shàng huí tóu xū le kǔnan",
+        "translation": "On the way, he encountered many difficulties.",
+        "breakdown": [
+            {
+                "character": "一路上",
+                "pinyin": "yīlù shàng",
+                "meaning": "Along the way (一 = one, 路 = road, 上 = above)"
+            },
+            {
+                "character": "遇到了",
+                "pinyin": "huí tóu",
+                "meaning": "Encountered"
+            },
+            {
+                "character": "许多",
+                "pinyin": "xū le",
+                "meaning": "Many (多 = more, 些 = some)"
+            },
+            {
+                "character": "困难",
+                "pinyin": "kǔnan",
+                "meaning": "Difficulties (困 = difficult, 难 = difficult)"
+            }
+        ]
+    },
+    {
+        "chinese": "但他从未放弃",
+        "pinyin": "Dù tā cóng bù pào guó",
+        "translation": "But he has never given up.",
+        "breakdown": [
+            {
+                "character": "但",
+                "pinyin": "dù",
+                "meaning": "but (量词表示否定)"
+            },
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "从未",
+                "pinyin": "cóngbù",
+                "meaning": "never (从 = from, 未 = not yet)"
+            },
+            {
+                "character": "放弃",
+                "pinyin": "pàoguó",
+                "meaning": "to give up"
+            }
+        ]
+    },
+    {
+        "chinese": "因为他相信这个湖泊一定存在",
+        "pinyin": "Yīnwei tā xiāngxìn gējié hú kù yán zhiyóu cūn shì。",
+        "translation": "Because he believes this lake definitely exists.",
+        "breakdown": [
+            {
+                "character": "因为",
+                "pinyin": "yīnwei",
+                "meaning": "because (因为 = because)"
+            },
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "相信",
+                "pinyin": "xiāngxìn",
+                "meaning": "to believe in"
+            },
+            {
+                "character": "这个湖泊",
+                "pinyin": "gējié hú kù",
+                "meaning": "this lake (gē = this, jié = lake)"
+            },
+            {
+                "character": "一定存在",
+                "pinyin": "yán zhiyóu cūn shì",
+                "meaning": "definitely exists (yán = definitely, cūn shì = exists)"
+            }
+        ]
+    },
+    {
+        "chinese": "几天后",
+        "pinyin": "jǐ-tián-hòu",
+        "translation": "A few days later.",
+        "breakdown": [
+            {
+                "character": "几",
+                "pinyin": "jǐ",
+                "meaning": "few (几 = a small number of, 代表‘少’的量词)"
+            },
+            {
+                "character": "天",
+                "pinyin": "tián",
+                "meaning": "day (天 = day)"
+            },
+            {
+                "character": "后",
+                "pinyin": "hòu",
+                "meaning": "after (后 = after)"
+            }
+        ]
+    },
+    {
+        "chinese": "他来到一座陡峭的山脚下",
+        "pinyin": "tā lái dào yī zuò dǔ xiǎo de shān jiǐ zǐ",
+        "translation": "He arrived at the foot of a steep mountain.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "来到",
+                "pinyin": "lái dào",
+                "meaning": "to arrive at"
+            },
+            {
+                "character": "一座",
+                "pinyin": "yī zuò",
+                "meaning": "one mountain"
+            },
+            {
+                "character": "陡峭",
+                "pinyin": "dǔ xiǎo",
+                "meaning": "steep, precipitous (陡 = steep, 峰 = peak)"
+            },
+            {
+                "character": "的山脚下",
+                "pinyin": "de shān jiǐ zǐ",
+                "meaning": "at the foot of the mountain"
+            }
+        ]
+    },
+    {
+        "chinese": "山上满是陡峭的岩石",
+        "pinyin": "Shān shàng mǎn shí dǔ jié de shí",
+        "translation": "The mountain is filled with steep rocks.",
+        "breakdown": [
+            {
+                "character": "山",
+                "pinyin": "shān",
+                "meaning": "mountain (山 = mountain)"
+            },
+            {
+                "character": "上",
+                "pinyin": "shàng",
+                "meaning": "on/above (上 = on/above)"
+            },
+            {
+                "character": "满是",
+                "pinyin": "mǎn shí",
+                "meaning": "full of, filled with"
+            },
+            {
+                "character": "陡峭的",
+                "pinyin": "dǔ jié de",
+                "meaning": "steep, rugged (陡 = steep, 峰 = peak)"
+            },
+            {
+                "character": "岩石",
+                "pinyin": "shí",
+                "meaning": "rock (石 = stone)"
+            }
+        ]
+    },
+    {
+        "chinese": "通往山顶的路险峻无比",
+        "pinyin": "tōngwǎi shānzǐ de lù hán jiǔ wú bǐ",
+        "translation": "The road leading to the mountain peak is extremely dangerous.",
+        "breakdown": [
+            {
+                "character": "通",
+                "pinyin": "tōng",
+                "meaning": "leading to, towards"
+            },
+            {
+                "character": "往",
+                "pinyin": "wǎi",
+                "meaning": "towards"
+            },
+            {
+                "character": "山顶",
+                "pinyin": "shànzǐ",
+                "meaning": "mountain peak (山 = mountain, 顶 = top)"
+            },
+            {
+                "character": "的",
+                "pinyin": "",
+                "meaning": "of"
+            },
+            {
+                "character": "路",
+                "pinyin": "lù",
+                "meaning": "road (路 = road)"
+            },
+            {
+                "character": "险",
+                "pinyin": "hán",
+                "meaning": "dangerous, risky"
+            },
+            {
+                "character": "峻",
+                "pinyin": "jūn",
+                "meaning": "steep, rigorous (峻 = steep)"
+            },
+            {
+                "character": "无",
+                "pinyin": "wú",
+                "meaning": "no, not"
+            },
+            {
+                "character": "比",
+                "pinyin": "bǐ",
+                "meaning": "than, compared to"
+            }
+        ]
+    },
+    {
+        "chinese": "然而",
+        "pinyin": "ràn ér nü",
+        "translation": "However (However is often used to express a change in tone or direction in a sentence)",
+        "breakdown": [
+            {
+                "character": "然",
+                "pinyin": "ràn",
+                "meaning": "but (used at the beginning of a sentence to indicate contrast)"
+            },
+            {
+                "character": "而",
+                "pinyin": "hé",
+                "meaning": "but, and (used to show contrast or connection in ideas)"
+            },
+            {
+                "character": "乎",
+                "pinyin": "nü",
+                "meaning": "a particle used at the end of a sentence to express doubt or agreement"
+            }
+        ]
+    },
+    {
+        "chinese": "他咬紧牙关",
+        "pinyin": "Hé yǎ jǐn yà.",
+        "translation": "Clenching his teeth.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "hé",
+                "meaning": "he, him"
+            },
+            {
+                "character": "咬",
+                "pinyin": "yǎ",
+                "meaning": "to bite/clench (牙 = teeth)"
+            },
+            {
+                "character": "紧",
+                "pinyin": "jǐn",
+                "meaning": "tight, firmly"
+            },
+            {
+                "character": "牙",
+                "pinyin": "yà",
+                "meaning": "teeth"
+            }
+        ]
+    },
+    {
+        "chinese": "一步一步地向上攀爬",
+        "pinyin": "yībù yībù de dì shàng qīan bǎ",
+        "translation": "Climbing one step at a time.",
+        "breakdown": [
+            {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "one"
+            },
+            {
+                "character": "步",
+                "pinyin": "bù",
+                "meaning": "step, pace (步 = step, 伐 = cut)"
+            },
+            {
+                "character": "一步",
+                "pinyin": "yībù",
+                "meaning": "one step (一 = one, 步 = step)"
+            },
+            {
+                "character": "地",
+                "pinyin": "dì",
+                "meaning": "ground, location (地 = ground/land, 迪 = to reach)"
+            },
+            {
+                "character": "向上",
+                "pinyin": "shàng",
+                "meaning": "upward (上 = upwards)"
+            },
+            {
+                "character": "攀爬",
+                "pinyin": "qiān bǎ",
+                "meaning": "to climb (攀 = to climb, 爬 = to crawl)"
+            }
+        ]
+    },
+    {
+        "chinese": "最终",
+        "pinyin": "Zuìshèng",
+        "translation": "Finally",
+        "breakdown": [
+            {
+                "character": "最",
+                "pinyin": "zuì",
+                "meaning": "last, ultimate (最 = last, 末 = end)"
+            },
+            {
+                "character": "末",
+                "pinyin": "mò",
+                "meaning": "end, final (末 = end, 末 also means final)"
+            },
+            {
+                "character": "终",
+                "pinyin": "zhǐ",
+                "meaning": "to terminate, to finish (终 = to conclude, 终 can also mean end)"
+            },
+            {
+                "character": "吓",
+                "pinyin": "hū",
+                "meaning": "? (疑问词，表示疑问)"
+            }
+        ]
+    },
+    {
+        "chinese": "他站在了山顶。",
+        "pinyin": "tā zhàn le shān dīng",
+        "translation": "He stands at the top of the mountain.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "站在了",
+                "pinyin": "zhán le",
+                "meaning": "stood (站 = stand, 在 = at/locative)"
+            },
+            {
+                "character": "山顶",
+                "pinyin": "shān dīng",
+                "meaning": "mountain top (山 = mountain, 顶 = peak)"
+            }
+        ]
+    },
+    {
+        "chinese": "眼前的景象令他惊叹不已——那座神秘的湖泊真的存在！湖水宁静而澄澈",
+        "pinyin": "yǎnfěn jiànxiàng lìng tā zhùng rao —— nà zé bùxué de húchǔ zhèng shí yǒn！hú shuǐ nìngjìng ér chéngchuàng",
+        "translation": "The景象 before him struck him with amazement. The mysterious湖泊 truly exists! The water is calm and clear.",
+        "breakdown": [
+            {
+                "character": "眼前",
+                "pinyin": "yǎnfěn",
+                "meaning": "before one's eyes (眼 = eye, 前 = in front)"
+            },
+            {
+                "character": "景象",
+                "pinyin": "jǐngxiàng",
+                "meaning": "the scene/situation (景 = landscape, 象 = appearance/figure)"
+            },
+            {
+                "character": "令",
+                "pinyin": "lìng",
+                "meaning": "to cause; to lead to (令 = to instruct/command, 令 here is auxiliary verb)"
+            },
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "惊叹",
+                "pinyin": "zhùng tāo",
+                "meaning": "to exclaim; to marvel (惊 = astonished, 叹 = exclamation)"
+            },
+            {
+                "character": "不已",
+                "pinyin": "bù yǐ",
+                "meaning": "extremely; not at all (不 = not, 亦 = also)"
+            },
+            {
+                "character": "——",
+                "pinyin": "---",
+                "meaning": "ellipsis indicating continuation"
+            },
+            {
+                "character": "那座",
+                "pinyin": "nàzuǒ",
+                "meaning": "that/this lake (那 = that, 座 = base/dwelling)"
+            },
+            {
+                "character": "神秘的",
+                "pinyin": "shénmǐ de",
+                "meaning": "the mysterious one (神 = divine/god, 秘 = secret)"
+            },
+            {
+                "character": "湖泊",
+                "pinyin": "húchǔ",
+                "meaning": "lake (湖 = lake, 佝 = irregular shape/depiction of a lake)"
+            },
+            {
+                "character": "真的",
+                "pinyin": "zhèng shí",
+                "meaning": "truly; really (真 = true, 实 = actual/fact)"
+            },
+            {
+                "character": "存在！",
+                "pinyin": "cúnǐ!",
+                "meaning": "exists! (存 = to exist, 在 = location, ! = exclamation mark)"
+            },
+            {
+                "character": "湖水",
+                "pinyin": "húshuǐ",
+                "meaning": "lake water (湖 = lake, 水 = water)"
+            },
+            {
+                "character": "宁静而澄澈",
+                "pinyin": "nìngjìng ér chéngchuàng",
+                "meaning": "calm and clear (宁 = calm, 静 = quiet, 澄 = clear, 澈 = to be clear)"
+            }
+        ]
+    },
+    {
+        "chinese": "宛如一面巨大的镜子",
+        "pinyin": "huán rú yī miàn jù dà jìngzi",
+        "translation": "It reflects like a large mirror.",
+        "breakdown": [
+            {
+                "character": "宛",
+                "pinyin": "huán",
+                "meaning": "Like, similar"
+            },
+            {
+                "character": "如",
+                "pinyin": "rú",
+                "meaning": "Like, similar"
+            },
+            {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "One"
+            },
+            {
+                "character": "面",
+                "pinyin": "miàn",
+                "meaning": "Face"
+            },
+            {
+                "character": "巨",
+                "pinyin": "jù",
+                "meaning": "Large, huge"
+            },
+            {
+                "character": "大",
+                "pinyin": "dà",
+                "meaning": "Big, large"
+            },
+            {
+                "character": "镜",
+                "pinyin": "jìng",
+                "meaning": "Mirror (reflecting part)"
+            },
+            {
+                "character": "子",
+                "pinyin": "zǐ",
+                "meaning": "Child; in compounds, can mean 'to reflect'"
+            }
+        ]
+    },
+    {
+        "chinese": "他缓缓走近湖边",
+        "pinyin": "tā huánhuǎng zǒu jìnnháng",
+        "translation": "He walks slowly towards the lake shore.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "缓缓",
+                "pinyin": "huánhuǎng",
+                "meaning": "slowly (缓 = slow, 缓 = slow)"
+            },
+            {
+                "character": "走",
+                "pinyin": "zǒu",
+                "meaning": "to walk"
+            },
+            {
+                "character": "近",
+                "pinyin": "jìn",
+                "meaning": "near (近 = near/adjacent)"
+            },
+            {
+                "character": "湖边",
+                "pinyin": "húbiān",
+                "meaning": "lake shore (湖 = lake, 边 = edge/shore)"
+            }
+        ]
+    },
+    {
+        "chinese": "他看到自己的倒影发生了变化。",
+        "pinyin": "tā kànjiàn zìjǐ de dào yĭng fásóng le zīyànɡ",
+        "translation": "He noticed that his reflection has changed.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "看到",
+                "pinyin": "kànjiàn",
+                "meaning": "to notice/see (看 = see, 见 = see)"
+            },
+            {
+                "character": "自己的",
+                "pinyin": "zìjǐ de",
+                "meaning": "his own (自 = self, 且 = and, iji = his)"
+            },
+            {
+                "character": "倒影",
+                "pinyin": "dào yĭng",
+                "meaning": "reflection (倒 = upside down, 影 = shadow/reflection)"
+            },
+            {
+                "character": "发生了变化",
+                "pinyin": "fásóng le zīyànɡ",
+                "meaning": "has changed (发生 = happen, 变化 = change)"
+            }
+        ]
+    },
+    {
+        "chinese": "他看到了自己未来的模样——一个智慧而善良的长者",
+        "pinyin": "tā kànle dào zǐjièe未来的模样——一个智慧而善良的长者",
+        "translation": "He saw the image of his future self—a wise and kind old man.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "看到了",
+                "pinyin": "kànle",
+                "meaning": "saw/looked at"
+            },
+            {
+                "character": "自己未来的模样",
+                "pinyin": "zǐjièe未来的模样",
+                "meaning": "the appearance of oneself in the future (自 = self, 个人 = personal, 未来 = future)"
+            },
+            {
+                "character": "一个",
+                "pinyin": "yī",
+                "meaning": "a"
+            },
+            {
+                "character": "智慧而善良的长者",
+                "pinyin": "zhìhuí èr shànliángde chángzhě",
+                "meaning": "an intelligent and kind old man (智 = wisdom, 悳 = kind, 长者 = elder)"
+            }
+        ]
+    },
+    {
+        "chinese": "带领着村民们走向繁荣",
+        "pinyin": "Bǐlíngzhe cūnmínmen zǒuqiang fánlùn",
+        "translation": "Leading the villagers toward prosperity.",
+        "breakdown": [
+            {
+                "character": "带",
+                "pinyin": "bǐling",
+                "meaning": "to lead (带 = to carry/lead, 领 = leader)"
+            },
+            {
+                "character": "着",
+                "pinyin": "zhí",
+                "meaning": "used as an aspectual particle (助词用于语态修饰)"
+            },
+            {
+                "character": "村民们",
+                "pinyin": "cūnmínmen",
+                "meaning": "the villagers (村 = village, 民 = people)"
+            },
+            {
+                "character": "走向",
+                "pinyin": "zǒuqiang",
+                "meaning": "toward the prosperous future (走 = to go, 向 = toward, 阜 = prosperous)"
+            },
+            {
+                "character": "繁荣",
+                "pinyin": "fánlùn",
+                "meaning": "prosperity/wealth (繁 = flourishing,荣 = prosperity)"
+            }
+        ]
+    },
+    {
+        "chinese": "李明顿时明白了",
+        "pinyin": "Lǐ Míng Tǒn Shí Míng Liè",
+        "translation": "Li Ming realized.",
+        "breakdown": [
+            {
+                "character": "李",
+                "pinyin": "Lǐ",
+                "meaning": "surname Li"
+            },
+            {
+                "character": "明",
+                "pinyin": "Míng",
+                "meaning": "bright or clear"
+            },
+            {
+                "character": "顿",
+                "pinyin": "Tǒn",
+                "meaning": "to stop or stay"
+            },
+            {
+                "character": "时",
+                "pinyin": "Shí",
+                "meaning": "time"
+            },
+            {
+                "character": "明",
+                "pinyin": "Míng",
+                "meaning": "bright or clear"
+            },
+            {
+                "character": "了",
+                "pinyin": "Liè",
+                "meaning": "completed or realized"
+            }
+        ]
+    },
+    {
+        "chinese": "这次旅程不仅是寻找湖泊。",
+        "pinyin": "Zhé cì lǜchéng bù jǐr shì xúnzhǎo húbó.",
+        "translation": "This journey is not merely for sightseeing; it's to find lakes.",
+        "breakdown": [
+            {
+                "character": "这",
+                "pinyin": "Zhé",
+                "meaning": "this, these (third tone)"
+            },
+            {
+                "character": "次",
+                "pinyin": "Cì",
+                "meaning": "once, this time (fourth tone)"
+            },
+            {
+                "character": "旅程",
+                "pinyin": "Lǜchéng",
+                "meaning": "journey, trip (third tone for lǜ, first tone for chéng)"
+            },
+            {
+                "character": "不",
+                "pinyin": "Bù",
+                "meaning": "not, deny (second tone)"
+            },
+            {
+                "character": "仅是",
+                "pinyin": "Jǐr shì",
+                "meaning": "not merely, this is also (first tone for jǐ, fourth tone for shì)"
+            },
+            {
+                "character": "寻找湖泊",
+                "pinyin": "Xúnzhǎo húbó",
+                "meaning": "to find lakes (first tone for xún, third tone for zhǎo, first tone for hú, fourth tone for bó)"
+            }
+        ]
+    },
+    {
+        "chinese": "更是寻找自己的内心",
+        "pinyin": "Gēěr zǒu xīng zhōng de nǎi hín",
+        "translation": "Even more to seek one's inner self.",
+        "breakdown": [
+            {
+                "character": "更",
+                "pinyin": "gēér",
+                "meaning": "even more (更 = even more)"
+            },
+            {
+                "character": "是",
+                "pinyin": "shì",
+                "meaning": "is"
+            },
+            {
+                "character": "寻找",
+                "pinyin": "zǒu xīng",
+                "meaning": "to seek, to look for (索 = to seek, 反 = no)"
+            },
+            {
+                "character": "自己的",
+                "pinyin": "zuìyǐ de",
+                "meaning": "one's own"
+            },
+            {
+                "character": "内心",
+                "pinyin": "nǎi hín",
+                "meaning": "inner self, one's inner heart (内 = inside, 心 = heart)"
+            }
+        ]
+    },
+    {
+        "chinese": "他带着满满的收获",
+        "pinyin": "tā bǐ zhi le mǎnmǎn de shōuguǒ",
+        "translation": "He is bringing a full harvest.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "带着",
+                "pinyin": "bì leɪ̴ zhīng",
+                "meaning": "carrying (with)"
+            },
+            {
+                "character": "满满的",
+                "pinyin": "mǎnn",
+                "meaning": "full (of harvest yields)"
+            },
+            {
+                "character": "收获",
+                "pinyin": "shou guǒ",
+                "meaning": "harvest"
+            }
+        ]
+    },
+    {
+        "chinese": "踏上了归途",
+        "pinyin": "Dǒu shàng lì ru",
+        "translation": "He has set out on his journey.",
+        "breakdown": [
+            {
+                "character": "踏",
+                "pinyin": "dóu",
+                "meaning": "to step or start a journey (踏 = step; ǒu = to step)"
+            },
+            {
+                "character": "上",
+                "pinyin": "shàng",
+                "meaning": "on, to get on (上 = on; shàng = to get on)"
+            },
+            {
+                "character": "归途",
+                "pinyin": "lì ru",
+                "meaning": "journey home or the way back (归 = return; 徙 = path)"
+            }
+        ]
+    },
+    {
+        "chinese": "当他回到村庄时",
+        "pinyin": "táng hé huí3 dào4 cūnzhāng shí",
+        "translation": "Every time he returns to the village.",
+        "breakdown": [
+            {
+                "character": "当",
+                "pinyin": "táng",
+                "meaning": "when/this time (当 = when, 时 = time)"
+            },
+            {
+                "character": "他",
+                "pinyin": "hé",
+                "meaning": "he, him"
+            },
+            {
+                "character": "回到",
+                "pinyin": "huí3 dào4",
+                "meaning": "to return back (回 = return, 到 = back)"
+            },
+            {
+                "character": "村庄",
+                "pinyin": "cūnzhāng",
+                "meaning": "village (村 = village, 庄 = field/neighborhood)"
+            },
+            {
+                "character": "时",
+                "pinyin": "shí",
+                "meaning": "time"
+            }
+        ]
+    },
+    {
+        "chinese": "村民们围着他",
+        "pinyin": "Cūnmínmen yǔzǐ hé",
+        "translation": "Villagers surround him.",
+        "breakdown": [
+            {
+                "character": "村民",
+                "pinyin": "cūnmín",
+                "meaning": "peasant, village resident (村 = village, 民 = citizen)"
+            },
+            {
+                "character": "围",
+                "pinyin": "yǔ",
+                "meaning": "to surround, to gather around"
+            },
+            {
+                "character": "他",
+                "pinyin": "hé",
+                "meaning": "he, him (third person singular pronoun)"
+            }
+        ]
+    },
+    {
+        "chinese": "想听他讲述这次神奇的经历",
+        "pinyin": "xiǎngjīng tā lóu shì zhé shí qí de jīngqì",
+        "translation": "I want to listen to him recount this remarkable experience.",
+        "breakdown": [
+            {
+                "character": "想听",
+                "pinyin": "xiǎngjīng",
+                "meaning": "Want to listen (想 = want, 听 = to listen)"
+            },
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "He, him"
+            },
+            {
+                "character": "讲述",
+                "pinyin": "lóu shì",
+                "meaning": "To recount (讲 = to tell, 处理 = processing; here refers to recounting)"
+            },
+            {
+                "character": "这次",
+                "pinyin": "zhé shí jī",
+                "meaning": "This time/occasion (这 = this, 次 = time)"
+            },
+            {
+                "character": "神奇的经历",
+                "pinyin": "shén qí de jīngqì",
+                "meaning": "Wondrous experience (神奇 = wonderful/miraculous, 经历 = experience)"
+            }
+        ]
+    },
+    {
+        "chinese": "从那以后",
+        "pinyin": "Cónɡ nā yǐhóu",
+        "translation": "From then on.",
+        "breakdown": [
+            {
+                "character": "从",
+                "pinyin": "cóng",
+                "meaning": "from that point onward (从 = from, 该点以后 = from that point)"
+            },
+            {
+                "character": "那",
+                "pinyin": "nā",
+                "meaning": "that (指示过去某个时间点的不确定指代词)"
+            },
+            {
+                "character": "以后",
+                "pinyin": "yǐhóu",
+                "meaning": "after that, subsequently (以 = with/indicating time continuation, 后 = after)"
+            }
+        ]
+    },
+    {
+        "chinese": "带领大家共同建设更美好的家园",
+        "pinyin": "dàochéng jiāmen gòngxiàn shēciang hóugōu jia yuan",
+        "translation": "Lead everyone in jointly building a more beautiful homeland.",
+        "breakdown": [
+            {
+                "character": "带领",
+                "pinyin": "dàochéng",
+                "meaning": "to lead (带 = to carry, 领 = to lead)"
+            },
+            {
+                "character": "大家",
+                "pinyin": "jiāmen",
+                "meaning": "all of us / everyone"
+            },
+            {
+                "character": "共同",
+                "pinyin": "gòngxiàn",
+                "meaning": "together, jointly"
+            },
+            {
+                "character": "建设",
+                "pinyin": "shēciang",
+                "meaning": "construction, building (建设 = to build)"
+            },
+            {
+                "character": "更美好的家园",
+                "pinyin": "hóugōu jia yuan",
+                "meaning": "a more beautiful homeland (好 = good, 美 = beautiful, 宗 = country/land, 园 = home/village)"
+            }
+        ]
+    },
+    {
+        "chinese": "时光荏苒",
+        "pinyin": "Shìguàng hẹnlǐ",
+        "translation": "Time flies by quickly.",
+        "breakdown": [
+            {
+                "character": "时",
+                "pinyin": "shì",
+                "meaning": "time (with specific meaning of clock time)"
+            },
+            {
+                "character": "光",
+                "pinyin": "guāng",
+                "meaning": "brightness; metaphorically, passage of time"
+            }
+        ]
+    },
+    {
+        "chinese": "岁月如梭",
+        "pinyin": "Suìyuè rú shé",
+        "translation": "Time flows like a shuttle.",
+        "breakdown": [
+            {
+                "character": "岁",
+                "pinyin": "suì",
+                "meaning": "year, age (岁 = year/age)"
+            },
+            {
+                "character": "月",
+                "pinyin": "yuè",
+                "meaning": "month (月 = month)"
+            },
+            {
+                "character": "如",
+                "pinyin": "rú",
+                "meaning": "like, similar (如 = like/similar)"
+            },
+            {
+                "character": "梭",
+                "pinyin": "shé",
+                "meaning": "weaver's shuttle (梭 = shuttle used in weaving)"
+            }
+        ]
+    },
+    {
+        "chinese": "多年后",
+        "pinyin": "duō shí hòu",
+        "translation": "One day later",
+        "breakdown": [
+            {
+                "character": "多",
+                "pinyin": "mǐ",
+                "meaning": "many, several (多 = many/more)"
+            },
+            {
+                "character": "年",
+                "pinyin": "nián",
+                "meaning": "year (年 = year)"
+            },
+            {
+                "character": "后",
+                "pinyin": "hòu",
+                "meaning": "after, later; in the end (后 = after/later)"
+            }
+        ]
+    },
+    {
+        "chinese": "李明真的成为了湖中倒影里的那个人",
+        "pinyin": "Lǐmíng zhènlǜ chéngle húzhōng dòu yìng lǐ de nà rén",
+        "translation": "Li Ming truly became the person reflected in the lake.",
+        "breakdown": [
+            {
+                "character": "李",
+                "pinyin": "Lǐ",
+                "meaning": "Family name Li"
+            },
+            {
+                "character": "明",
+                "pinyin": "Míng",
+                "meaning": "Given name Ming, meaning bright or clear"
+            },
+            {
+                "character": "真的",
+                "pinyin": "Zhènlǜ",
+                "meaning": "Truly, really (真 = true, 么 = but)"
+            },
+            {
+                "character": "成为了",
+                "pinyin": "Chéngle",
+                "meaning": "Has become, achieved (成 = achieve, 了 = completed)"
+            },
+            {
+                "character": "湖中",
+                "pinyin": "Húzhōng",
+                "meaning": "In the lake, reflecting in the lake"
+            },
+            {
+                "character": "倒影里",
+                "pinyin": "Dòu yìng lǐ",
+                "meaning": "Reflections in the water, within the reflection"
+            },
+            {
+                "character": "那",
+                "pinyin": "nà",
+                "meaning": "That, those"
+            },
+            {
+                "character": "个人",
+                "pinyin": "Gèrén",
+                "meaning": "Person, individual (人 = person)"
+            }
+        ]
+    },
+    {
+        "chinese": "他用自己的智慧",
+        "pinyin": "Tā yòng zìjǐ de zhīhuí.",
+        "translation": "He uses his own intelligence.",
+        "breakdown": [
+            {
+                "character": "他",
+                "pinyin": "tā",
+                "meaning": "he, him"
+            },
+            {
+                "character": "用",
+                "pinyin": "yòng",
+                "meaning": "to use"
+            },
+            {
+                "character": "自己的",
+                "pinyin": "zìjǐ de",
+                "meaning": "his own (自 = self, 己 = oneself; 但 here is a particle indicating possession)"
+            },
+            {
+                "character": "智慧",
+                "pinyin": "zhīhuí",
+                "meaning": "intelligence or wisdom (智 = intelligence, 感 = feeling)"
+            }
+        ]
+    },
+    {
+        "chinese": "善良",
+        "pinyin": "shánliáng",
+        "translation": "Kindness",
+        "breakdown": [
+            {
+                "character": "善",
+                "pinyin": "shǎn",
+                "meaning": "kindness, good natured"
+            },
+            {
+                "character": "良",
+                "pinyin": "liáng",
+                "meaning": "good, good-natured"
+            }
+        ]
+    },
+    {
+        "chinese": "带领村庄走向了繁荣",
+        "pinyin": "Bǐlương cūnzhāng zǒu xiàng le fánhuán.",
+        "translation": "Leading the village toward prosperity.",
+        "breakdown": [
+            {
+                "character": "带领",
+                "pinyin": "bǐlương",
+                "meaning": "to lead, to guide (把 = help, 领 = leadership)"
+            },
+            {
+                "character": "村庄",
+                "pinyin": "cūnzhāng",
+                "meaning": "village (村 = village, 庄 = town)"
+            },
+            {
+                "character": "走向",
+                "pinyin": "zǒu xiàng",
+                "meaning": "toward, heading in the direction of (走 = walk/lead, 向 = toward)"
+            },
+            {
+                "character": "繁荣",
+                "pinyin": "fánhuán",
+                "meaning": "prosperity, flourishing (繁 = rich,荣=prosper)"
+            }
+        ]
+    },
+    {
+        "chinese": "而那座神秘的湖泊",
+        "pinyin": "é nàzuǒ shénmǐ de húbó",
+        "translation": "While there exists a mysterious lake, no one has ever seen it.",
+        "breakdown": [
+            {
+                "phrase": "而",
+                "pinyin": "é",
+                "meaning": "while/but (和 = and, 而 = while/but)"
+            },
+            {
+                "phrase": "那座",
+                "pinyin": "nàzuǒ",
+                "meaning": "that lake/that body of water (那 = that, 座 = lake/body of water)"
+            },
+            {
+                "phrase": "神秘的湖泊",
+                "pinyin": "shénmǐ de húbó",
+                "meaning": "mysterious lake/mysterious body of water (神秘 = mysterious, 湖泊 = lake/body of water)"
+            }
+        ]
+    },
+    {
+        "chinese": "等待着下一个勇敢的旅人去探索",
+        "pinyin": "Déiduì zhe ni hǎo yǒnggāi de lǜrén qù tànlù",
+        "translation": "Waiting for the next brave traveler to explore.",
+        "breakdown": [
+            {
+                "character": "等待",
+                "pinyin": "déiduì",
+                "meaning": "to wait (等 = to wait, 侍 = to attend)"
+            },
+            {
+                "character": "着",
+                "pinyin": "zhe",
+                "meaning": "(particle used to indicate aspect, here indicating a continuing action)"
+            },
+            {
+                "character": "下一个",
+                "pinyin": "nìhǎo",
+                "meaning": "next (下 = down/next, 亟 = urgent; together meaning 'next' in this context)"
+            },
+            {
+                "character": "勇敢的",
+                "pinyin": "yǒnggāi de",
+                "meaning": "brave (yǒng气 = brave, de = of/for)"
+            },
+            {
+                "character": "旅人",
+                "pinyin": "lǜrén",
+                "meaning": "traveler/traveling person (旅 = travel, 人 = person)"
+            },
+            {
+                "character": "去探索",
+                "pinyin": "qù tànlù",
+                "meaning": "to explore (去 = to go, 探索 = exploration)"
+            }
+        ]
+    },
+    {
+        "chinese": "小李每天学习中文。",
+        "pinyin": "Xiǎo Lǐ Měitiān Xuézhongwén.",
+        "translation": "Little Li learns Chinese every day.",
+        "breakdown": [
+            {
+                "character": "小",
+                "pinyin": "xiǎo",
+                "meaning": "small (小 = small)"
+            },
+            {
+                "character": "李",
+                "pinyin": "Lǐ",
+                "meaning": "Li, a surname"
+            },
+            {
+                "character": "每天",
+                "pinyin": "měitiān",
+                "meaning": "every day (每 = every, 天 = day)"
+            },
+            {
+                "character": "学习",
+                "pinyin": "xuéxí",
+                "meaning": "to learn (学 = study, 习 = practice)"
+            },
+            {
+                "character": "中文",
+                "pinyin": "Zhōngwén",
+                "meaning": "Chinese language (中 = middle/China, 文 = language/writing)"
+            }
+        ]
+    }
+]

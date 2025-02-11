@@ -31,9 +31,6 @@ import os
 #    print(response.text)
 
 
-
-
-
 host = "http://192.168.1.131:8000/process?input_data="
 
 def getFijson(file, name):
@@ -66,15 +63,18 @@ def getFijson(file, name):
 def getFilesInFolder():
     path = "./files"
     files = [f"{path}/{file}" for file in os.listdir(path)]
-    for file in files:
-        getFijson(file, file.split("/")[-1])
+    print(files)
+
+    gpu_file = "./files/gpu2.txt"
+    getFijson(gpu_file, "gpu2-new.json")
+    #for file in files:
+    #    getFijson(file, file.split("/")[-1])
 
 def saveTheFileInJsonFormat(name, lines):
-    path = "./jsons"
+    path = "./newjsons"
     name = name.split(".")[0]
-
     with open(f"{path}/{name}.json", "w", encoding="utf-8") as file:
-        json.dump(lines, file, ensure_ascii=False)
+        json.dump(lines, file, ensure_ascii=False, indent=4)
     print(f"File {path}/{name}.json has been saved")
 
 if __name__ == "__main__":
