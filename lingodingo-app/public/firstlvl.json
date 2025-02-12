@@ -465,7 +465,7 @@
 	  ]
 	},
 	{
-	  "chinese": "多年后。",
+	  "chinese": "多年后",
 	  "pinyin": "Duō nián hòu.",
 	  "translation": "Many years later.",
 	  "breakdown": [
@@ -487,7 +487,7 @@
 	  ]
 	},
 	{
-	  "chinese": "踏上了这次未知的旅程。",
+	  "chinese": "踏上了这次未知的旅程",
 	  "pinyin": "Tà shàng le zhè cì wèizhī de lǚchéng.",
 	  "translation": "Embarked on this unknown journey.",
 	  "breakdown": [
@@ -561,7 +561,7 @@
 	  ]
 	},
 	{
-	  "chinese": "跨过了湍急的河流。",
+	  "chinese": "跨过了湍急的河流",
 	  "pinyin": "Kuà guò le tuānjí de héliú.",
 	  "translation": "Crossed the rapid river.",
 	  "breakdown": [
@@ -823,12 +823,12 @@
 	},
     {
         "chinese": "他咬紧牙关",
-        "pinyin": "Hé yǎ jǐn yà.",
+        "pinyin": "tā yǎo jǐn yá guān",
         "translation": "Clenching his teeth.",
         "breakdown": [
             {
                 "character": "他",
-                "pinyin": "hé",
+                "pinyin": "tā",
                 "meaning": "he, him"
             },
             {
@@ -845,7 +845,12 @@
                 "character": "牙",
                 "pinyin": "yà",
                 "meaning": "teeth"
-            }
+            },
+			{
+				"character": "关",
+				"pinyin": "guān",
+				"meaning": "to close, to shut"
+			}
         ]
     },
 	{
@@ -876,7 +881,7 @@
 	  ]
 	},
     {
-        "chinese": "他站在了山顶。",
+        "chinese": "他站在了山顶",
         "pinyin": "tā zhàn le shān dīng",
         "translation": "He stands at the top of the mountain.",
         "breakdown": [
@@ -987,53 +992,6 @@
     ]
   },
     {
-        "chinese": "宛如一面巨大的镜子",
-        "pinyin": "huán rú yī miàn jù dà jìngzi",
-        "translation": "It reflects like a large mirror.",
-        "breakdown": [
-            {
-                "character": "宛",
-                "pinyin": "huán",
-                "meaning": "Like, similar"
-            },
-            {
-                "character": "如",
-                "pinyin": "rú",
-                "meaning": "Like, similar"
-            },
-            {
-                "character": "一",
-                "pinyin": "yī",
-                "meaning": "One"
-            },
-            {
-                "character": "面",
-                "pinyin": "miàn",
-                "meaning": "Face"
-            },
-            {
-                "character": "巨",
-                "pinyin": "jù",
-                "meaning": "Large, huge"
-            },
-            {
-                "character": "大",
-                "pinyin": "dà",
-                "meaning": "Big, large"
-            },
-            {
-                "character": "镜",
-                "pinyin": "jìng",
-                "meaning": "Mirror (reflecting part)"
-            },
-            {
-                "character": "子",
-                "pinyin": "zǐ",
-                "meaning": "Child; in compounds, can mean 'to reflect'"
-            }
-        ]
-    },
-    {
         "chinese": "他缓缓走近湖边",
         "pinyin": "tā huánhuǎng zǒu jìnnháng",
         "translation": "He walks slowly towards the lake shore.",
@@ -1066,7 +1024,7 @@
         ]
     },
     {
-        "chinese": "他看到自己的倒影发生了变化。",
+        "chinese": "他看到自己的倒影发生了变化",
         "pinyin": "Tā kàn dào zìjǐ de dàoyǐng fāshēngle biànhuà",
         "translation": "He noticed that his reflection has changed.",
         "breakdown": [
@@ -1098,7 +1056,7 @@
         ]
     },
 	{
-  "chinese": "带领着村民们走向繁荣。",
+  "chinese": "带领着村民们走向繁荣",
   "pinyin": "Dàilǐng zhe cūnmínmen zǒu xiàng fánróng.",
   "translation": "Led the villagers toward prosperity.",
   "breakdown": [
@@ -1130,7 +1088,7 @@
   ]
 },
 	{
-  "chinese": "李明顿时明了。",
+  "chinese": "李明顿时明了",
   "pinyin": "Lǐ Míng dùnshí míngliǎo.",
   "translation": "Li Ming suddenly understood.",
   "breakdown": [
@@ -1189,7 +1147,7 @@
 	  ]
 	},
 	{
-  "chinese": "更是寻找自己的内心。",
+  "chinese": "更是寻找自己的内心",
   "pinyin": "Gèng shì xúnzhǎo zìjǐ de nèixīn.",
   "translation": "It is even more about searching for one's inner self.",
   "breakdown": [
@@ -1221,7 +1179,7 @@
   ]
 },
 	{
-  "chinese": "他带着满满的收获。",
+  "chinese": "他带着满满的收获",
   "pinyin": "Tā dài zhe mǎnmǎn de shōuhuò.",
   "translation": "He carried a full load of gains.",
   "breakdown": [
@@ -1275,7 +1233,7 @@
         ]
     },
 	{
-  "chinese": "当他回到村庄时。",
+  "chinese": "当他回到村庄时",
   "pinyin": "Dāng tā huí dào cūnzhuāng shí.",
   "translation": "When he returned to the village.",
   "breakdown": [
@@ -1307,7 +1265,7 @@
   ]
 },
 	{
-  "chinese": "村民们围着他。",
+  "chinese": "村民们围着他",
   "pinyin": "Cūnmínmen wéi zhe tā.",
   "translation": "The villagers surrounded him.",
   "breakdown": [
@@ -1329,7 +1287,7 @@
   ]
 },
 	{
-  "chinese": "想听他讲述这次神奇的经历。",
+  "chinese": "想听他讲述这次神奇的经历",
   "pinyin": "Xiǎng tīng tā jiǎngshù zhè cì shénqí de jīnglì.",
   "translation": "They wanted to hear him tell about this magical experience.",
   "breakdown": [
@@ -1398,7 +1356,7 @@
 	 ]
 	},
 	{
-  "chinese": "带领大家共同建设更美好的家园。",
+  "chinese": "带领大家共同建设更美好的家园",
   "pinyin": "Dàilǐng dàjiā gòngtóng jiànshè gèng měihǎo de jiāyuán.",
   "translation": "Led everyone to work together to build a better home.",
   "breakdown": [
@@ -1445,7 +1403,7 @@
   ]
 },
 	{
-	  "chinese": "岁月如梭。",
+	  "chinese": "岁月如梭",
 	  "pinyin": "Suìyuè rú suō.",
 	  "translation": "Time flies like a shuttle.",
 	  "breakdown": [
@@ -1577,7 +1535,7 @@
             }
         ]
     },{
-  "chinese": "带领村庄走向了繁荣。",
+  "chinese": "带领村庄走向了繁荣",
   "pinyin": "Dàilǐng cūnzhuāng zǒu xiàng le fánróng.",
   "translation": "Led the village toward prosperity.",
   "breakdown": [
@@ -1608,7 +1566,7 @@
     }
   ]
 },{
-  "chinese": "等待着下一个勇敢的旅人去探索。",
+  "chinese": "等待着下一个勇敢的旅人去探索",
   "pinyin": "Děngdài zhe xià yī gè yǒnggǎn de lǚrén qù tànsuǒ.",
   "translation": "Waiting for the next brave traveler to explore.",
   "breakdown": [
@@ -1655,7 +1613,7 @@
   ]
 },
     {
-        "chinese": "小李每天学习中文。",
+        "chinese": "小李每天学习中文",
         "pinyin": "Xiǎo Lǐ Měitiān Xuézhongwén.",
         "translation": "Little Li learns Chinese every day.",
         "breakdown": [
