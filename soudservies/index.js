@@ -74,14 +74,11 @@ function getBuffersFromfiles(listOfFiles) {
 }
 
 app.post('/synthesize', (req, res) => {
-	console.log(req.body.text);
-
 	let text = req.body.text;
-	let listOfOldBuffers = getBuffersFromfiles(text);
-
-	listOfOldBuffers.map((buffer) => { text = text.filter((t) => t !== buffer.text) });
-
 	console.log("text: ", text);
+
+	let listOfOldBuffers = getBuffersFromfiles(text);
+	listOfOldBuffers.map((buffer) => { text = text.filter((t) => t !== buffer.text) });
 
 	if (text.length === 0) {
 		console.log("No new text to synthesize");
@@ -98,6 +95,7 @@ app.post('/synthesize', (req, res) => {
 	const audioConfig = sdk.AudioConfig.fromDefaultSpeakerOutput();
 	const synthesizer = new sdk.SpeechSynthesizer(speechConfig, audioConfig);
 
+	console.log("Synthesizing speech...", text);
 	const getAudio = async () => {
 		let listOfAudio = [];
 		for (let i = 0; i < text.length; i++) {
@@ -151,6 +149,7 @@ app.post('/synthesize', (req, res) => {
 			// add the old audio to the new audio list of buffers
 			//listOfBuffers = listOfBuffers.concat(listOfOldBuffers);
 			listOfOldBuffers = listOfOldBuffers.concat(listOfBuffers);
+
 			res.set({
 				'Content-Type': 'audio/wav',
 				'Content-Length': listOfBuffers.length
