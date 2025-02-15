@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import LevelOne from "./pages/lvls/lvlOne/lvlOne";
 import LevelTwo from "./pages/lvls/lvlTwo/lvlTwo";
 import LevelTree from "./pages/lvls/lvlTree/lvlTree";
+import LevelZero from "./pages/lvls/lvlZero/lvlZero";
+import LevelZeroIn from "./pages/lvls/lvlZeroUp/lvlZeroIn";
 
 
 import "./App.css";
@@ -16,6 +18,8 @@ const App: React.FC = () => {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/dashboard" element={<DashboardPage />} />
+				<Route path="/level-zero" element={<LevelZero />} />
+				<Route path="/level-zero-in" element={<LevelZeroIn />} />
 				<Route path="/level-one" element={<LevelOne />} />
 				<Route path="/level-two" element={<LevelTwo />} />
 				<Route path="/level-tree" element={<LevelTree />} />

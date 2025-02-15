@@ -8,13 +8,9 @@ import SentenceBreakdown, {
 	SoundAndChar,
 	SoundBuffer
 } from "../SentenceBreakdown";
-import {
-	fetchAudio,
-	getCorretSound
-} from "../getCompurents"
 
 
-const LevelTwo: React.FC = () => {
+const LevelOne: React.FC = () => {
 	const [sentences, setSentences] = useState<Sentence[]>([]);
 	const [selected, setSelected] = useState<SelectedSentence | null>(null); // Initialize as null
 	const [shuffled, setShuffled] = useState<SelectedSentence | null>(null);
@@ -22,12 +18,6 @@ const LevelTwo: React.FC = () => {
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
-	const [inputValue, setInputValue] = useState("");
-
-
-	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-		setInputValue(event.target.value);
-	};
 
 	const getFormat = async (word: string) => {
 		const request = fetch('http://192.168.1.131:8000/generate?api_word=' + word, {
@@ -41,14 +31,53 @@ const LevelTwo: React.FC = () => {
 		console.log("response", response)
 	}
 
+	const getCorretSound = async () => {
+		const response = await fetch('/corrktSound.mp3', {
+			method: 'get',
+			headers: {
+				'Content-Type': 'audio/mpeg',
+			},
+		});
+
+		const data = await response.arrayBuffer();
+		setCorrectSound(data);
+	}
+
+	const fetchAudio = async (text: string[]) => {
+		try {
+			console.log("text", JSON.stringify({ text }));
+			const response = await fetch('http://192.168.1.68:3001/synthesize', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({ text }),
+			});
+			if (!response.ok) {
+				throw new Error('Failed to fetch audio');
+			}
+			const data = await response.json()
+
+			const listOfsounds = data.map((item: any, index: number) => {
+				return {
+					chinese: item.text,
+					sound: item.audioData
+				};
+			});
+
+			return listOfsounds;
+
+		} catch (err) {
+			console.error('Error fetching audio:', err);
+		}
+	};
 
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
 				const response = await fetch("/firstlvl.json");
 				const data = await response.json();
-
-				data.sort(() => Math.random() - 0.5);
+				//	data.sort(() => Math.random() - 0.5);
 
 				setSentences(data);
 				console.log("data", data);
@@ -59,10 +88,7 @@ const LevelTwo: React.FC = () => {
 		};
 
 		fetchSentences()
-		getCorretSound().then((data) => {
-			setCorrectSound(data)
-		})
-
+		getCorretSound();
 	}, []);
 
 
@@ -70,16 +96,13 @@ const LevelTwo: React.FC = () => {
 		if (sentences.length > 0) {
 
 			const sentence = sentences[0];
-
 			const brakeChar = sentence.breakdown.map((item) => {
 				return item.character
 			});
 
 			const allText = [...brakeChar, sentence.chinese];
 
-
 			fetchAudio(allText).then((sounds) => {
-
 				let lastElement = sounds[sounds.length - 1];
 				let newSounds = sounds.slice(0, sounds.length - 1);
 
@@ -87,7 +110,6 @@ const LevelTwo: React.FC = () => {
 					chineseSentence: sentence.chinese,
 					chineseSound: lastElement.sound,
 					chineseCharAndSound: sentence.breakdown.map((item, index) => {
-
 						return {
 							pinyin: item.pinyin.toLowerCase(),
 							chineseChar: item.character,
@@ -103,6 +125,7 @@ const LevelTwo: React.FC = () => {
 					chineseSentence: sentence.chinese,
 					chineseSound: lastElement.sound,
 					chineseCharAndSound: sentence.breakdown.map((item, index) => {
+						// if item allrady includes in the selectedSentence 
 						return {
 							pinyin: sentence.breakdown[index].pinyin.toLowerCase(),
 							chineseChar: item.character,
@@ -130,6 +153,7 @@ const LevelTwo: React.FC = () => {
 				};
 
 				currentSounds.push(mainsound);
+				console.log("currentSounds", currentSounds);
 
 				setSoundAndChar(currentSounds);
 				setShuffled(shuffledSentence);
@@ -139,7 +163,6 @@ const LevelTwo: React.FC = () => {
 	}, [sentences]);
 
 	function getPinyin(selected: ChineseCharAndSound) {
-
 		const selectedSound = soundAndChar.find((item) => item.char === selected.chineseChar);
 		if (!selectedSound) {
 			return;
@@ -150,27 +173,11 @@ const LevelTwo: React.FC = () => {
 		audio.play();
 
 		if (message[0]?.pinyin === "WORNG") {
+			console.log("INSTETETHIETIEIHTI");
 			setMessage([{ chineseChar: selected.chineseChar, pinyin: selected.pinyin }]);
 		}
 		else {
 			setMessage([...message, { chineseChar: selected.chineseChar, pinyin: selected.pinyin }]);
-			//rembe the selected item from the shuffled array
-			if (!shuffled || !shuffled.chineseCharAndSound) return;
-
-			const indexToRemove = shuffled.chineseCharAndSound.findIndex(
-				(item) => item.chineseChar === selected.chineseChar
-			);
-
-			if (indexToRemove === -1) return; // If not found, do nothing
-
-			const newShuffled = shuffled.chineseCharAndSound.filter((_, index) => index !== indexToRemove);
-
-
-			setShuffled({
-				...shuffled,
-				chineseCharAndSound: newShuffled
-			});
-
 		}
 	}
 
@@ -178,8 +185,8 @@ const LevelTwo: React.FC = () => {
 		if (selected === null) {
 			return;
 		}
-		const corrnctAnswer = selected.chineseSentence.replace(/[。！？，]/g, "");
-		const userAnswer = inputValue;
+		const corrnctAnswer = selected.chineseSentence.replace(/[。！？]/g, "");
+		const userAnswer = message.map((item) => item.chineseChar).join("");
 		console.log("User answer:", userAnswer);
 		console.log("Correct answer:", corrnctAnswer);
 
@@ -206,11 +213,9 @@ const LevelTwo: React.FC = () => {
 
 	function getNewSentence() {
 		console.log("getNewSentence");
-		if (sentences.length === 0) {
-			window.location.href = "/level-two";
-		}
-		const newSentences = sentences.slice(1);
 
+		// pop the first sentence from the array
+		const newSentences = sentences.slice(1);
 		setMessage([]);
 		setSentences(newSentences);
 	}
@@ -233,33 +238,10 @@ const LevelTwo: React.FC = () => {
 		audio.play();
 	}
 
-	//cleacr the message
-	const clearMessage = () => {
-		setMessage([]);
-
-		const shuffledSentence: SelectedSentence = {
-			chineseSentence: selected?.chineseSentence,
-			chineseSound: selected?.chineseSound,
-			chineseCharAndSound: selected?.chineseCharAndSound.sort(() => Math.random() - 0.5),
-			tranlation: selected?.tranlation
-		};
-
-		setShuffled(shuffledSentence);
-	}
-
-	function pressEnter(event: React.KeyboardEvent<HTMLInputElement>) {
-
-		if (event.key === "Enter") {
-			checkAnswer();
-		}
-	}
-
 	return (
 		<div className="level-container">
-			<h2 className="level-title">Level zero: listen and type</h2>
-			<h3 className="level-instructions">Listen to the pinyin and type what you hear</h3>
-
-			<h3 className="level-instructions">{selected.chineseSentence}</h3>
+			<h2 className="level-title">Level 1: Pinyin practice</h2>
+			<h3 className="level-instructions">Listen to the pinyin and select the correct characters</h3>
 			<div className="level-card">
 				<button className="play-button" onClick={() => playSound()}>
 					🔉
@@ -267,32 +249,32 @@ const LevelTwo: React.FC = () => {
 				<div
 					className="sentence-wrapper"
 				>
-
+					<SentenceBreakdown {...selected} />
 				</div>
 				<p className="level-translation">{selected.tranlation}</p>
-				<h3 className="user-answer">Your Answer:</h3>
 				<div className="options">
-					<input className="input-box" value={inputValue} onChange={handleInputChange} onKeyPress={pressEnter} />
+					{
+						shuffled?.chineseCharAndSound.map((item, index) => (
+							<button key={index} onClick={() => getPinyin(item)} className="option-button">
+								{item.pinyin}
+							</button>
+						))
+
+					}
 				</div>
+				<h3 className="user-answer">Your Answer:</h3>
 				<p className="user-answer">
 					{message.map((item) => item.chineseChar).join("")}
 				</p>
-				<button onClick={
-					message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer
-				} className="check-button">
+				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
 				</button>
 				<br />
 				<br />
-				<a className="skip-button" onClick={() => {
-					setMessage([])
-					setInputValue("");
-				}
-				}>clear</a>
+				<a className="skip-button" onClick={() => setMessage([])}>clear</a>
 			</div>
 		</div >
 	);
-
 }
 
-export default LevelTwo
+export default LevelOne;

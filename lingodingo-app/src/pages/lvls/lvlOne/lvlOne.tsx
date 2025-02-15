@@ -171,10 +171,6 @@ const LevelOne: React.FC = () => {
 				const url = URL.createObjectURL(new Blob([correctSound], { type: 'audio/mpeg' }));
 				const audio = new Audio(url);
 				audio.play();
-				setTimeout(() => {
-					const sound = new Audio(URL.createObjectURL(new Blob([new Uint8Array(selected.chineseSound.data)], { type: 'audio/wav' })));
-					sound.play()
-				}, 500);
 			}
 		}
 
@@ -268,7 +264,7 @@ const LevelOne: React.FC = () => {
 				</p>
 				<h3 className="user-answer">Pinyin:</h3>
 				<p className="user-answer">
-					{message.map((item) => item.pinyin).join("")}
+					{message.map((item) => item.pinyin).join(" ")}
 				</p>
 				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}

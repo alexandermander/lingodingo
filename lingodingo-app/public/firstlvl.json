@@ -1225,6 +1225,11 @@
                 "pinyin": "shàng",
                 "meaning": "on, to get on (上 = on; shàng = to get on)"
             },
+			{
+				"character": "了",
+				"pinyin": "le",
+				"meaning": "particle indicating completed action"
+			},
             {
                 "character": "归途",
                 "pinyin": "guī tú",
