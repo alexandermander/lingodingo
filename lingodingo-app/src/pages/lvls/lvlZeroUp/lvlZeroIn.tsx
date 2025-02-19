@@ -15,10 +15,11 @@ import {
 	getCorretSound
 } from "../getCompurents"
 
-const LevelZeroIn: React.FC = () => {
-	const [sentences, setSentences] = useState<Sentence[]>([]);
-	const [shuffled, setShuffled] = useState<SelectedSentence | null>(null);
+interface SentenceProps {
+    currentSentence: Sentence[];
+}
 
+const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence }) => {
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
@@ -36,8 +37,13 @@ const LevelZeroIn: React.FC = () => {
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
-				const response = await fetch("/firstlvl.json");
-				const data = await response.json();
+                let data;
+                if (currentSentence.length > 0) {
+                    data = currentSentence;
+                } else {
+                    const response = await fetch("/firstlvl.json");
+                    data = await response.json();
+                }
 
 				const listOfBrakeDown: BreakdownItem[] = [];
 				const brakeDown = data.map((sentence: Sentence) => {
@@ -136,10 +142,9 @@ const LevelZeroIn: React.FC = () => {
 	function getNewSentence() {
 		const newSentences = listOfBrakeDown.slice(1);
 
-		if (newSentences.length === 0) {
+		if (newSentences.length === 0 && currentSentence.length === 0) {
 			window.location.href = "/level-one";
 		}
-
 
 		setInputValue("");
 		setMessage([]);
@@ -147,9 +152,20 @@ const LevelZeroIn: React.FC = () => {
 		setSelected(null);
 	}
 
-	if (selected === null) {
-		return <p>Loading...</p>;
-	}
+
+     if ( listOfBrakeDown.length === 0 && currentSentence.length > 0) {
+        return (
+        <div>
+            <LevelZeroIn currentSentence={currentSentence} />
+        </div>)
+    
+    }else if (selected === null) {
+        return <div>Loading...</div>;
+    } 
+
+
+
+
 
 	//play main sound for the sentence
 	function playSound() {

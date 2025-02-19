@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const fetchAudio = async (text: string[]) => {
 	try {
-		const response = await fetch('http://192.168.1.68:3001/synthesize', {
+		const response = await fetch('http://localhost:3001/synthesize', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

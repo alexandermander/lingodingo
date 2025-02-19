@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../LevelCss.css";
+
 import SentenceBreakdown, {
 	SelectedSentence,
 	BreakdownItem,
@@ -15,9 +16,14 @@ import {
 	getCorretSound
 } from "../getCompurents"
 
-const LevelZero: React.FC = () => {
-	const [sentences, setSentences] = useState<Sentence[]>([]);
-	const [shuffled, setShuffled] = useState<SelectedSentence | null>(null);
+
+import LevelZeroIn from "../lvlZeroUp/lvlZeroIn"
+
+interface SentenceProps {
+    currentSentence: Sentence[];
+}
+
+const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
@@ -27,12 +33,41 @@ const LevelZero: React.FC = () => {
 	const [listOfBrakeDown, setListOfBrakeDown] = useState<BreakdownItem[]>([]);
 	const [worngRandom, setWorngRandom] = useState<BreakdownItem[]>([]);
 
+    function handleKeyDown(event: KeyboardEvent) {
+        const key = event.key;
+
+        if (key === "Enter") {
+            const getButton = document.getElementsByClassName("check-button")[0] as HTMLButtonElement;
+            if (getButton) {
+                getButton.click();
+            }
+
+        }
+
+        const currltButton = document.getElementsByClassName("option-button")[parseInt(key)-1] as HTMLButtonElement;
+        if (currltButton) {
+            currltButton.click();
+        }
+
+    }
+
+    useEffect(() => {
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        }
+    }, []);
+
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
-				const response = await fetch("/firstlvl.json");
-				const data = await response.json();
-
+                let data;
+                if (currentSentence.length > 0) {
+                    data = currentSentence;
+                } else {
+                    const response = await fetch("/firstlvl.json");
+                    data = await response.json();
+                }
 				const listOfBrakeDown: BreakdownItem[] = [];
 				const brakeDown = data.map((sentence: Sentence) => {
 					sentence.breakdown.map((item) => {
@@ -119,6 +154,7 @@ const LevelZero: React.FC = () => {
 
 	function checkAnswer(this: any) {
 		if (selected === null) {
+            console.log("selected is null", selected);
 			return;
 		}
 
@@ -146,7 +182,7 @@ const LevelZero: React.FC = () => {
 	function getNewSentence() {
 		const newSentences = listOfBrakeDown.slice(1);
 
-		if (newSentences.length === 0) {
+		if (newSentences.length === 0 && currentSentence.length === 0) {
 			window.location.href = "/level-one";
 		}
 
@@ -155,9 +191,9 @@ const LevelZero: React.FC = () => {
 		setSelected(null);
 	}
 
-	if (selected === null) {
-		return <p>Loading...</p>;
-	}
+    if (selected === null) {
+        return <div>Loading...</div>;
+    } 
 
 	//function playSound() {
 
@@ -216,7 +252,8 @@ const LevelZero: React.FC = () => {
 
 						worngRandom.map((item, index) => (
 							<button key={index} onClick={() => getPinyin(item)}
-								className="option-button">
+								className="option-button"
+                                id={index.toString()} >
 								{item.pinyin}
 							</button>
 						))
@@ -231,7 +268,8 @@ const LevelZero: React.FC = () => {
 				<p className="user-answer">
 					{message.map((item) => item.pinyin).join("")}
 				</p>
-				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
+				<button 
+                onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
 				</button>
 				<br />
