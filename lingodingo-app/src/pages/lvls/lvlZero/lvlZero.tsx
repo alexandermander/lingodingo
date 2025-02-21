@@ -16,15 +16,15 @@ import {
 	getCorretSound
 } from "../getCompurents"
 
-
 import LevelZeroIn from "../lvlZeroUp/lvlZeroIn"
 
 interface SentenceProps {
-    currentSentence: Sentence[];
+	currentSentence: Sentence[];
+	onComplete: () => void;
 }
 
-const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 
+const LevelZero: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => {
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
@@ -33,41 +33,42 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 	const [listOfBrakeDown, setListOfBrakeDown] = useState<BreakdownItem[]>([]);
 	const [worngRandom, setWorngRandom] = useState<BreakdownItem[]>([]);
 
-    function handleKeyDown(event: KeyboardEvent) {
-        const key = event.key;
+	function handleKeyDown(event: KeyboardEvent) {
+		const key = event.key;
 
-        if (key === "Enter") {
-            const getButton = document.getElementsByClassName("check-button")[0] as HTMLButtonElement;
-            if (getButton) {
-                getButton.click();
-            }
+		if (key === "Enter") {
+			const getButton = document.getElementsByClassName("check-button")[0] as HTMLButtonElement;
+			if (getButton) {
+				getButton.click();
+			}
 
-        }
+		}
 
-        const currltButton = document.getElementsByClassName("option-button")[parseInt(key)-1] as HTMLButtonElement;
-        if (currltButton) {
-            currltButton.click();
-        }
+		const currltButton = document.getElementsByClassName("option-button")[parseInt(key) - 1] as HTMLButtonElement;
+		if (currltButton) {
+			currltButton.click();
+		}
 
-    }
+	}
 
-    useEffect(() => {
-        window.addEventListener('keydown', handleKeyDown);
-        return () => {
-            window.removeEventListener('keydown', handleKeyDown);
-        }
-    }, []);
+	useEffect(() => {
+		window.addEventListener('keydown', handleKeyDown);
+		return () => {
+			window.removeEventListener('keydown', handleKeyDown);
+		}
+	}, []);
 
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
-                let data;
-                if (currentSentence.length > 0) {
-                    data = currentSentence;
-                } else {
-                    const response = await fetch("/firstlvl.json");
-                    data = await response.json();
-                }
+				let data;
+
+				if (currentSentence.length > 0) {
+					data = currentSentence;
+				} else {
+					const response = await fetch("/firstlvl.json");
+					data = await response.json();
+				}
 				const listOfBrakeDown: BreakdownItem[] = [];
 				const brakeDown = data.map((sentence: Sentence) => {
 					sentence.breakdown.map((item) => {
@@ -154,7 +155,7 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 
 	function checkAnswer(this: any) {
 		if (selected === null) {
-            console.log("selected is null", selected);
+			console.log("selected is null", selected);
 			return;
 		}
 
@@ -185,15 +186,19 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 		if (newSentences.length === 0 && currentSentence.length === 0) {
 			window.location.href = "/level-one";
 		}
+		else if (newSentences.length === 0 && currentSentence.length > 0) {
+			onComplete();
+
+		}
 
 		setMessage([]);
 		setListOfBrakeDown(newSentences);
 		setSelected(null);
 	}
 
-    if (selected === null) {
-        return <div>Loading...</div>;
-    } 
+	if (selected === null) {
+		return <div>Loading...</div>;
+	}
 
 	//function playSound() {
 
@@ -253,7 +258,7 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 						worngRandom.map((item, index) => (
 							<button key={index} onClick={() => getPinyin(item)}
 								className="option-button"
-                                id={index.toString()} >
+								id={index.toString()} >
 								{item.pinyin}
 							</button>
 						))
@@ -268,8 +273,8 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence }) => {
 				<p className="user-answer">
 					{message.map((item) => item.pinyin).join("")}
 				</p>
-				<button 
-                onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
+				<button
+					onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
 				</button>
 				<br />

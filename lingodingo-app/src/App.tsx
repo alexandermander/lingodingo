@@ -17,8 +17,8 @@ import "./App.css";
 
 const App: React.FC = () => {
 
-    //create empty array
-    const someTest: Sentence[] = [];
+	//create empty array
+	const someTest: Sentence[] = [];
 
 	return (
 		<Router>
@@ -26,13 +26,13 @@ const App: React.FC = () => {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/dashboard" element={<DashboardPage />} />
-				<Route path="/level-zero" element={<LevelZero currentSentence={someTest} />} />
-				<Route path="/level-zero-in" element={<LevelZeroIn currentSentence={someTest} />} />
+				<Route path="/level-zero" element={<LevelZero currentSentence={someTest} onComplete={() => { }} />} />
+				<Route path="/level-zero-in" element={<LevelZeroIn currentSentence={someTest} onComplete={() => { }} />} />
 				<Route path="/level-one" element={<LevelOne />} />
 				<Route path="/level-two" element={<LevelTwo />} />
 				<Route path="/level-tree" element={<LevelTree />} />
-                <Route path="/train" element={<Train />} />
-			</Routes>   
+				<Route path="/train" element={<Train />} />
+			</Routes>
 		</Router>
 	);
 };

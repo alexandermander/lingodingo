@@ -15,11 +15,14 @@ import {
 	getCorretSound
 } from "../getCompurents"
 
+
 interface SentenceProps {
-    currentSentence: Sentence[];
+	currentSentence: Sentence[];
+	onComplete: () => void;
 }
 
-const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence }) => {
+
+const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => {
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
@@ -37,13 +40,13 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence }) => {
 	useEffect(() => {
 		const fetchSentences = async () => {
 			try {
-                let data;
-                if (currentSentence.length > 0) {
-                    data = currentSentence;
-                } else {
-                    const response = await fetch("/firstlvl.json");
-                    data = await response.json();
-                }
+				let data;
+				if (currentSentence.length > 0) {
+					data = currentSentence;
+				} else {
+					const response = await fetch("/firstlvl.json");
+					data = await response.json();
+				}
 
 				const listOfBrakeDown: BreakdownItem[] = [];
 				const brakeDown = data.map((sentence: Sentence) => {
@@ -144,6 +147,8 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence }) => {
 
 		if (newSentences.length === 0 && currentSentence.length === 0) {
 			window.location.href = "/level-one";
+		} else if (newSentences.length === 0 && currentSentence.length > 0) {
+			onComplete();
 		}
 
 		setInputValue("");
@@ -152,27 +157,12 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence }) => {
 		setSelected(null);
 	}
 
-
-     if ( listOfBrakeDown.length === 0 && currentSentence.length > 0) {
-        return (
-        <div>
-            <LevelZeroIn currentSentence={currentSentence} />
-        </div>)
-    
-    }else if (selected === null) {
-        return <div>Loading...</div>;
-    } 
-
-
-
-
+	if (selected === null) {
+		return <div>Loading...</div>;
+	}
 
 	//play main sound for the sentence
 	function playSound() {
-		if (selected === null) {
-			return;
-		}
-
 		console.log("selected", soundAndChar);
 
 		const audio = new Audio(soundAndChar[0].sound);
@@ -215,12 +205,11 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence }) => {
 						{message.map((item) => item.pinyin).join("")}
 					</p>
 				)}
-
 				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
 					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
 				</button>
 				<br />
-				<a className="skip-button" onClick={() => void (0)}>Clear</a>
+				<a className="skip-button" onClick={() => setInputValue(selected.pinyin)}>Clear</a>
 				<br />
 			</div>
 		</div >
