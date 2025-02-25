@@ -17,6 +17,9 @@ export default function Train() {
 
 				data.sort(() => Math.random() - 0.5);
 
+				console.log("data", data);
+
+
 				const fetchedSentences = data.slice(0, 3);
 				const fetchedAllOtherSentences = data.slice(3);
 				setAllOtherSentences(fetchedAllOtherSentences);

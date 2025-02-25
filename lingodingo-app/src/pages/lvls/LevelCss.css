@@ -151,6 +151,17 @@ body {
   transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
+.show-correct-answer {
+  background: #437023;
+  color: white;
+  padding: 15px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
 /* create a stlye that desables the button */
 .check-button:disabled {
   background: #d3d3d3;

@@ -21,7 +21,6 @@ interface SentenceProps {
 	onComplete: () => void;
 }
 
-
 const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => {
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
@@ -121,7 +120,12 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 		setMessage([{ chineseChar: selected.character, pinyin: selected.pinyin }]);
 	}
 
+
+
 	function checkAnswer(this: any) {
+
+		updateInDataBase();
+
 		if (selected === null) {
 			return;
 		}
@@ -205,12 +209,16 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 						{message.map((item) => item.pinyin).join("")}
 					</p>
 				)}
-				<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
-					{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
-				</button>
-				<br />
-				<a className="skip-button" onClick={() => setInputValue(selected.pinyin)}>Clear</a>
-				<br />
+				<div className="" style={{
+					display: "flex", flexDirection: "column",
+					justifyContent: "center",
+					alignItems: "center"
+				}}>
+					<button onClick={message[0]?.chineseChar === "✅ Correct!" ? getNewSentence : checkAnswer} className="check-button">
+						{message[0]?.chineseChar === "✅ Correct!" ? "Next" : "Check"}
+					</button>
+					<button className="show-correct-answer" onClick={() => getPinyin(selected)}>Get Pinyin</button>
+				</div>
 			</div>
 		</div >
 	);

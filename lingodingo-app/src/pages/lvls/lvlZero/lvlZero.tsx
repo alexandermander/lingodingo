@@ -65,6 +65,7 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => 
 
 				if (currentSentence.length > 0) {
 					data = currentSentence;
+
 				} else {
 					const response = await fetch("/firstlvl.json");
 					data = await response.json();
@@ -75,6 +76,8 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => 
 						listOfBrakeDown.push(item);
 					});
 				});
+
+				console.log("listOfBrakeDown", listOfBrakeDown);
 
 				const uniqueBrakeDown = listOfBrakeDown.filter((item, index, self) => {
 					return index === self.findIndex((t) => (

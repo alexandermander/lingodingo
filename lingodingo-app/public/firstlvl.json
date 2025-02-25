@@ -1514,32 +1514,6 @@
         ]
     },
     {
-        "chinese": "带领村庄走向了繁荣",
-        "pinyin": "Bǐlương cūnzhāng zǒu xiàng le fánhuán.",
-        "translation": "Leading the village toward prosperity.",
-        "breakdown": [
-            {
-                "character": "带领",
-                "pinyin": "bǐlương",
-                "meaning": "to lead, to guide (把 = help, 领 = leadership)"
-            },
-            {
-                "character": "村庄",
-                "pinyin": "cūnzhāng",
-                "meaning": "village (村 = village, 庄 = town)"
-            },
-            {
-                "character": "走向",
-                "pinyin": "zǒu xiàng",
-                "meaning": "toward, heading in the direction of (走 = walk/lead, 向 = toward)"
-            },
-            {
-                "character": "繁荣",
-                "pinyin": "fánhuán",
-                "meaning": "prosperity, flourishing (繁 = rich,荣=prosper)"
-            }
-        ]
-    },{
   "chinese": "带领村庄走向了繁荣",
   "pinyin": "Dàilǐng cūnzhuāng zǒu xiàng le fánróng.",
   "translation": "Led the village toward prosperity.",

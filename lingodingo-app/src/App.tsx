@@ -8,6 +8,7 @@ import LevelTree from "./pages/lvls/lvlTree/lvlTree";
 import LevelZero from "./pages/lvls/lvlZero/lvlZero";
 import LevelZeroIn from "./pages/lvls/lvlZeroUp/lvlZeroIn";
 import Train from "./pages/lvls/trainPage/train"
+import Login from "./pages/login";
 
 import SentenceBreakdown, {
 	Sentence,
@@ -24,6 +25,7 @@ const App: React.FC = () => {
 		<Router>
 			<Navbar />
 			<Routes>
+				<Route path="/login" element={<Login />} />
 				<Route path="/" element={<HomePage />} />
 				<Route path="/dashboard" element={<DashboardPage />} />
 				<Route path="/level-zero" element={<LevelZero currentSentence={someTest} onComplete={() => { }} />} />

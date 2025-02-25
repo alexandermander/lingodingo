@@ -3,6 +3,8 @@
 # dependencies
 /lingodingo-app/node_modules
 /soudservies/node_modules
+/mongoController/node_modules
+
 /lingodingo-app/.pnp
 .pnp.js
 
