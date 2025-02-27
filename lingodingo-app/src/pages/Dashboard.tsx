@@ -1,20 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-
-function Navbar() {
+const DashboardPage: React.FC = () => {
 	return (
-		<nav className="navbar">
-			<Link to="/" className="logo">LingoDingo</Link>
-			<div className="nav-links">
-				<Link to="/login" className="nav-item">Login</Link>
-				<Link to="/dashboard" className="nav-item">Dashboard</Link>
-			</div>
-			<button className="menu-toggle" aria-label="Toggle Menu">
-				☰
-			</button>
-		</nav>
+		<div className="page">
+			<h2>Dashboard</h2>
+			<p>Track your progress and improve your language skills!</p>
+		</div>
 	);
-}
+};
 
-export default Navbar;
+export default DashboardPage;

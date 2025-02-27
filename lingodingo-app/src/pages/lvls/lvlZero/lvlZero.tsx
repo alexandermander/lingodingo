@@ -65,7 +65,6 @@ const LevelZero: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => 
 
 				if (currentSentence.length > 0) {
 					data = currentSentence;
-
 				} else {
 					const response = await fetch("/firstlvl.json");
 					data = await response.json();

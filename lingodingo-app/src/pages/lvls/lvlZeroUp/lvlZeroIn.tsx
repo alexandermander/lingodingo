@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "../LevelCss.css";
 import SentenceBreakdown, {
 	SelectedSentence,
@@ -22,6 +22,7 @@ interface SentenceProps {
 }
 
 const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => {
+	const inputRef = useRef<HTMLInputElement>(null);
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
 	const [soundAndChar, setSoundAndChar] = useState<SoundAndChar[]>([]);
@@ -98,7 +99,9 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 			});
 
 			setSelected(selected);
-
+			if (inputRef.current) {
+				inputRef.current.focus();
+			}
 		}
 	}, [listOfBrakeDown]);
 
@@ -118,14 +121,44 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 		audio.play();
 
 		setMessage([{ chineseChar: selected.character, pinyin: selected.pinyin }]);
+		updateLvlInDataBase(false);
 	}
 
+	function updateLvlInDataBase(state: boolean) {
+		console.log("updateLvlInDataBase", state);
+		let currentPoints = 0;
+		if (state) {
+			currentPoints = -1;
+		} else {
+			currentPoints = 1;
+		}
 
+		if (selected?.character == null) {
+			return;
+		}
+
+		console.log("lerningPoints", state, currentPoints, selected);
+
+		const featchData = async () => {
+			const response = await fetch("http://localhost:3002/setTraining", {
+				method: "POST",
+				credentials: "include",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify({
+					lerningPoints: currentPoints,
+					character: selected.character,
+				}),
+			});
+			const data = await response.json();
+			console.log(data);
+		};
+
+		featchData();
+	}
 
 	function checkAnswer(this: any) {
-
-		updateInDataBase();
-
 		if (selected === null) {
 			return;
 		}
@@ -144,6 +177,8 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 		} else {
 			setMessage([{ chineseChar: "❌ Wrong!", pinyin: "" }]);
 		}
+
+		updateLvlInDataBase(correct);
 	}
 
 	function getNewSentence() {
@@ -171,10 +206,15 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 
 		const audio = new Audio(soundAndChar[0].sound);
 		audio.play();
+		updateLvlInDataBase(false);
 	}
 
 	function pressEnter(e: React.KeyboardEvent<HTMLInputElement>) {
 		if (e.key === "Enter") {
+			if (message[0]?.chineseChar === "✅ Correct!") {
+				getNewSentence();
+				return;
+			}
 			checkAnswer();
 		}
 	}
@@ -194,7 +234,7 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 				<p className="level-translation">{selected.meaning}</p>
 				<h3 className="user-answer">Your Answer:</h3>
 				<div className="options">
-					<input className="input-box" value={inputValue} onChange={handleInputChange} onKeyPress={pressEnter} />
+					<input ref={inputRef} className="input-box" value={inputValue} onChange={handleInputChange} onKeyPress={pressEnter} />
 				</div>
 				<p className="user-answer">
 					{message.map((item) => item.chineseChar).join("")}
