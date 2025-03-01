@@ -4,8 +4,8 @@ const { v4: uuidv4 } = require('uuid');
 const cors = require('cors');
 // use cors
 
-
 // how to use set cookie in express
+
 connectMongo();
 
 const db = client.db("lingodingo");
@@ -34,12 +34,14 @@ app.post('/login', async (req, res) => {
 	const user = { name: req.body.name, password: req.body.password };
 	const collection = db.collection("users");
 	const result = await collection.findOne(user);
+
 	if (!result) {
 		res.send('user not found');
 		return;
 	}
 	const token = uuidv4();
 	await collection.updateOne(user, { $set: { token } });
+	console.log(token, user);
 	res.cookie('token', token, { httpOnly: true });
 	res.send(result);
 })
@@ -49,6 +51,25 @@ app.get('/users', async (req, res) => {
 	console.log(result);
 	res.send(result);
 })
+
+app.get('/getdashboard', async (req, res) => {
+	console.log(req.rawHeaders);
+	const token = req.rawHeaders.find(header => header.includes('token'));
+	const currentToken = token.split('=')[1];
+	const uesrCollection = db.collection("users");
+	const user = await uesrCollection.findOne({ token: currentToken });
+	if (!user) {
+		res.send('user not found');
+		return;
+	}
+	const collection = db.collection("trainings");
+	const trainings = await collection.find({ userId: user._id }).toArray();
+	const listOftarinings = trainings.map(training => {
+		return { character: training.character, lerningPoints: training.lerningPoints, lvl: training.lvl }
+	})
+
+	res.send(JSON.stringify(listOftarinings));
+});
 
 app.post("/getTraining", async (req, res) => {
 	const token = req.rawHeaders[req.rawHeaders.length - 1];

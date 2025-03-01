@@ -1,0 +1,36 @@
+
+.thumbnail-card {
+	padding: 20px;
+	min-width: 200px;
+	background-color: #f9f9f9;
+	max-width: 250px;
+	min-height: 150px;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.thumbnail-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.3);
+}
+/* 						<div className='progress-bar'>
+							<div
+								className='progress'
+*/
+
+.progress {
+	background-color: #61a1ff;
+	border-radius: 4px;
+	height: 20px;
+	width: 50%;
+}
+
+.progress-bar {
+	background-color: #f9f9f9;
+	border-radius: 4px;
+	margin: 10px;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}

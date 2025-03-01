@@ -121,6 +121,9 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 		audio.play();
 
 		setMessage([{ chineseChar: selected.character, pinyin: selected.pinyin }]);
+		if (message[0]?.chineseChar === "✅ Correct!") {
+			return;
+		}
 		updateLvlInDataBase(false);
 	}
 

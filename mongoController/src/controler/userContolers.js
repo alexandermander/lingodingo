@@ -1,26 +1,23 @@
-// uuid generate a unique id for each user
+const { getDB } = require('./dbmodel');  // adjust path as necessary
 const { v4: uuidv4 } = require('uuid');
 
-const userSining = async (req, res) => {
-	const user = { name: req.body.name, password: req.body.password };
-	const result = await collection.insertOne(user);
-	console.log(result);
-	res.send(result);
-}
-
 const login = async (req, res) => {
+	console.log(req.body);
 	const user = { name: req.body.name, password: req.body.password };
+
+	// Get the database instance from your module
+	const db = getDB();
+	const collection = db.collection("users");
+
 	const result = await collection.findOne(user);
 	if (!result) {
 		res.send('user not found');
 		return;
 	}
-
 	const token = uuidv4();
 	await collection.updateOne(user, { $set: { token } });
-
-	console.log(result);
+	res.cookie('token', token, { httpOnly: true });
 	res.send(result);
-}
+};
 
-module.exports = { userSining, login }
+module.exports = { login };
