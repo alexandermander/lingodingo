@@ -18,7 +18,6 @@ app.use(cors({
 	credentials: true
 }));
 
-
 const port = 3002
 
 app.post('/singup', async (req, res) => {
@@ -54,6 +53,7 @@ app.get('/users', async (req, res) => {
 
 app.get('/getdashboard', async (req, res) => {
 	console.log(req.rawHeaders);
+
 	const token = req.rawHeaders.find(header => header.includes('token'));
 	const currentToken = token.split('=')[1];
 	const uesrCollection = db.collection("users");
@@ -62,6 +62,7 @@ app.get('/getdashboard', async (req, res) => {
 		res.send('user not found');
 		return;
 	}
+
 	const collection = db.collection("trainings");
 	const trainings = await collection.find({ userId: user._id }).toArray();
 	const listOftarinings = trainings.map(training => {
@@ -70,6 +71,52 @@ app.get('/getdashboard', async (req, res) => {
 
 	res.send(JSON.stringify(listOftarinings));
 });
+
+
+app.get('/getTrainingMaterial', async (req, res) => {
+
+	const token = req.rawHeaders.find(header => header.includes('token'));
+	const currentToken = token.split('=')[1];
+	const uesrCollection = db.collection("users");
+	const user = await uesrCollection.findOne({ token: currentToken });
+	if (!user) {
+		res.send('user not found');
+		return;
+	}
+
+	const collection = db.collection("lvls");
+	const parms = req.query.lvl;
+	// conver to int
+	const lvl = parseInt(parms);
+
+	console.log(parms);
+	const trainings = await collection.find({ lvl: lvl }).toArray();// get all the training material
+
+	res.send(JSON.stringify(trainings));
+});
+
+
+// get the diffen lvl of the user
+app.get('/getLvls', async (req, res) => {
+	const token = req.rawHeaders.find(header => header.includes('token'));
+	const currentToken = token.split('=')[1];
+	const uesrCollection = db.collection("users");
+	const user = await uesrCollection.findOne({ token: currentToken });
+	if (!user) {
+
+		// redirect to login
+		res.redirect('/login');
+		return;
+	}
+
+	const collection = db.collection("lvls");
+	// get all the lvl and return the diffen lvl so the user can choose what to learn
+	const lvls = await collection.distinct("lvl");
+	console.log(lvls);
+
+	res.send(JSON.stringify(lvls));
+})
+
 
 app.post("/getTraining", async (req, res) => {
 	const token = req.rawHeaders[req.rawHeaders.length - 1];
@@ -109,19 +156,24 @@ app.post('/setTraining', async (req, res) => {
 	}
 
 	const collection = db.collection("trainings");
-	const { lerningPoints, character } = req.body;
+	const { lerningPoints, character, lvl } = req.body;
+
+	console.log(lerningPoints, character, lvl);
 
 	const existingTraining = await collection.findOne({
 		character: character,
-		userId: user._id
+		userId: user._id,
+		lvl: lvl
 	});
 
 	if (existingTraining) {
 		await collection.updateOne({ character, userId: user._id }, { $inc: { lerningPoints: lerningPoints } });
 	}
 	else {
-		await collection.insertOne({ character, "lerningPoints": 5, userId: user._id });
+		await collection.insertOne({ character, "lerningPoints": 5, userId: user._id, lvl: lvl });
+		console.log("inserted at lvl", lvl);
 	}
+
 	res.send(JSON.stringify("ok"));
 })
 
