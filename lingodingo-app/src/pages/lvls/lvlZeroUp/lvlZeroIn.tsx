@@ -19,9 +19,10 @@ import {
 interface SentenceProps {
 	currentSentence: Sentence[];
 	onComplete: () => void;
+	lvl: number;
 }
 
-const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) => {
+const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete, lvl }) => {
 	const inputRef = useRef<HTMLInputElement>(null);
 	const [message, setMessage] = useState<Message[]>([]);
 	const [correctSound, setCorrectSound] = useState<ArrayBuffer | null>(null);
@@ -120,20 +121,21 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 		const audio = new Audio(selectedSound.sound);
 		audio.play();
 
-		setMessage([{ chineseChar: selected.character, pinyin: selected.pinyin }]);
 		if (message[0]?.chineseChar === "✅ Correct!") {
 			return;
 		}
-		updateLvlInDataBase(false);
+		setMessage([{ chineseChar: selected.character, pinyin: selected.pinyin }]);
+
+		updateLvlInDataBase(false, 3);
 	}
 
-	function updateLvlInDataBase(state: boolean) {
+	function updateLvlInDataBase(state: boolean, points: number) {
 		console.log("updateLvlInDataBase", state);
 		let currentPoints = 0;
 		if (state) {
 			currentPoints = -1;
 		} else {
-			currentPoints = 1;
+			currentPoints = points;
 		}
 
 		if (selected?.character == null) {
@@ -152,6 +154,7 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 				body: JSON.stringify({
 					lerningPoints: currentPoints,
 					character: selected.character,
+					lvl: lvl,
 				}),
 			});
 			const data = await response.json();
@@ -181,7 +184,7 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 			setMessage([{ chineseChar: "❌ Wrong!", pinyin: "" }]);
 		}
 
-		updateLvlInDataBase(correct);
+		updateLvlInDataBase(correct, 1);
 	}
 
 	function getNewSentence() {
@@ -209,7 +212,11 @@ const LevelZeroIn: React.FC<SentenceProps> = ({ currentSentence, onComplete }) =
 
 		const audio = new Audio(soundAndChar[0].sound);
 		audio.play();
-		updateLvlInDataBase(false);
+
+		if (message[0]?.chineseChar === "✅ Correct!") {
+			return;
+		}
+		updateLvlInDataBase(false, 2);
 	}
 
 	function pressEnter(e: React.KeyboardEvent<HTMLInputElement>) {

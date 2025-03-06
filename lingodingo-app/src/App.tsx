@@ -29,7 +29,7 @@ const App: React.FC = () => {
 				<Route path="/" element={<HomePage />} />
 				<Route path="/dashboard" element={<DashboardPage />} />
 				<Route path="/level-zero" element={<LevelZero currentSentence={someTest} onComplete={() => { }} />} />
-				<Route path="/level-zero-in" element={<LevelZeroIn currentSentence={someTest} onComplete={() => { }} />} />
+				<Route path="/level-zero-in" element={<LevelZeroIn currentSentence={someTest} onComplete={() => { }} lvl={1} />} />
 				<Route path="/level-one" element={<LevelOne />} />
 				<Route path="/level-two" element={<LevelTwo />} />
 				<Route path="/level-tree" element={<LevelTree />} />
