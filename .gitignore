@@ -5,6 +5,13 @@
 /soudservies/node_modules
 /mongoController/node_modules
 
+*.wav # ignore all .wav files
+
+
+
+
+
+
 /lingodingo-app/.pnp
 .pnp.js
 

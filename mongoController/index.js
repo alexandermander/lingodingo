@@ -55,6 +55,10 @@ app.get('/getdashboard', async (req, res) => {
 	console.log(req.rawHeaders);
 
 	const token = req.rawHeaders.find(header => header.includes('token'));
+	if (!token) {
+		res.send('no token');
+		return;
+	}
 	const currentToken = token.split('=')[1];
 	const uesrCollection = db.collection("users");
 	const user = await uesrCollection.findOne({ token: currentToken });
