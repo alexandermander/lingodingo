@@ -1,0 +1,1936 @@
+[{
+  "_id": {
+    "$oid": "67be145e51157cd1c4bbdbf4"
+  },
+  "character": "从",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be14c451157cd1c4bbdbf5"
+  },
+  "character": "那",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be14ca51157cd1c4bbdbf6"
+  },
+  "character": "共同",
+  "lerningPoints": 10,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be14cf51157cd1c4bbdbf7"
+  },
+  "character": "寻找",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be14da51157cd1c4bbdbf8"
+  },
+  "character": "去",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be14f551157cd1c4bbdbf9"
+  },
+  "character": "中文",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be170470fe56ac0590f7f4"
+  },
+  "character": "据",
+  "lerningPoints": 7,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2006183b21db41a39eb8"
+  },
+  "character": "岁月",
+  "lerningPoints": 18,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2009183b21db41a39eb9"
+  },
+  "character": "梭",
+  "lerningPoints": 3,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be200b183b21db41a39eba"
+  },
+  "character": "是",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be200d183b21db41a39ebb"
+  },
+  "character": "着",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be200f183b21db41a39ebc"
+  },
+  "character": "勇敢",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2012183b21db41a39ebd"
+  },
+  "character": "如",
+  "lerningPoints": 1,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2014183b21db41a39ebe"
+  },
+  "character": "下一个",
+  "lerningPoints": 2,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be201c183b21db41a39ebf"
+  },
+  "character": "而",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be201e183b21db41a39ec0"
+  },
+  "character": "好奇",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2021183b21db41a39ec1"
+  },
+  "character": "探索",
+  "lerningPoints": 22,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2023183b21db41a39ec2"
+  },
+  "character": "人",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2025183b21db41a39ec3"
+  },
+  "character": "等待",
+  "lerningPoints": 22,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2027183b21db41a39ec4"
+  },
+  "character": "个",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be202b183b21db41a39ec5"
+  },
+  "character": "旅人",
+  "lerningPoints": 4,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be202e183b21db41a39ec6"
+  },
+  "character": "的",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2032183b21db41a39ec7"
+  },
+  "character": "他",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be24398d33d4a09138aba2"
+  },
+  "character": "无比",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be24e38d33d4a09138aba3"
+  },
+  "character": "当",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be24e68d33d4a09138aba4"
+  },
+  "character": "几",
+  "lerningPoints": 1,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be24f08d33d4a09138aba5"
+  },
+  "character": "带着",
+  "lerningPoints": 1,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be24f68d33d4a09138aba6"
+  },
+  "character": "天",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be25288d33d4a09138aba7"
+  },
+  "character": "后",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be253a8d33d4a09138aba8"
+  },
+  "character": "回到",
+  "lerningPoints": 3,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be25558d33d4a09138aba9"
+  },
+  "character": "收获",
+  "lerningPoints": 21,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be255c8d33d4a09138abaa"
+  },
+  "character": "满满",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be25638d33d4a09138abab"
+  },
+  "character": "时",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be257b8d33d4a09138abac"
+  },
+  "character": "村庄",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29098d33d4a09138abad"
+  },
+  "character": "神秘",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29178d33d4a09138abae"
+  },
+  "character": "日落",
+  "lerningPoints": 8,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be291d8d33d4a09138abaf"
+  },
+  "character": "息",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29788d33d4a09138abb0"
+  },
+  "character": "一座",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be298c8d33d4a09138abb1"
+  },
+  "character": "湖泊",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29938d33d4a09138abb2"
+  },
+  "character": "有",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29b18d33d4a09138abb3"
+  },
+  "character": "传说中",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29e48d33d4a09138abb4"
+  },
+  "character": "湖边",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29e78d33d4a09138abb5"
+  },
+  "character": "走",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29f28d33d4a09138abb6"
+  },
+  "character": "山",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be29f48d33d4a09138abb7"
+  },
+  "character": "在",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2a058d33d4a09138abb8"
+  },
+  "character": "近",
+  "lerningPoints": 6,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2a638d33d4a09138abb9"
+  },
+  "character": "以后",
+  "lerningPoints": 2,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2b288d33d4a09138abba"
+  },
+  "character": "另一边",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2b5f8d33d4a09138abbb"
+  },
+  "character": "听说",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2b768d33d4a09138abbc"
+  },
+  "character": "缓缓",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c038d33d4a09138abbd"
+  },
+  "character": "小",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c138d33d4a09138abbe"
+  },
+  "character": "学习",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c178d33d4a09138abbf"
+  },
+  "character": "纯净",
+  "lerningPoints": 23,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c2d8d33d4a09138abc0"
+  },
+  "character": "李",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c3e8d33d4a09138abc1"
+  },
+  "character": "来到",
+  "lerningPoints": 6,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c488d33d4a09138abc2"
+  },
+  "character": "每天",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c568d33d4a09138abc3"
+  },
+  "character": "陡峭",
+  "lerningPoints": 28,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c748d33d4a09138abc4"
+  },
+  "character": "只有",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c878d33d4a09138abc5"
+  },
+  "character": "内心",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c8c8d33d4a09138abc6"
+  },
+  "character": "下",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2c918d33d4a09138abc7"
+  },
+  "character": "山脚",
+  "lerningPoints": 14,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2e908d33d4a09138abc8"
+  },
+  "character": "映照",
+  "lerningPoints": 23,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2f318d33d4a09138abc9"
+  },
+  "character": "站在了",
+  "lerningPoints": 10,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2f428d33d4a09138abca"
+  },
+  "character": "存在",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67be2f6d8d33d4a09138abcb"
+  },
+  "character": "山顶",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6353390b7dae76a0b684"
+  },
+  "character": "从未",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf66e3390b7dae76a0b685"
+  },
+  "character": "才能",
+  "lerningPoints": 16,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6758390b7dae76a0b686"
+  },
+  "character": "放弃",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6765390b7dae76a0b687"
+  },
+  "character": "多",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf677a390b7dae76a0b688"
+  },
+  "character": "未来",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6787390b7dae76a0b689"
+  },
+  "character": "看到",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6796390b7dae76a0b68a"
+  },
+  "character": "自己",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf679a390b7dae76a0b68b"
+  },
+  "character": "但",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf67a1390b7dae76a0b68c"
+  },
+  "character": "湖水",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf67a3390b7dae76a0b68d"
+  },
+  "character": "中",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf67ad390b7dae76a0b68e"
+  },
+  "character": "年",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6812390b7dae76a0b68f"
+  },
+  "character": "过着",
+  "lerningPoints": 3,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6818390b7dae76a0b690"
+  },
+  "character": "村民们",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf686e390b7dae76a0b691"
+  },
+  "character": "宁静的",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6897390b7dae76a0b692"
+  },
+  "character": "生活",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf692d390b7dae76a0b693"
+  },
+  "character": "神奇",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6942390b7dae76a0b694"
+  },
+  "character": "这次",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf695b390b7dae76a0b695"
+  },
+  "character": "讲述",
+  "lerningPoints": 26,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6976390b7dae76a0b696"
+  },
+  "character": "听",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6982390b7dae76a0b697"
+  },
+  "character": "一",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6984390b7dae76a0b698"
+  },
+  "character": "经历",
+  "lerningPoints": 16,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6990390b7dae76a0b699"
+  },
+  "character": "想",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf69fb390b7dae76a0b69a"
+  },
+  "character": "路",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6a39390b7dae76a0b69b"
+  },
+  "character": "通往",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6a50390b7dae76a0b69c"
+  },
+  "character": "险峻",
+  "lerningPoints": 19,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6aea390b7dae76a0b69d"
+  },
+  "character": "一个",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6b9e390b7dae76a0b69e"
+  },
+  "character": "景象",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6bee390b7dae76a0b69f"
+  },
+  "character": "惊叹不已",
+  "lerningPoints": 16,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c0d390b7dae76a0b6a0"
+  },
+  "character": "湍急",
+  "lerningPoints": 23,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c28390b7dae76a0b6a1"
+  },
+  "character": "李明",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c2b390b7dae76a0b6a2"
+  },
+  "character": "眼前",
+  "lerningPoints": 13,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c3f390b7dae76a0b6a3"
+  },
+  "character": "村里",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c55390b7dae76a0b6a4"
+  },
+  "character": "年轻人",
+  "lerningPoints": 1,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c69390b7dae76a0b6a5"
+  },
+  "character": "令",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c6b390b7dae76a0b6a6"
+  },
+  "character": "跨过",
+  "lerningPoints": 19,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c8c390b7dae76a0b6a7"
+  },
+  "character": "叫",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c8d390b7dae76a0b6a8"
+  },
+  "character": "了",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6c9b390b7dae76a0b6a9"
+  },
+  "character": "河流",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6cd5390b7dae76a0b6aa"
+  },
+  "character": "日出",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6ce6390b7dae76a0b6ab"
+  },
+  "character": "而作",
+  "lerningPoints": 8,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6cf4390b7dae76a0b6ac"
+  },
+  "character": "围着",
+  "lerningPoints": 3,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6dae67560bfc1205caa5"
+  },
+  "character": "真的",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6ddc67560bfc1205caa6"
+  },
+  "character": "不仅",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6e1267560bfc1205caa7"
+  },
+  "character": "宁静",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6e5b67560bfc1205caa8"
+  },
+  "character": "澄澈",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6e7d67560bfc1205caa9"
+  },
+  "character": "旅程",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6eae67560bfc1205caaa"
+  },
+  "character": "那座",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6ed367560bfc1205caab"
+  },
+  "character": "神秘的",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6f4367560bfc1205caac"
+  },
+  "character": "更是",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6f5767560bfc1205caad"
+  },
+  "character": "顿时",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6f7967560bfc1205caae"
+  },
+  "character": "说",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6f8f67560bfc1205caaf"
+  },
+  "character": "明了",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6ff167560bfc1205cab0"
+  },
+  "character": "这个",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf6ff967560bfc1205cab1"
+  },
+  "character": "相信",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf701567560bfc1205cab2"
+  },
+  "character": "遇到了",
+  "lerningPoints": 8,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf704f67560bfc1205cab3"
+  },
+  "character": "发生了变化",
+  "lerningPoints": 6,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf708167560bfc1205cab4"
+  },
+  "character": "困难",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf708567560bfc1205cab5"
+  },
+  "character": "自己的",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf709867560bfc1205cab6"
+  },
+  "character": "因为",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf70be67560bfc1205cab7"
+  },
+  "character": "许多",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf710c67560bfc1205cab8"
+  },
+  "character": "一定",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf712167560bfc1205cab9"
+  },
+  "character": "倒影",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf716867560bfc1205caba"
+  },
+  "character": "一路上",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf71c767560bfc1205cabb"
+  },
+  "character": "地",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf71cc67560bfc1205cabc"
+  },
+  "character": "成为",
+  "lerningPoints": 9,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf71f167560bfc1205cabd"
+  },
+  "character": "向上",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf721567560bfc1205cabe"
+  },
+  "character": "湖中",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf721b67560bfc1205cabf"
+  },
+  "character": "攀爬",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf722867560bfc1205cac0"
+  },
+  "character": "带领",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf722d67560bfc1205cac1"
+  },
+  "character": "里",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf723f67560bfc1205cac2"
+  },
+  "character": "那个",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf727967560bfc1205cac3"
+  },
+  "character": "繁荣",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf729167560bfc1205cac4"
+  },
+  "character": "一步一步",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf72a467560bfc1205cac5"
+  },
+  "character": "走向",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf730967560bfc1205cac6"
+  },
+  "character": "建设",
+  "lerningPoints": 23,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf733c67560bfc1205cac7"
+  },
+  "character": "见",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf735267560bfc1205cac8"
+  },
+  "character": "澈",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf737667560bfc1205cac9"
+  },
+  "character": "水",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf737e67560bfc1205caca"
+  },
+  "character": "家园",
+  "lerningPoints": 14,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf738f67560bfc1205cacb"
+  },
+  "character": "湖",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf739467560bfc1205cacc"
+  },
+  "character": "底",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf73a567560bfc1205cacd"
+  },
+  "character": "清",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf73d167560bfc1205cace"
+  },
+  "character": "美好",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf73db67560bfc1205cacf"
+  },
+  "character": "更",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf73e667560bfc1205cad0"
+  },
+  "character": "大家",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf742467560bfc1205cad1"
+  },
+  "character": "用",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf742e67560bfc1205cad2"
+  },
+  "character": "智慧",
+  "lerningPoints": 8,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf744467560bfc1205cad3"
+  },
+  "character": "未知",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf747767560bfc1205cad4"
+  },
+  "character": "以前",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf748267560bfc1205cad5"
+  },
+  "character": "很久",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf74ba67560bfc1205cad6"
+  },
+  "character": "踏上",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf74fa67560bfc1205cad7"
+  },
+  "character": "紧",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf752e67560bfc1205cad8"
+  },
+  "character": "咬",
+  "lerningPoints": 3,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf754667560bfc1205cad9"
+  },
+  "character": "穿越",
+  "lerningPoints": 13,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf755167560bfc1205cada"
+  },
+  "character": "森林",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf756167560bfc1205cadb"
+  },
+  "character": "关",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf758767560bfc1205cadc"
+  },
+  "character": "牙",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf75ab67560bfc1205cadd"
+  },
+  "character": "茂密",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf75f267560bfc1205cade"
+  },
+  "character": "能够",
+  "lerningPoints": 4,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf764a67560bfc1205cadf"
+  },
+  "character": "出",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf766e67560bfc1205cae0"
+  },
+  "character": "人的心灵",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf795567560bfc1205cae1"
+  },
+  "character": "归途",
+  "lerningPoints": 4,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf796367560bfc1205cae2"
+  },
+  "character": "山上",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf796767560bfc1205cae3"
+  },
+  "character": "踏",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf797b67560bfc1205cae4"
+  },
+  "character": "上",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf798667560bfc1205cae5"
+  },
+  "character": "满是",
+  "lerningPoints": 0,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67bf79a467560bfc1205cae6"
+  },
+  "character": "岩石",
+  "lerningPoints": 12,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 1
+},
+{
+  "_id": {
+    "$oid": "67c76bae1fcf738dc7db9a43"
+  },
+  "character": "三",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 2
+},
+{
+  "_id": {
+    "$oid": "67c76bdd1fcf738dc7db9a44"
+  },
+  "character": "便等",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 2
+},
+{
+  "_id": {
+    "$oid": "67c76c321fcf738dc7db9a45"
+  },
+  "character": "金殿",
+  "lerningPoints": 4,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 2
+},
+{
+  "_id": {
+    "$oid": "67c76c581fcf738dc7db9a46"
+  },
+  "character": "谁",
+  "lerningPoints": 5,
+  "userId": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "lvl": 2
+}]

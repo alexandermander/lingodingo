@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "67bdd8f9b45b1116781b5609"
+  },
+  "name": "John Doe",
+  "password": "password"
+},
+{
+  "_id": {
+    "$oid": "67bdda27ed636acf16db8022"
+  },
+  "name": "alexa",
+  "password": "QQ1122ww",
+  "token": "62d07686-2dee-4fa2-b7c9-f1d2f9ac765c"
+},
+{
+  "_id": {
+    "$oid": "67bdda47b0ed44329143778e"
+  },
+  "name": "user1",
+  "password": "pass1"
+}]
